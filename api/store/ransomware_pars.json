@@ -1,0 +1,204 @@
+{
+    "data": {
+        "findManyCaseStudy": [
+            {
+                "Id": "2",
+                "ShortName": "WannaCry",
+                "Year": 2017,
+                "CaseStudyTag": [
+                    {
+                        "Id": "1"
+                    }
+                ]
+            },
+            {
+                "Id": "3",
+                "ShortName": "EKANS",
+                "Year": 2020,
+                "CaseStudyTag": [
+                    {
+                        "Id": "12"
+                    }
+                ]
+            },
+            {
+                "Id": "4",
+                "ShortName": "Colonial",
+                "Year": 2021,
+                "CaseStudyTag": [
+                    {
+                        "Id": "26"
+                    }
+                ]
+            },
+            {
+                "Id": "5",
+                "ShortName": "Trisis",
+                "Year": 2017,
+                "CaseStudyTag": []
+            },
+            {
+                "Id": "6",
+                "ShortName": "Ukraine 2015",
+                "Year": 2015,
+                "CaseStudyTag": []
+            },
+            {
+                "Id": "7",
+                "ShortName": "Industroyer",
+                "Year": 2016,
+                "CaseStudyTag": []
+            },
+            {
+                "Id": "8",
+                "ShortName": "Havex",
+                "Year": 2014,
+                "CaseStudyTag": []
+            },
+            {
+                "Id": "9",
+                "ShortName": "NotPetya",
+                "Year": 2017,
+                "CaseStudyTag": []
+            },
+            {
+                "Id": "10",
+                "ShortName": "Conficker",
+                "Year": 2016,
+                "CaseStudyTag": []
+            },
+            {
+                "Id": "11",
+                "ShortName": "Mumbai",
+                "Year": 2020,
+                "CaseStudyTag": []
+            },
+            {
+                "Id": "12",
+                "ShortName": "Shamoon",
+                "Year": 2017,
+                "CaseStudyTag": []
+            },
+            {
+                "Id": "13",
+                "ShortName": "Norsk",
+                "Year": 2019,
+                "CaseStudyTag": [
+                    {
+                        "Id": "100"
+                    }
+                ]
+            },
+            {
+                "Id": "14",
+                "ShortName": "Night Dragon",
+                "Year": 2009,
+                "CaseStudyTag": []
+            },
+            {
+                "Id": "15",
+                "ShortName": "SolarWinds",
+                "Year": 2020,
+                "CaseStudyTag": []
+            },
+            {
+                "Id": "16",
+                "ShortName": "BTC",
+                "Year": 2008,
+                "CaseStudyTag": []
+            },
+            {
+                "Id": "17",
+                "ShortName": "Oldsmar",
+                "Year": 2021,
+                "CaseStudyTag": []
+            },
+            {
+                "Id": "18",
+                "ShortName": "Thyssenkrupp Steel Mill",
+                "Year": 2014,
+                "CaseStudyTag": []
+            },
+            {
+                "Id": "19",
+                "ShortName": "Conti",
+                "Year": 2021,
+                "CaseStudyTag": [
+                    {
+                        "Id": "148"
+                    }
+                ]
+            },
+            {
+                "Id": "20",
+                "ShortName": "Kansas Water",
+                "Year": 2019,
+                "CaseStudyTag": []
+            },
+            {
+                "Id": "21",
+                "ShortName": "PEMEX",
+                "Year": 2019,
+                "CaseStudyTag": [
+                    {
+                        "Id": "167"
+                    }
+                ]
+            },
+            {
+                "Id": "22",
+                "ShortName": "Maroochy",
+                "Year": 2000,
+                "CaseStudyTag": []
+            },
+            {
+                "Id": "23",
+                "ShortName": "Ryuk",
+                "Year": 2020,
+                "CaseStudyTag": [
+                    {
+                        "Id": "184"
+                    }
+                ]
+            },
+            {
+                "Id": "24",
+                "ShortName": "Industroyer 2",
+                "Year": 2022,
+                "CaseStudyTag": []
+            },
+            {
+                "Id": "25",
+                "ShortName": "JBS",
+                "Year": 2021,
+                "CaseStudyTag": [
+                    {
+                        "Id": "199"
+                    }
+                ]
+            },
+            {
+                "Id": "26",
+                "ShortName": "New Cooperative",
+                "Year": 2021,
+                "CaseStudyTag": [
+                    {
+                        "Id": "209"
+                    }
+                ]
+            },
+            {
+                "Id": "27",
+                "ShortName": "Incontroller",
+                "Year": 2022,
+                "CaseStudyTag": []
+            },
+            {
+                "Id": "28",
+                "ShortName": "SQL Slammer",
+                "Year": 2003,
+                "CaseStudyTag": []
+            }
+        ]
+    }
+}

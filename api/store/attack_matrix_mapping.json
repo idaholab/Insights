@@ -1,0 +1,660 @@
+[
+    {
+        "MITRE_TacticTechniqueId": 1,
+        "MITRE_TacticId": 1,
+        "MITRE_TechniqueId": 26,
+        "MITRE_Technique_Sequence": 1,
+        "MITRE_Tactic_Chart_Order": 8
+    },
+    {
+        "MITRE_TacticTechniqueId": 2,
+        "MITRE_TacticId": 1,
+        "MITRE_TechniqueId": 3,
+        "MITRE_Technique_Sequence": 2,
+        "MITRE_Tactic_Chart_Order": 8
+    },
+    {
+        "MITRE_TacticTechniqueId": 3,
+        "MITRE_TacticId": 1,
+        "MITRE_TechniqueId": 10,
+        "MITRE_Technique_Sequence": 3,
+        "MITRE_Tactic_Chart_Order": 8
+    },
+    {
+        "MITRE_TacticTechniqueId": 4,
+        "MITRE_TacticId": 1,
+        "MITRE_TechniqueId": 84,
+        "MITRE_Technique_Sequence": 4,
+        "MITRE_Tactic_Chart_Order": 8
+    },
+    {
+        "MITRE_TacticTechniqueId": 5,
+        "MITRE_TacticId": 1,
+        "MITRE_TechniqueId": 59,
+        "MITRE_Technique_Sequence": 5,
+        "MITRE_Tactic_Chart_Order": 8
+    },
+    {
+        "MITRE_TacticTechniqueId": 6,
+        "MITRE_TacticId": 1,
+        "MITRE_TechniqueId": 65,
+        "MITRE_Technique_Sequence": 6,
+        "MITRE_Tactic_Chart_Order": 8
+    },
+    {
+        "MITRE_TacticTechniqueId": 7,
+        "MITRE_TacticId": 1,
+        "MITRE_TechniqueId": 2,
+        "MITRE_Technique_Sequence": 7,
+        "MITRE_Tactic_Chart_Order": 8
+    },
+    {
+        "MITRE_TacticTechniqueId": 8,
+        "MITRE_TacticId": 1,
+        "MITRE_TechniqueId": 52,
+        "MITRE_Technique_Sequence": 8,
+        "MITRE_Tactic_Chart_Order": 8
+    },
+    {
+        "MITRE_TacticTechniqueId": 9,
+        "MITRE_TacticId": 1,
+        "MITRE_TechniqueId": 38,
+        "MITRE_Technique_Sequence": 9,
+        "MITRE_Tactic_Chart_Order": 8
+    },
+    {
+        "MITRE_TacticTechniqueId": 10,
+        "MITRE_TacticId": 1,
+        "MITRE_TechniqueId": 44,
+        "MITRE_Technique_Sequence": 10,
+        "MITRE_Tactic_Chart_Order": 8
+    },
+    {
+        "MITRE_TacticTechniqueId": 11,
+        "MITRE_TacticId": 1,
+        "MITRE_TechniqueId": 75,
+        "MITRE_Technique_Sequence": 11,
+        "MITRE_Tactic_Chart_Order": 8
+    },
+    {
+        "MITRE_TacticTechniqueId": 12,
+        "MITRE_TacticId": 2,
+        "MITRE_TechniqueId": 73,
+        "MITRE_Technique_Sequence": 1,
+        "MITRE_Tactic_Chart_Order": 9
+    },
+    {
+        "MITRE_TacticTechniqueId": 13,
+        "MITRE_TacticId": 2,
+        "MITRE_TechniqueId": 72,
+        "MITRE_Technique_Sequence": 2,
+        "MITRE_Tactic_Chart_Order": 9
+    },
+    {
+        "MITRE_TacticTechniqueId": 14,
+        "MITRE_TacticId": 2,
+        "MITRE_TechniqueId": 60,
+        "MITRE_Technique_Sequence": 3,
+        "MITRE_Tactic_Chart_Order": 9
+    },
+    {
+        "MITRE_TacticTechniqueId": 15,
+        "MITRE_TacticId": 3,
+        "MITRE_TechniqueId": 35,
+        "MITRE_Technique_Sequence": 1,
+        "MITRE_Tactic_Chart_Order": 6
+    },
+    {
+        "MITRE_TacticTechniqueId": 16,
+        "MITRE_TacticId": 3,
+        "MITRE_TechniqueId": 36,
+        "MITRE_Technique_Sequence": 2,
+        "MITRE_Tactic_Chart_Order": 6
+    },
+    {
+        "MITRE_TacticTechniqueId": 17,
+        "MITRE_TacticId": 3,
+        "MITRE_TechniqueId": 39,
+        "MITRE_Technique_Sequence": 3,
+        "MITRE_Tactic_Chart_Order": 6
+    },
+    {
+        "MITRE_TacticTechniqueId": 18,
+        "MITRE_TacticId": 3,
+        "MITRE_TechniqueId": 76,
+        "MITRE_Technique_Sequence": 4,
+        "MITRE_Tactic_Chart_Order": 6
+    },
+    {
+        "MITRE_TacticTechniqueId": 19,
+        "MITRE_TacticId": 3,
+        "MITRE_TechniqueId": 75,
+        "MITRE_Technique_Sequence": 5,
+        "MITRE_Tactic_Chart_Order": 6
+    },
+    {
+        "MITRE_TacticTechniqueId": 20,
+        "MITRE_TacticId": 4,
+        "MITRE_TechniqueId": 49,
+        "MITRE_Technique_Sequence": 1,
+        "MITRE_Tactic_Chart_Order": 5
+    },
+    {
+        "MITRE_TacticTechniqueId": 21,
+        "MITRE_TacticId": 4,
+        "MITRE_TechniqueId": 18,
+        "MITRE_Technique_Sequence": 2,
+        "MITRE_Tactic_Chart_Order": 5
+    },
+    {
+        "MITRE_TacticTechniqueId": 22,
+        "MITRE_TacticId": 4,
+        "MITRE_TechniqueId": 62,
+        "MITRE_Technique_Sequence": 3,
+        "MITRE_Tactic_Chart_Order": 5
+    },
+    {
+        "MITRE_TacticTechniqueId": 23,
+        "MITRE_TacticId": 4,
+        "MITRE_TechniqueId": 42,
+        "MITRE_Technique_Sequence": 4,
+        "MITRE_Tactic_Chart_Order": 5
+    },
+    {
+        "MITRE_TacticTechniqueId": 24,
+        "MITRE_TacticId": 4,
+        "MITRE_TechniqueId": 43,
+        "MITRE_Technique_Sequence": 5,
+        "MITRE_Tactic_Chart_Order": 5
+    },
+    {
+        "MITRE_TacticTechniqueId": 25,
+        "MITRE_TacticId": 4,
+        "MITRE_TechniqueId": 47,
+        "MITRE_Technique_Sequence": 6,
+        "MITRE_Tactic_Chart_Order": 5
+    },
+    {
+        "MITRE_TacticTechniqueId": 26,
+        "MITRE_TacticId": 5,
+        "MITRE_TechniqueId": 49,
+        "MITRE_Technique_Sequence": 2,
+        "MITRE_Tactic_Chart_Order": 2
+    },
+    {
+        "MITRE_TacticTechniqueId": 27,
+        "MITRE_TacticId": 5,
+        "MITRE_TechniqueId": 8,
+        "MITRE_Technique_Sequence": 3,
+        "MITRE_Tactic_Chart_Order": 2
+    },
+    {
+        "MITRE_TacticTechniqueId": 28,
+        "MITRE_TacticId": 5,
+        "MITRE_TechniqueId": 61,
+        "MITRE_Technique_Sequence": 4,
+        "MITRE_Tactic_Chart_Order": 2
+    },
+    {
+        "MITRE_TacticTechniqueId": 29,
+        "MITRE_TacticId": 5,
+        "MITRE_TechniqueId": 21,
+        "MITRE_Technique_Sequence": 5,
+        "MITRE_Tactic_Chart_Order": 2
+    },
+    {
+        "MITRE_TacticTechniqueId": 30,
+        "MITRE_TacticId": 5,
+        "MITRE_TechniqueId": 64,
+        "MITRE_Technique_Sequence": 6,
+        "MITRE_Tactic_Chart_Order": 2
+    },
+    {
+        "MITRE_TacticTechniqueId": 31,
+        "MITRE_TacticId": 5,
+        "MITRE_TechniqueId": 19,
+        "MITRE_Technique_Sequence": 7,
+        "MITRE_Tactic_Chart_Order": 2
+    },
+    {
+        "MITRE_TacticTechniqueId": 32,
+        "MITRE_TacticId": 5,
+        "MITRE_TechniqueId": 30,
+        "MITRE_Technique_Sequence": 8,
+        "MITRE_Tactic_Chart_Order": 2
+    },
+    {
+        "MITRE_TacticTechniqueId": 33,
+        "MITRE_TacticId": 5,
+        "MITRE_TechniqueId": 45,
+        "MITRE_Technique_Sequence": 9,
+        "MITRE_Tactic_Chart_Order": 2
+    },
+    {
+        "MITRE_TacticTechniqueId": 34,
+        "MITRE_TacticId": 5,
+        "MITRE_TechniqueId": 53,
+        "MITRE_Technique_Sequence": 10,
+        "MITRE_Tactic_Chart_Order": 2
+    },
+    {
+        "MITRE_TacticTechniqueId": 35,
+        "MITRE_TacticId": 6,
+        "MITRE_TechniqueId": 67,
+        "MITRE_Technique_Sequence": 1,
+        "MITRE_Tactic_Chart_Order": 12
+    },
+    {
+        "MITRE_TacticTechniqueId": 36,
+        "MITRE_TacticId": 6,
+        "MITRE_TechniqueId": 13,
+        "MITRE_Technique_Sequence": 2,
+        "MITRE_Tactic_Chart_Order": 12
+    },
+    {
+        "MITRE_TacticTechniqueId": 37,
+        "MITRE_TacticId": 6,
+        "MITRE_TechniqueId": 15,
+        "MITRE_Technique_Sequence": 3,
+        "MITRE_Tactic_Chart_Order": 12
+    },
+    {
+        "MITRE_TacticTechniqueId": 38,
+        "MITRE_TacticId": 6,
+        "MITRE_TechniqueId": 22,
+        "MITRE_Technique_Sequence": 4,
+        "MITRE_Tactic_Chart_Order": 12
+    },
+    {
+        "MITRE_TacticTechniqueId": 39,
+        "MITRE_TacticId": 6,
+        "MITRE_TechniqueId": 23,
+        "MITRE_Technique_Sequence": 5,
+        "MITRE_Tactic_Chart_Order": 12
+    },
+    {
+        "MITRE_TacticTechniqueId": 40,
+        "MITRE_TacticId": 6,
+        "MITRE_TechniqueId": 24,
+        "MITRE_Technique_Sequence": 6,
+        "MITRE_Tactic_Chart_Order": 12
+    },
+    {
+        "MITRE_TacticTechniqueId": 41,
+        "MITRE_TacticId": 6,
+        "MITRE_TechniqueId": 32,
+        "MITRE_Technique_Sequence": 7,
+        "MITRE_Tactic_Chart_Order": 12
+    },
+    {
+        "MITRE_TacticTechniqueId": 42,
+        "MITRE_TacticId": 6,
+        "MITRE_TechniqueId": 68,
+        "MITRE_Technique_Sequence": 8,
+        "MITRE_Tactic_Chart_Order": 12
+    },
+    {
+        "MITRE_TacticTechniqueId": 43,
+        "MITRE_TacticId": 6,
+        "MITRE_TechniqueId": 25,
+        "MITRE_Technique_Sequence": 9,
+        "MITRE_Tactic_Chart_Order": 12
+    },
+    {
+        "MITRE_TacticTechniqueId": 44,
+        "MITRE_TacticId": 6,
+        "MITRE_TechniqueId": 27,
+        "MITRE_Technique_Sequence": 10,
+        "MITRE_Tactic_Chart_Order": 12
+    },
+    {
+        "MITRE_TacticTechniqueId": 45,
+        "MITRE_TacticId": 6,
+        "MITRE_TechniqueId": 28,
+        "MITRE_Technique_Sequence": 11,
+        "MITRE_Tactic_Chart_Order": 12
+    },
+    {
+        "MITRE_TacticTechniqueId": 46,
+        "MITRE_TacticId": 6,
+        "MITRE_TechniqueId": 70,
+        "MITRE_Technique_Sequence": 12,
+        "MITRE_Tactic_Chart_Order": 12
+    },
+    {
+        "MITRE_TacticTechniqueId": 47,
+        "MITRE_TacticId": 7,
+        "MITRE_TechniqueId": 7,
+        "MITRE_Technique_Sequence": 1,
+        "MITRE_Tactic_Chart_Order": 11
+    },
+    {
+        "MITRE_TacticTechniqueId": 48,
+        "MITRE_TacticId": 7,
+        "MITRE_TechniqueId": 31,
+        "MITRE_Technique_Sequence": 2,
+        "MITRE_Tactic_Chart_Order": 11
+    },
+    {
+        "MITRE_TacticTechniqueId": 49,
+        "MITRE_TacticId": 7,
+        "MITRE_TechniqueId": 34,
+        "MITRE_Technique_Sequence": 3,
+        "MITRE_Tactic_Chart_Order": 11
+    },
+    {
+        "MITRE_TacticTechniqueId": 50,
+        "MITRE_TacticId": 7,
+        "MITRE_TechniqueId": 47,
+        "MITRE_Technique_Sequence": 4,
+        "MITRE_Tactic_Chart_Order": 11
+    },
+    {
+        "MITRE_TacticTechniqueId": 51,
+        "MITRE_TacticId": 7,
+        "MITRE_TechniqueId": 46,
+        "MITRE_Technique_Sequence": 5,
+        "MITRE_Tactic_Chart_Order": 11
+    },
+    {
+        "MITRE_TacticTechniqueId": 52,
+        "MITRE_TacticId": 8,
+        "MITRE_TechniqueId": 1,
+        "MITRE_Technique_Sequence": 1,
+        "MITRE_Tactic_Chart_Order": 10
+    },
+    {
+        "MITRE_TacticTechniqueId": 53,
+        "MITRE_TacticId": 8,
+        "MITRE_TechniqueId": 66,
+        "MITRE_Technique_Sequence": 2,
+        "MITRE_Tactic_Chart_Order": 10
+    },
+    {
+        "MITRE_TacticTechniqueId": 54,
+        "MITRE_TacticId": 8,
+        "MITRE_TechniqueId": 4,
+        "MITRE_Technique_Sequence": 3,
+        "MITRE_Tactic_Chart_Order": 10
+    },
+    {
+        "MITRE_TacticTechniqueId": 55,
+        "MITRE_TacticId": 8,
+        "MITRE_TechniqueId": 5,
+        "MITRE_Technique_Sequence": 4,
+        "MITRE_Tactic_Chart_Order": 10
+    },
+    {
+        "MITRE_TacticTechniqueId": 56,
+        "MITRE_TacticId": 8,
+        "MITRE_TechniqueId": 6,
+        "MITRE_Technique_Sequence": 5,
+        "MITRE_Tactic_Chart_Order": 10
+    },
+    {
+        "MITRE_TacticTechniqueId": 57,
+        "MITRE_TacticId": 8,
+        "MITRE_TechniqueId": 83,
+        "MITRE_Technique_Sequence": 6,
+        "MITRE_Tactic_Chart_Order": 10
+    },
+    {
+        "MITRE_TacticTechniqueId": 58,
+        "MITRE_TacticId": 8,
+        "MITRE_TechniqueId": 9,
+        "MITRE_Technique_Sequence": 7,
+        "MITRE_Tactic_Chart_Order": 10
+    },
+    {
+        "MITRE_TacticTechniqueId": 59,
+        "MITRE_TacticId": 8,
+        "MITRE_TechniqueId": 14,
+        "MITRE_Technique_Sequence": 8,
+        "MITRE_Tactic_Chart_Order": 10
+    },
+    {
+        "MITRE_TacticTechniqueId": 60,
+        "MITRE_TacticId": 8,
+        "MITRE_TechniqueId": 16,
+        "MITRE_Technique_Sequence": 9,
+        "MITRE_Tactic_Chart_Order": 10
+    },
+    {
+        "MITRE_TacticTechniqueId": 61,
+        "MITRE_TacticId": 8,
+        "MITRE_TechniqueId": 29,
+        "MITRE_Technique_Sequence": 10,
+        "MITRE_Tactic_Chart_Order": 10
+    },
+    {
+        "MITRE_TacticTechniqueId": 62,
+        "MITRE_TacticId": 8,
+        "MITRE_TechniqueId": 33,
+        "MITRE_Technique_Sequence": 11,
+        "MITRE_Tactic_Chart_Order": 10
+    },
+    {
+        "MITRE_TacticTechniqueId": 63,
+        "MITRE_TacticId": 8,
+        "MITRE_TechniqueId": 43,
+        "MITRE_Technique_Sequence": 12,
+        "MITRE_Tactic_Chart_Order": 10
+    },
+    {
+        "MITRE_TacticTechniqueId": 64,
+        "MITRE_TacticId": 8,
+        "MITRE_TechniqueId": 69,
+        "MITRE_Technique_Sequence": 13,
+        "MITRE_Tactic_Chart_Order": 10
+    },
+    {
+        "MITRE_TacticTechniqueId": 65,
+        "MITRE_TacticId": 8,
+        "MITRE_TechniqueId": 48,
+        "MITRE_Technique_Sequence": 14,
+        "MITRE_Tactic_Chart_Order": 10
+    },
+    {
+        "MITRE_TacticTechniqueId": 66,
+        "MITRE_TacticId": 9,
+        "MITRE_TechniqueId": 17,
+        "MITRE_Technique_Sequence": 1,
+        "MITRE_Tactic_Chart_Order": 1
+    },
+    {
+        "MITRE_TacticTechniqueId": 67,
+        "MITRE_TacticId": 9,
+        "MITRE_TechniqueId": 12,
+        "MITRE_Technique_Sequence": 2,
+        "MITRE_Tactic_Chart_Order": 1
+    },
+    {
+        "MITRE_TacticTechniqueId": 68,
+        "MITRE_TacticId": 9,
+        "MITRE_TechniqueId": 57,
+        "MITRE_Technique_Sequence": 3,
+        "MITRE_Tactic_Chart_Order": 1
+    },
+    {
+        "MITRE_TacticTechniqueId": 69,
+        "MITRE_TacticId": 9,
+        "MITRE_TechniqueId": 20,
+        "MITRE_Technique_Sequence": 4,
+        "MITRE_Tactic_Chart_Order": 1
+    },
+    {
+        "MITRE_TacticTechniqueId": 70,
+        "MITRE_TacticId": 9,
+        "MITRE_TechniqueId": 71,
+        "MITRE_Technique_Sequence": 5,
+        "MITRE_Tactic_Chart_Order": 1
+    },
+    {
+        "MITRE_TacticTechniqueId": 71,
+        "MITRE_TacticId": 9,
+        "MITRE_TechniqueId": 74,
+        "MITRE_Technique_Sequence": 6,
+        "MITRE_Tactic_Chart_Order": 1
+    },
+    {
+        "MITRE_TacticTechniqueId": 72,
+        "MITRE_TacticId": 9,
+        "MITRE_TechniqueId": 40,
+        "MITRE_Technique_Sequence": 7,
+        "MITRE_Tactic_Chart_Order": 1
+    },
+    {
+        "MITRE_TacticTechniqueId": 73,
+        "MITRE_TacticId": 9,
+        "MITRE_TechniqueId": 41,
+        "MITRE_Technique_Sequence": 8,
+        "MITRE_Tactic_Chart_Order": 1
+    },
+    {
+        "MITRE_TacticTechniqueId": 74,
+        "MITRE_TacticId": 9,
+        "MITRE_TechniqueId": 56,
+        "MITRE_Technique_Sequence": 9,
+        "MITRE_Tactic_Chart_Order": 1
+    },
+    {
+        "MITRE_TacticTechniqueId": 75,
+        "MITRE_TacticId": 9,
+        "MITRE_TechniqueId": 54,
+        "MITRE_Technique_Sequence": 10,
+        "MITRE_Tactic_Chart_Order": 1
+    },
+    {
+        "MITRE_TacticTechniqueId": 76,
+        "MITRE_TacticId": 9,
+        "MITRE_TechniqueId": 55,
+        "MITRE_Technique_Sequence": 11,
+        "MITRE_Tactic_Chart_Order": 1
+    },
+    {
+        "MITRE_TacticTechniqueId": 77,
+        "MITRE_TacticId": 9,
+        "MITRE_TechniqueId": 51,
+        "MITRE_Technique_Sequence": 12,
+        "MITRE_Tactic_Chart_Order": 1
+    },
+    {
+        "MITRE_TacticTechniqueId": 78,
+        "MITRE_TacticId": 10,
+        "MITRE_TechniqueId": 11,
+        "MITRE_Technique_Sequence": 1,
+        "MITRE_Tactic_Chart_Order": 7
+    },
+    {
+        "MITRE_TacticTechniqueId": 79,
+        "MITRE_TacticId": 10,
+        "MITRE_TechniqueId": 57,
+        "MITRE_Technique_Sequence": 2,
+        "MITRE_Tactic_Chart_Order": 7
+    },
+    {
+        "MITRE_TacticTechniqueId": 80,
+        "MITRE_TacticId": 10,
+        "MITRE_TechniqueId": 82,
+        "MITRE_Technique_Sequence": 3,
+        "MITRE_Tactic_Chart_Order": 7
+    },
+    {
+        "MITRE_TacticTechniqueId": 81,
+        "MITRE_TacticId": 10,
+        "MITRE_TechniqueId": 58,
+        "MITRE_Technique_Sequence": 4,
+        "MITRE_Tactic_Chart_Order": 7
+    },
+    {
+        "MITRE_TacticTechniqueId": 82,
+        "MITRE_TacticId": 10,
+        "MITRE_TechniqueId": 37,
+        "MITRE_Technique_Sequence": 5,
+        "MITRE_Tactic_Chart_Order": 7
+    },
+    {
+        "MITRE_TacticTechniqueId": 83,
+        "MITRE_TacticId": 10,
+        "MITRE_TechniqueId": 74,
+        "MITRE_Technique_Sequence": 6,
+        "MITRE_Tactic_Chart_Order": 7
+    },
+    {
+        "MITRE_TacticTechniqueId": 84,
+        "MITRE_TacticId": 10,
+        "MITRE_TechniqueId": 50,
+        "MITRE_Technique_Sequence": 7,
+        "MITRE_Tactic_Chart_Order": 7
+    },
+    {
+        "MITRE_TacticTechniqueId": 85,
+        "MITRE_TacticId": 11,
+        "MITRE_TechniqueId": 82,
+        "MITRE_Technique_Sequence": 1,
+        "MITRE_Tactic_Chart_Order": 3
+    },
+    {
+        "MITRE_TacticTechniqueId": 86,
+        "MITRE_TacticId": 11,
+        "MITRE_TechniqueId": 77,
+        "MITRE_Technique_Sequence": 2,
+        "MITRE_Tactic_Chart_Order": 3
+    },
+    {
+        "MITRE_TacticTechniqueId": 87,
+        "MITRE_TacticId": 11,
+        "MITRE_TechniqueId": 34,
+        "MITRE_Technique_Sequence": 3,
+        "MITRE_Tactic_Chart_Order": 3
+    },
+    {
+        "MITRE_TacticTechniqueId": 88,
+        "MITRE_TacticId": 11,
+        "MITRE_TechniqueId": 63,
+        "MITRE_Technique_Sequence": 4,
+        "MITRE_Tactic_Chart_Order": 3
+    },
+    {
+        "MITRE_TacticTechniqueId": 89,
+        "MITRE_TacticId": 11,
+        "MITRE_TechniqueId": 48,
+        "MITRE_Technique_Sequence": 5,
+        "MITRE_Tactic_Chart_Order": 3
+    },
+    {
+        "MITRE_TacticTechniqueId": 90,
+        "MITRE_TacticId": 11,
+        "MITRE_TechniqueId": 50,
+        "MITRE_Technique_Sequence": 6,
+        "MITRE_Tactic_Chart_Order": 3
+    },
+    {
+        "MITRE_TacticTechniqueId": 91,
+        "MITRE_TacticId": 12,
+        "MITRE_TechniqueId": 78,
+        "MITRE_Technique_Sequence": 1,
+        "MITRE_Tactic_Chart_Order": 4
+    },
+    {
+        "MITRE_TacticTechniqueId": 92,
+        "MITRE_TacticId": 12,
+        "MITRE_TechniqueId": 64,
+        "MITRE_Technique_Sequence": 2,
+        "MITRE_Tactic_Chart_Order": 4
+    },
+    {
+        "MITRE_TacticTechniqueId": 93,
+        "MITRE_TacticId": 5,
+        "MITRE_TechniqueId": 87,
+        "MITRE_Technique_Sequence": 0,
+        "MITRE_Tactic_Chart_Order": 2
+    },
+    {
+        "MITRE_TacticTechniqueId": 94,
+        "MITRE_TacticId": 4,
+        "MITRE_TechniqueId": 87,
+        "MITRE_Technique_Sequence": 7,
+        "MITRE_Tactic_Chart_Order": 5
+    }
+]

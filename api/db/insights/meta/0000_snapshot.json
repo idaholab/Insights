@@ -1,0 +1,2016 @@
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "prevId": "",
+  "version": "6",
+  "dialect": "sqlite",
+  "tables": {
+    "__RefactorLog": {
+      "name": "__RefactorLog",
+      "columns": {
+        "OperationKey": {
+          "autoincrement": false,
+          "name": "OperationKey",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    },
+    "Artifact": {
+      "name": "Artifact",
+      "columns": {
+        "ArtifactId": {
+          "autoincrement": true,
+          "name": "ArtifactId",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "Description": {
+          "autoincrement": false,
+          "name": "Description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "FrequencyId": {
+          "autoincrement": false,
+          "name": "FrequencyId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {
+        "Artifact_FrequencyId_Frequency_FrequencyId_fk": {
+          "name": "Artifact_FrequencyId_Frequency_FrequencyId_fk",
+          "tableFrom": "Artifact",
+          "tableTo": "Frequency",
+          "columnsFrom": [
+            "FrequencyId"
+          ],
+          "columnsTo": [
+            "FrequencyId"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {}
+    },
+    "Campaign": {
+      "name": "Campaign",
+      "columns": {
+        "CampaignId": {
+          "autoincrement": true,
+          "name": "CampaignId",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "CampaignName": {
+          "autoincrement": false,
+          "name": "CampaignName",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "CampaignDescription": {
+          "autoincrement": false,
+          "name": "CampaignDescription",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    },
+    "CaseStudy": {
+      "name": "CaseStudy",
+      "columns": {
+        "CaseStudyId": {
+          "autoincrement": true,
+          "name": "CaseStudyId",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "CaseStudyName": {
+          "autoincrement": false,
+          "name": "CaseStudyName",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "CaseStudyDescription": {
+          "autoincrement": false,
+          "name": "CaseStudyDescription",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "UpperBoundLoss": {
+          "autoincrement": false,
+          "name": "UpperBoundLoss",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "LowerBoundLoss": {
+          "autoincrement": false,
+          "name": "LowerBoundLoss",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "Year": {
+          "autoincrement": false,
+          "name": "Year",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "ShortName": {
+          "autoincrement": false,
+          "name": "ShortName",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "BAMParentId": {
+          "autoincrement": false,
+          "name": "BAMParentId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "IsAttackScenario": {
+          "default": false,
+          "autoincrement": false,
+          "name": "IsAttackScenario",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    },
+    "CaseStudyNAICS": {
+      "name": "CaseStudyNAICS",
+      "columns": {
+        "CaseStudyNAICSId": {
+          "autoincrement": true,
+          "name": "CaseStudyNAICSId",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "CaseStudyId": {
+          "autoincrement": false,
+          "name": "CaseStudyId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "NAICSId": {
+          "autoincrement": false,
+          "name": "NAICSId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {
+        "CaseStudyNAICS_CaseStudyId_CaseStudy_CaseStudyId_fk": {
+          "name": "CaseStudyNAICS_CaseStudyId_CaseStudy_CaseStudyId_fk",
+          "tableFrom": "CaseStudyNAICS",
+          "tableTo": "CaseStudy",
+          "columnsFrom": [
+            "CaseStudyId"
+          ],
+          "columnsTo": [
+            "CaseStudyId"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "CaseStudyNAICS_NAICSId_NAICS_NAICSId_fk": {
+          "name": "CaseStudyNAICS_NAICSId_NAICS_NAICSId_fk",
+          "tableFrom": "CaseStudyNAICS",
+          "tableTo": "NAICS",
+          "columnsFrom": [
+            "NAICSId"
+          ],
+          "columnsTo": [
+            "NAICSId"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {}
+    },
+    "CaseStudyObservable": {
+      "name": "CaseStudyObservable",
+      "columns": {
+        "CaseStudyObservableID": {
+          "autoincrement": true,
+          "name": "CaseStudyObservableID",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "CaseStudyID": {
+          "autoincrement": false,
+          "name": "CaseStudyID",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "ObservableID": {
+          "autoincrement": false,
+          "name": "ObservableID",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "Probability": {
+          "autoincrement": false,
+          "name": "Probability",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {
+        "CaseStudyObservable_ObservableID_Observable_ObservableID_fk": {
+          "name": "CaseStudyObservable_ObservableID_Observable_ObservableID_fk",
+          "tableFrom": "CaseStudyObservable",
+          "tableTo": "Observable",
+          "columnsFrom": [
+            "ObservableID"
+          ],
+          "columnsTo": [
+            "ObservableID"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        },
+        "CaseStudyObservable_CaseStudyID_CaseStudy_CaseStudyId_fk": {
+          "name": "CaseStudyObservable_CaseStudyID_CaseStudy_CaseStudyId_fk",
+          "tableFrom": "CaseStudyObservable",
+          "tableTo": "CaseStudy",
+          "columnsFrom": [
+            "CaseStudyID"
+          ],
+          "columnsTo": [
+            "CaseStudyId"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {}
+    },
+    "CaseStudyReference": {
+      "name": "CaseStudyReference",
+      "columns": {
+        "ReferenceID": {
+          "autoincrement": true,
+          "name": "ReferenceID",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "CaseStudyId": {
+          "autoincrement": false,
+          "name": "CaseStudyId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "Citation": {
+          "autoincrement": false,
+          "name": "Citation",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "Source": {
+          "autoincrement": false,
+          "name": "Source",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "Title": {
+          "autoincrement": false,
+          "name": "Title",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "Author": {
+          "autoincrement": false,
+          "name": "Author",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "AccessDate": {
+          "autoincrement": false,
+          "name": "AccessDate",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "PublicationDate": {
+          "autoincrement": false,
+          "name": "PublicationDate",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "Link": {
+          "autoincrement": false,
+          "name": "Link",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {
+        "CaseStudyReference_CaseStudyId_CaseStudy_CaseStudyId_fk": {
+          "name": "CaseStudyReference_CaseStudyId_CaseStudy_CaseStudyId_fk",
+          "tableFrom": "CaseStudyReference",
+          "tableTo": "CaseStudy",
+          "columnsFrom": [
+            "CaseStudyId"
+          ],
+          "columnsTo": [
+            "CaseStudyId"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {}
+    },
+    "CaseStudySector": {
+      "name": "CaseStudySector",
+      "columns": {
+        "CaseStudySectorId": {
+          "autoincrement": true,
+          "name": "CaseStudySectorId",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "CaseStudyId": {
+          "autoincrement": false,
+          "name": "CaseStudyId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "SectorId": {
+          "autoincrement": false,
+          "name": "SectorId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {
+        "CaseStudySector_CaseStudyId_SectorId_key": {
+          "name": "CaseStudySector_CaseStudyId_SectorId_key",
+          "columns": [
+            "CaseStudyId",
+            "SectorId"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {
+        "CaseStudySector_SectorId_Sector_SectorId_fk": {
+          "name": "CaseStudySector_SectorId_Sector_SectorId_fk",
+          "tableFrom": "CaseStudySector",
+          "tableTo": "Sector",
+          "columnsFrom": [
+            "SectorId"
+          ],
+          "columnsTo": [
+            "SectorId"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        },
+        "CaseStudySector_CaseStudyId_CaseStudy_CaseStudyId_fk": {
+          "name": "CaseStudySector_CaseStudyId_CaseStudy_CaseStudyId_fk",
+          "tableFrom": "CaseStudySector",
+          "tableTo": "CaseStudy",
+          "columnsFrom": [
+            "CaseStudyId"
+          ],
+          "columnsTo": [
+            "CaseStudyId"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {}
+    },
+    "CaseStudyTags": {
+      "name": "CaseStudyTags",
+      "columns": {
+        "CaseStudyTagsId": {
+          "autoincrement": true,
+          "name": "CaseStudyTagsId",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "CaseStudyId": {
+          "autoincrement": false,
+          "name": "CaseStudyId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "TagId": {
+          "autoincrement": false,
+          "name": "TagId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {
+        "CaseStudyTags_CaseStudyId_TagId_key": {
+          "name": "CaseStudyTags_CaseStudyId_TagId_key",
+          "columns": [
+            "CaseStudyId",
+            "TagId"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {
+        "CaseStudyTags_TagId_Tags_TagId_fk": {
+          "name": "CaseStudyTags_TagId_Tags_TagId_fk",
+          "tableFrom": "CaseStudyTags",
+          "tableTo": "Tags",
+          "columnsFrom": [
+            "TagId"
+          ],
+          "columnsTo": [
+            "TagId"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        },
+        "CaseStudyTags_CaseStudyId_CaseStudy_CaseStudyId_fk": {
+          "name": "CaseStudyTags_CaseStudyId_CaseStudy_CaseStudyId_fk",
+          "tableFrom": "CaseStudyTags",
+          "tableTo": "CaseStudy",
+          "columnsFrom": [
+            "CaseStudyId"
+          ],
+          "columnsTo": [
+            "CaseStudyId"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {}
+    },
+    "CaseStudyTechnique": {
+      "name": "CaseStudyTechnique",
+      "columns": {
+        "CaseStudyTechniqueId": {
+          "autoincrement": true,
+          "name": "CaseStudyTechniqueId",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "CaseStudyId": {
+          "autoincrement": false,
+          "name": "CaseStudyId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "MITRE_TechniqueId": {
+          "autoincrement": false,
+          "name": "MITRE_TechniqueId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "Technique_Name": {
+          "autoincrement": false,
+          "name": "Technique_Name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "MITRE_TacticId": {
+          "autoincrement": false,
+          "name": "MITRE_TacticId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "Tactic_Name": {
+          "autoincrement": false,
+          "name": "Tactic_Name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "Technique_Narratives": {
+          "autoincrement": false,
+          "name": "Technique_Narratives",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {
+        "CaseStudyTechnique_MITRE_TechniqueId_MITRE_Technique_MITRE_TechniqueId_fk": {
+          "name": "CaseStudyTechnique_MITRE_TechniqueId_MITRE_Technique_MITRE_TechniqueId_fk",
+          "tableFrom": "CaseStudyTechnique",
+          "tableTo": "MITRE_Technique",
+          "columnsFrom": [
+            "MITRE_TechniqueId"
+          ],
+          "columnsTo": [
+            "MITRE_TechniqueId"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "CaseStudyTechnique_CaseStudyId_CaseStudy_CaseStudyId_fk": {
+          "name": "CaseStudyTechnique_CaseStudyId_CaseStudy_CaseStudyId_fk",
+          "tableFrom": "CaseStudyTechnique",
+          "tableTo": "CaseStudy",
+          "columnsFrom": [
+            "CaseStudyId"
+          ],
+          "columnsTo": [
+            "CaseStudyId"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {}
+    },
+    "CaseStudyTechniqueTiming": {
+      "name": "CaseStudyTechniqueTiming",
+      "columns": {
+        "CaseStudyObservableTimingId": {
+          "autoincrement": true,
+          "name": "CaseStudyObservableTimingId",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "CaseStudyID": {
+          "autoincrement": false,
+          "name": "CaseStudyID",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "UTC_Time": {
+          "autoincrement": false,
+          "name": "UTC_Time",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "D_Notation": {
+          "autoincrement": false,
+          "name": "D_Notation",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "MITRE_TechniqueID": {
+          "autoincrement": false,
+          "name": "MITRE_TechniqueID",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "MITRE_TacticId": {
+          "autoincrement": false,
+          "name": "MITRE_TacticId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "TimingOrder": {
+          "autoincrement": false,
+          "name": "TimingOrder",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {
+        "CaseStudyTechniqueTiming_MITRE_TechniqueID_MITRE_Technique_MITRE_TechniqueId_fk": {
+          "name": "CaseStudyTechniqueTiming_MITRE_TechniqueID_MITRE_Technique_MITRE_TechniqueId_fk",
+          "tableFrom": "CaseStudyTechniqueTiming",
+          "tableTo": "MITRE_Technique",
+          "columnsFrom": [
+            "MITRE_TechniqueID"
+          ],
+          "columnsTo": [
+            "MITRE_TechniqueId"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "CaseStudyTechniqueTiming_MITRE_TacticId_MITRE_Tactic_MITRE_TacticId_fk": {
+          "name": "CaseStudyTechniqueTiming_MITRE_TacticId_MITRE_Tactic_MITRE_TacticId_fk",
+          "tableFrom": "CaseStudyTechniqueTiming",
+          "tableTo": "MITRE_Tactic",
+          "columnsFrom": [
+            "MITRE_TacticId"
+          ],
+          "columnsTo": [
+            "MITRE_TacticId"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "CaseStudyTechniqueTiming_CaseStudyID_CaseStudy_CaseStudyId_fk": {
+          "name": "CaseStudyTechniqueTiming_CaseStudyID_CaseStudy_CaseStudyId_fk",
+          "tableFrom": "CaseStudyTechniqueTiming",
+          "tableTo": "CaseStudy",
+          "columnsFrom": [
+            "CaseStudyID"
+          ],
+          "columnsTo": [
+            "CaseStudyId"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {}
+    },
+    "CaseStudyTechniqueTiming_Temp": {
+      "name": "CaseStudyTechniqueTiming_Temp",
+      "columns": {
+        "Case_Alias": {
+          "autoincrement": false,
+          "name": "Case_Alias",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "Technique_Name": {
+          "autoincrement": false,
+          "name": "Technique_Name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "Tactic_Name": {
+          "autoincrement": false,
+          "name": "Tactic_Name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "Tech_Tact_Event_Reported_Date": {
+          "autoincrement": false,
+          "name": "Tech_Tact_Event_Reported_Date",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "D_Notation": {
+          "autoincrement": false,
+          "name": "D_Notation",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "Tact_Tech_SeqID": {
+          "autoincrement": false,
+          "name": "Tact_Tech_SeqID",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    },
+    "Frequency": {
+      "name": "Frequency",
+      "columns": {
+        "FrequencyId": {
+          "autoincrement": true,
+          "name": "FrequencyId",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "FrequencyName": {
+          "autoincrement": false,
+          "name": "FrequencyName",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "FrequencyDescription": {
+          "autoincrement": false,
+          "name": "FrequencyDescription",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    },
+    "Group": {
+      "name": "Group",
+      "columns": {
+        "GroupId": {
+          "autoincrement": true,
+          "name": "GroupId",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "GroupName": {
+          "autoincrement": false,
+          "name": "GroupName",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "GroupDescription": {
+          "autoincrement": false,
+          "name": "GroupDescription",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    },
+    "MITRE_ArtifactTechnique": {
+      "name": "MITRE_ArtifactTechnique",
+      "columns": {
+        "MITRE_ArtifactTechniqueId": {
+          "autoincrement": true,
+          "name": "MITRE_ArtifactTechniqueId",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "ArtifactId": {
+          "autoincrement": false,
+          "name": "ArtifactId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "TacticTechniqueIdentifierId": {
+          "autoincrement": false,
+          "name": "TacticTechniqueIdentifierId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "FrequencyId": {
+          "autoincrement": false,
+          "name": "FrequencyId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {
+        "MITRE_ArtifactTechnique_ArtifactId_TacticTechniqueIdentifierId_key": {
+          "name": "MITRE_ArtifactTechnique_ArtifactId_TacticTechniqueIdentifierId_key",
+          "columns": [
+            "ArtifactId",
+            "TacticTechniqueIdentifierId"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {
+        "MITRE_ArtifactTechnique_TacticTechniqueIdentifierId_TacticTechniqueIdentifier_TacticTechniqueIdentifierId_fk": {
+          "name": "MITRE_ArtifactTechnique_TacticTechniqueIdentifierId_TacticTechniqueIdentifier_TacticTechniqueIdentifierId_fk",
+          "tableFrom": "MITRE_ArtifactTechnique",
+          "tableTo": "TacticTechniqueIdentifier",
+          "columnsFrom": [
+            "TacticTechniqueIdentifierId"
+          ],
+          "columnsTo": [
+            "TacticTechniqueIdentifierId"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        },
+        "MITRE_ArtifactTechnique_FrequencyId_Frequency_FrequencyId_fk": {
+          "name": "MITRE_ArtifactTechnique_FrequencyId_Frequency_FrequencyId_fk",
+          "tableFrom": "MITRE_ArtifactTechnique",
+          "tableTo": "Frequency",
+          "columnsFrom": [
+            "FrequencyId"
+          ],
+          "columnsTo": [
+            "FrequencyId"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "MITRE_ArtifactTechnique_ArtifactId_Artifact_ArtifactId_fk": {
+          "name": "MITRE_ArtifactTechnique_ArtifactId_Artifact_ArtifactId_fk",
+          "tableFrom": "MITRE_ArtifactTechnique",
+          "tableTo": "Artifact",
+          "columnsFrom": [
+            "ArtifactId"
+          ],
+          "columnsTo": [
+            "ArtifactId"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {}
+    },
+    "MITRE_Mitigation": {
+      "name": "MITRE_Mitigation",
+      "columns": {
+        "MITRE_MitigationID": {
+          "autoincrement": true,
+          "name": "MITRE_MitigationID",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "MITRE_MitigationName": {
+          "autoincrement": false,
+          "name": "MITRE_MitigationName",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "MITRE_MitigationsDesctiption": {
+          "autoincrement": false,
+          "name": "MITRE_MitigationsDesctiption",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "MITRE_MitID": {
+          "autoincrement": false,
+          "name": "MITRE_MitID",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    },
+    "MITRE_Tactic": {
+      "name": "MITRE_Tactic",
+      "columns": {
+        "MITRE_TacticId": {
+          "autoincrement": true,
+          "name": "MITRE_TacticId",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "MITRE_TacticName": {
+          "autoincrement": false,
+          "name": "MITRE_TacticName",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "MITRE_TacticDescription": {
+          "autoincrement": false,
+          "name": "MITRE_TacticDescription",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "MITRE_Sequence": {
+          "autoincrement": false,
+          "name": "MITRE_Sequence",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "MITRE_Id": {
+          "autoincrement": false,
+          "name": "MITRE_Id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "MITREId": {
+          "autoincrement": false,
+          "name": "MITREId",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    },
+    "MITRE_TacticTechnique": {
+      "name": "MITRE_TacticTechnique",
+      "columns": {
+        "MITRE_TacticTechniqueId": {
+          "autoincrement": true,
+          "name": "MITRE_TacticTechniqueId",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "MITRE_TacticId": {
+          "autoincrement": false,
+          "name": "MITRE_TacticId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "MITRE_TechniqueId": {
+          "autoincrement": false,
+          "name": "MITRE_TechniqueId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "MITRE_Technique_Sequence": {
+          "autoincrement": false,
+          "name": "MITRE_Technique_Sequence",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "MITRE_Tactic_Chart_Order": {
+          "autoincrement": false,
+          "name": "MITRE_Tactic_Chart_Order",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {
+        "MITRE_TacticTechnique_MITRE_TechniqueId_MITRE_Technique_MITRE_TechniqueId_fk": {
+          "name": "MITRE_TacticTechnique_MITRE_TechniqueId_MITRE_Technique_MITRE_TechniqueId_fk",
+          "tableFrom": "MITRE_TacticTechnique",
+          "tableTo": "MITRE_Technique",
+          "columnsFrom": [
+            "MITRE_TechniqueId"
+          ],
+          "columnsTo": [
+            "MITRE_TechniqueId"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        },
+        "MITRE_TacticTechnique_MITRE_TacticId_MITRE_Tactic_MITRE_TacticId_fk": {
+          "name": "MITRE_TacticTechnique_MITRE_TacticId_MITRE_Tactic_MITRE_TacticId_fk",
+          "tableFrom": "MITRE_TacticTechnique",
+          "tableTo": "MITRE_Tactic",
+          "columnsFrom": [
+            "MITRE_TacticId"
+          ],
+          "columnsTo": [
+            "MITRE_TacticId"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {}
+    },
+    "MITRE_Technique": {
+      "name": "MITRE_Technique",
+      "columns": {
+        "MITRE_TechniqueId": {
+          "autoincrement": true,
+          "name": "MITRE_TechniqueId",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "MITRE_Id": {
+          "autoincrement": false,
+          "name": "MITRE_Id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "MITRE_TechniqueName": {
+          "autoincrement": false,
+          "name": "MITRE_TechniqueName",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "MITRE_TechniqueDescription": {
+          "autoincrement": false,
+          "name": "MITRE_TechniqueDescription",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    },
+    "MITRE_TechniqueCampaign": {
+      "name": "MITRE_TechniqueCampaign",
+      "columns": {
+        "TechniqueCampaignID": {
+          "autoincrement": true,
+          "name": "TechniqueCampaignID",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "MITRE_TechniqueId": {
+          "autoincrement": false,
+          "name": "MITRE_TechniqueId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "CampaignID": {
+          "autoincrement": false,
+          "name": "CampaignID",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {
+        "MITRE_TechniqueCampaign_MITRE_TechniqueId_MITRE_Technique_MITRE_TechniqueId_fk": {
+          "name": "MITRE_TechniqueCampaign_MITRE_TechniqueId_MITRE_Technique_MITRE_TechniqueId_fk",
+          "tableFrom": "MITRE_TechniqueCampaign",
+          "tableTo": "MITRE_Technique",
+          "columnsFrom": [
+            "MITRE_TechniqueId"
+          ],
+          "columnsTo": [
+            "MITRE_TechniqueId"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "MITRE_TechniqueCampaign_CampaignID_Campaign_CampaignId_fk": {
+          "name": "MITRE_TechniqueCampaign_CampaignID_Campaign_CampaignId_fk",
+          "tableFrom": "MITRE_TechniqueCampaign",
+          "tableTo": "Campaign",
+          "columnsFrom": [
+            "CampaignID"
+          ],
+          "columnsTo": [
+            "CampaignId"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {}
+    },
+    "MITRE_TechniqueGroup": {
+      "name": "MITRE_TechniqueGroup",
+      "columns": {
+        "TechniqueGroupID": {
+          "autoincrement": true,
+          "name": "TechniqueGroupID",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "MITRE_TechniqueId": {
+          "autoincrement": false,
+          "name": "MITRE_TechniqueId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "GroupID": {
+          "autoincrement": false,
+          "name": "GroupID",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {
+        "MITRE_TechniqueGroup_MITRE_TechniqueId_MITRE_Technique_MITRE_TechniqueId_fk": {
+          "name": "MITRE_TechniqueGroup_MITRE_TechniqueId_MITRE_Technique_MITRE_TechniqueId_fk",
+          "tableFrom": "MITRE_TechniqueGroup",
+          "tableTo": "MITRE_Technique",
+          "columnsFrom": [
+            "MITRE_TechniqueId"
+          ],
+          "columnsTo": [
+            "MITRE_TechniqueId"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "MITRE_TechniqueGroup_GroupID_Group_GroupId_fk": {
+          "name": "MITRE_TechniqueGroup_GroupID_Group_GroupId_fk",
+          "tableFrom": "MITRE_TechniqueGroup",
+          "tableTo": "Group",
+          "columnsFrom": [
+            "GroupID"
+          ],
+          "columnsTo": [
+            "GroupId"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {}
+    },
+    "MITRE_TechniqueMitigation": {
+      "name": "MITRE_TechniqueMitigation",
+      "columns": {
+        "TechniqueMitigationID": {
+          "autoincrement": true,
+          "name": "TechniqueMitigationID",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "MITRE_TechniqueId": {
+          "autoincrement": false,
+          "name": "MITRE_TechniqueId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "MITRE_MitigationID": {
+          "autoincrement": false,
+          "name": "MITRE_MitigationID",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "Description": {
+          "autoincrement": false,
+          "name": "Description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {
+        "MITRE_TechniqueMitigation_MITRE_TechniqueId_MITRE_Technique_MITRE_TechniqueId_fk": {
+          "name": "MITRE_TechniqueMitigation_MITRE_TechniqueId_MITRE_Technique_MITRE_TechniqueId_fk",
+          "tableFrom": "MITRE_TechniqueMitigation",
+          "tableTo": "MITRE_Technique",
+          "columnsFrom": [
+            "MITRE_TechniqueId"
+          ],
+          "columnsTo": [
+            "MITRE_TechniqueId"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "MITRE_TechniqueMitigation_MITRE_MitigationID_MITRE_Mitigation_MITRE_MitigationID_fk": {
+          "name": "MITRE_TechniqueMitigation_MITRE_MitigationID_MITRE_Mitigation_MITRE_MitigationID_fk",
+          "tableFrom": "MITRE_TechniqueMitigation",
+          "tableTo": "MITRE_Mitigation",
+          "columnsFrom": [
+            "MITRE_MitigationID"
+          ],
+          "columnsTo": [
+            "MITRE_MitigationID"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {}
+    },
+    "MITRE_TechniqueObservableObservedBy": {
+      "name": "MITRE_TechniqueObservableObservedBy",
+      "columns": {
+        "MITRETechniqueObservedByID": {
+          "autoincrement": true,
+          "name": "MITRETechniqueObservedByID",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "MITRE_TechniqueId": {
+          "autoincrement": false,
+          "name": "MITRE_TechniqueId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "ObserverID": {
+          "autoincrement": false,
+          "name": "ObserverID",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {
+        "MITRE_TechniqueObservableObservedBy_ObserverID_Observer_ObserverId_fk": {
+          "name": "MITRE_TechniqueObservableObservedBy_ObserverID_Observer_ObserverId_fk",
+          "tableFrom": "MITRE_TechniqueObservableObservedBy",
+          "tableTo": "Observer",
+          "columnsFrom": [
+            "ObserverID"
+          ],
+          "columnsTo": [
+            "ObserverId"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "MITRE_TechniqueObservableObservedBy_MITRE_TechniqueId_MITRE_Technique_MITRE_TechniqueId_fk": {
+          "name": "MITRE_TechniqueObservableObservedBy_MITRE_TechniqueId_MITRE_Technique_MITRE_TechniqueId_fk",
+          "tableFrom": "MITRE_TechniqueObservableObservedBy",
+          "tableTo": "MITRE_Technique",
+          "columnsFrom": [
+            "MITRE_TechniqueId"
+          ],
+          "columnsTo": [
+            "MITRE_TechniqueId"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {}
+    },
+    "MITRE_TechniqueSoftware": {
+      "name": "MITRE_TechniqueSoftware",
+      "columns": {
+        "TechniqueSoftwareID": {
+          "autoincrement": true,
+          "name": "TechniqueSoftwareID",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "MITRE_TechniqueId": {
+          "autoincrement": false,
+          "name": "MITRE_TechniqueId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "SoftwareID": {
+          "autoincrement": false,
+          "name": "SoftwareID",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {
+        "MITRE_TechniqueSoftware_SoftwareID_Software_SoftwareId_fk": {
+          "name": "MITRE_TechniqueSoftware_SoftwareID_Software_SoftwareId_fk",
+          "tableFrom": "MITRE_TechniqueSoftware",
+          "tableTo": "Software",
+          "columnsFrom": [
+            "SoftwareID"
+          ],
+          "columnsTo": [
+            "SoftwareId"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "MITRE_TechniqueSoftware_MITRE_TechniqueId_MITRE_Technique_MITRE_TechniqueId_fk": {
+          "name": "MITRE_TechniqueSoftware_MITRE_TechniqueId_MITRE_Technique_MITRE_TechniqueId_fk",
+          "tableFrom": "MITRE_TechniqueSoftware",
+          "tableTo": "MITRE_Technique",
+          "columnsFrom": [
+            "MITRE_TechniqueId"
+          ],
+          "columnsTo": [
+            "MITRE_TechniqueId"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {}
+    },
+    "NAICS": {
+      "name": "NAICS",
+      "columns": {
+        "NAICSId": {
+          "autoincrement": true,
+          "name": "NAICSId",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "NAICSCode": {
+          "autoincrement": false,
+          "name": "NAICSCode",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "NAICSName": {
+          "autoincrement": false,
+          "name": "NAICSName",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "NAICSDescription": {
+          "autoincrement": false,
+          "name": "NAICSDescription",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    },
+    "Observable": {
+      "name": "Observable",
+      "columns": {
+        "ObservableID": {
+          "autoincrement": true,
+          "name": "ObservableID",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "ObservableDescription": {
+          "autoincrement": false,
+          "name": "ObservableDescription",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "ObservableLevel": {
+          "autoincrement": false,
+          "name": "ObservableLevel",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "FrequencyId": {
+          "autoincrement": false,
+          "name": "FrequencyId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "Awareness": {
+          "autoincrement": false,
+          "name": "Awareness",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "Understanding": {
+          "autoincrement": false,
+          "name": "Understanding",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "Perceivability": {
+          "autoincrement": false,
+          "name": "Perceivability",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {
+        "Observable_FrequencyId_Frequency_FrequencyId_fk": {
+          "name": "Observable_FrequencyId_Frequency_FrequencyId_fk",
+          "tableFrom": "Observable",
+          "tableTo": "Frequency",
+          "columnsFrom": [
+            "FrequencyId"
+          ],
+          "columnsTo": [
+            "FrequencyId"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {}
+    },
+    "ObservableLevel": {
+      "name": "ObservableLevel",
+      "columns": {
+        "ObservableLevelID": {
+          "autoincrement": true,
+          "name": "ObservableLevelID",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "ParentObersableID": {
+          "autoincrement": false,
+          "name": "ParentObersableID",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "ChildObservableID": {
+          "autoincrement": false,
+          "name": "ChildObservableID",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {
+        "ObservableLevel_ParentObersableID_Observable_ObservableID_fk": {
+          "name": "ObservableLevel_ParentObersableID_Observable_ObservableID_fk",
+          "tableFrom": "ObservableLevel",
+          "tableTo": "Observable",
+          "columnsFrom": [
+            "ParentObersableID"
+          ],
+          "columnsTo": [
+            "ObservableID"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "ObservableLevel_ChildObservableID_Observable_ObservableID_fk": {
+          "name": "ObservableLevel_ChildObservableID_Observable_ObservableID_fk",
+          "tableFrom": "ObservableLevel",
+          "tableTo": "Observable",
+          "columnsFrom": [
+            "ChildObservableID"
+          ],
+          "columnsTo": [
+            "ObservableID"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {}
+    },
+    "ObservableTacticAndTechnique": {
+      "name": "ObservableTacticAndTechnique",
+      "columns": {
+        "ObservableTacticAndTechniqueId": {
+          "autoincrement": true,
+          "name": "ObservableTacticAndTechniqueId",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "TacticTechniqueIdentifierId": {
+          "autoincrement": false,
+          "name": "TacticTechniqueIdentifierId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "ObservableId": {
+          "autoincrement": false,
+          "name": "ObservableId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "FrequencyId": {
+          "autoincrement": false,
+          "name": "FrequencyId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {
+        "ObservableTacticAndTechnique_TacticTechniqueIdentifierId_TacticTechniqueIdentifier_TacticTechniqueIdentifierId_fk": {
+          "name": "ObservableTacticAndTechnique_TacticTechniqueIdentifierId_TacticTechniqueIdentifier_TacticTechniqueIdentifierId_fk",
+          "tableFrom": "ObservableTacticAndTechnique",
+          "tableTo": "TacticTechniqueIdentifier",
+          "columnsFrom": [
+            "TacticTechniqueIdentifierId"
+          ],
+          "columnsTo": [
+            "TacticTechniqueIdentifierId"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        },
+        "ObservableTacticAndTechnique_ObservableId_Observable_ObservableID_fk": {
+          "name": "ObservableTacticAndTechnique_ObservableId_Observable_ObservableID_fk",
+          "tableFrom": "ObservableTacticAndTechnique",
+          "tableTo": "Observable",
+          "columnsFrom": [
+            "ObservableId"
+          ],
+          "columnsTo": [
+            "ObservableID"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        },
+        "ObservableTacticAndTechnique_FrequencyId_Frequency_FrequencyId_fk": {
+          "name": "ObservableTacticAndTechnique_FrequencyId_Frequency_FrequencyId_fk",
+          "tableFrom": "ObservableTacticAndTechnique",
+          "tableTo": "Frequency",
+          "columnsFrom": [
+            "FrequencyId"
+          ],
+          "columnsTo": [
+            "FrequencyId"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {}
+    },
+    "Observer": {
+      "name": "Observer",
+      "columns": {
+        "ObserverId": {
+          "autoincrement": true,
+          "name": "ObserverId",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "ObserverName": {
+          "autoincrement": false,
+          "name": "ObserverName",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "ObserverDescription": {
+          "autoincrement": false,
+          "name": "ObserverDescription",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    },
+    "Sector": {
+      "name": "Sector",
+      "columns": {
+        "SectorId": {
+          "autoincrement": true,
+          "name": "SectorId",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "SectorName": {
+          "autoincrement": false,
+          "name": "SectorName",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "SectorDescription": {
+          "autoincrement": false,
+          "name": "SectorDescription",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    },
+    "Software": {
+      "name": "Software",
+      "columns": {
+        "SoftwareId": {
+          "autoincrement": true,
+          "name": "SoftwareId",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "SoftwareName": {
+          "autoincrement": false,
+          "name": "SoftwareName",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "SoftwareDescription": {
+          "autoincrement": false,
+          "name": "SoftwareDescription",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    },
+    "SoftwareGroup": {
+      "name": "SoftwareGroup",
+      "columns": {
+        "SoftwareGroupId": {
+          "autoincrement": true,
+          "name": "SoftwareGroupId",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "SoftwareId": {
+          "autoincrement": false,
+          "name": "SoftwareId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "GroupId": {
+          "autoincrement": false,
+          "name": "GroupId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {
+        "SoftwareGroup_SoftwareId_Software_SoftwareId_fk": {
+          "name": "SoftwareGroup_SoftwareId_Software_SoftwareId_fk",
+          "tableFrom": "SoftwareGroup",
+          "tableTo": "Software",
+          "columnsFrom": [
+            "SoftwareId"
+          ],
+          "columnsTo": [
+            "SoftwareId"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "SoftwareGroup_GroupId_Group_GroupId_fk": {
+          "name": "SoftwareGroup_GroupId_Group_GroupId_fk",
+          "tableFrom": "SoftwareGroup",
+          "tableTo": "Group",
+          "columnsFrom": [
+            "GroupId"
+          ],
+          "columnsTo": [
+            "GroupId"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {}
+    },
+    "sysdiagrams": {
+      "name": "sysdiagrams",
+      "columns": {
+        "name": {
+          "autoincrement": false,
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "principal_id": {
+          "autoincrement": false,
+          "name": "principal_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "diagram_id": {
+          "autoincrement": true,
+          "name": "diagram_id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "version": {
+          "autoincrement": false,
+          "name": "version",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "definition": {
+          "autoincrement": false,
+          "name": "definition",
+          "type": "blob",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {
+        "sysdiagrams_principal_id_name_key": {
+          "name": "sysdiagrams_principal_id_name_key",
+          "columns": [
+            "principal_id",
+            "name"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    },
+    "TacticTechniqueIdentifier": {
+      "name": "TacticTechniqueIdentifier",
+      "columns": {
+        "TacticTechniqueIdentifierId": {
+          "autoincrement": true,
+          "name": "TacticTechniqueIdentifierId",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "MITRE_TacticId": {
+          "autoincrement": false,
+          "name": "MITRE_TacticId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "MITRE_TechniqueId": {
+          "autoincrement": false,
+          "name": "MITRE_TechniqueId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {
+        "TacticTechniqueIdentifier_MITRE_TechniqueId_MITRE_Technique_MITRE_TechniqueId_fk": {
+          "name": "TacticTechniqueIdentifier_MITRE_TechniqueId_MITRE_Technique_MITRE_TechniqueId_fk",
+          "tableFrom": "TacticTechniqueIdentifier",
+          "tableTo": "MITRE_Technique",
+          "columnsFrom": [
+            "MITRE_TechniqueId"
+          ],
+          "columnsTo": [
+            "MITRE_TechniqueId"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        },
+        "TacticTechniqueIdentifier_MITRE_TacticId_MITRE_Tactic_MITRE_TacticId_fk": {
+          "name": "TacticTechniqueIdentifier_MITRE_TacticId_MITRE_Tactic_MITRE_TacticId_fk",
+          "tableFrom": "TacticTechniqueIdentifier",
+          "tableTo": "MITRE_Tactic",
+          "columnsFrom": [
+            "MITRE_TacticId"
+          ],
+          "columnsTo": [
+            "MITRE_TacticId"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {}
+    },
+    "Tags": {
+      "name": "Tags",
+      "columns": {
+        "TagId": {
+          "autoincrement": true,
+          "name": "TagId",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "TagName": {
+          "autoincrement": false,
+          "name": "TagName",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    },
+    "CaseStudyObservable_backup": {
+      "name": "CaseStudyObservable_backup",
+      "columns": {
+        "CaseStudyObservableID": {
+          "autoincrement": false,
+          "name": "CaseStudyObservableID",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "CaseStudyID": {
+          "autoincrement": false,
+          "name": "CaseStudyID",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "ObservableID": {
+          "autoincrement": false,
+          "name": "ObservableID",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "Probability": {
+          "autoincrement": false,
+          "name": "Probability",
+          "type": "text(50)",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    },
+    "ObservationImports": {
+      "name": "ObservationImports",
+      "columns": {
+        "ImportID": {
+          "autoincrement": false,
+          "name": "ImportID",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "CaseStudyId": {
+          "autoincrement": false,
+          "name": "CaseStudyId",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "CaseStudyName": {
+          "autoincrement": false,
+          "name": "CaseStudyName",
+          "type": "text(255)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "TechniqueName": {
+          "autoincrement": false,
+          "name": "TechniqueName",
+          "type": "text(255)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "TacticName": {
+          "autoincrement": false,
+          "name": "TacticName",
+          "type": "text(255)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "ObservableDescription": {
+          "autoincrement": false,
+          "name": "ObservableDescription",
+          "type": "text(5000)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "NormalFrequency": {
+          "autoincrement": false,
+          "name": "NormalFrequency",
+          "type": "text(255)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "pObsTech": {
+          "autoincrement": false,
+          "name": "pObsTech",
+          "type": "text(255)",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "Imported": {
+          "autoincrement": false,
+          "name": "Imported",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {}
+    }
+  },
+  "enums": {},
+  "_meta": {
+    "schemas": {},
+    "tables": {},
+    "columns": {}
+  }
+}

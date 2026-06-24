@@ -1,0 +1,27 @@
+{
+"scripts": {
+    "dev": "npm run dev:ui & && npm run dev:api",
+    "dev:ui": "cd ui && npm run dev",
+    "build:ui": "cd ui && npm i && tsc && vite build",
+    "lint:ui": "cd ui && eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview:ui": "cd ui && vite preview",
+    "install": "npm run install:ui && npm run install:api",
+    "install:ui": "cd ui && npm i",
+    "install:api": "cd api && npm i",
+    "test:api": "cd api && echo \"Error: no test specified\" && exit 1",
+    "start:api": "cd api && NODE_PATH=./build node build/production/app.js",
+    "build:api": "npm run install:api && npm run build:api:local && npm run build:api:production && npm run build:api:copy_files",
+    "build:api:production": "cd api && npx esbuild src/index.ts --platform=node --bundle --outfile=build/production/app.js",
+    "build:api:local": "cd api && npx esbuild src/index.ts --platform=node --bundle --outfile=build/local/app.js",
+    "build:api:copy_files": "cd api && npx -y cpy-cli node_modules/better-sqlite3/build/Release/better_sqlite3.node build/ --flat && npx -y cpy-cli node_modules/better-sqlite3/build/Release/better_sqlite3.node build/local/build/Release/ --flat && npx -y cpy-cli db/insights/insights.db build/local/ --flat && npx -y cpy-cli store/ build/local/ && npx -y cpy-cli --flat --rename=.env ./.env.local build/local/ && npx -y cpy-cli --flat --rename=package.json ./.bundle-package.json build/local/",
+    "dev:api": "cd api && npm run dev",
+    "start:api:local":"cd api/build/local && node app.js",
+    "fetch:node-runtimes": "node scripts/fetch-node-runtimes.mjs",
+    "package": "npm run build:api && cd ui && npm run electron:build",
+    "package:win": "npm run build:api && cd ui && npm run electron:build:win",
+    "package:mac": "npm run build:api && cd ui && npm run electron:build:mac",
+    "installer": "node scripts/build-installer.mjs",
+    "installer:win": "node scripts/build-installer.mjs win",
+    "installer:mac": "node scripts/build-installer.mjs mac"
+  }
+}

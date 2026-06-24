@@ -1,0 +1,1666 @@
+{
+    "value": [
+        {
+            "properties": {
+                "name": "Incontroller",
+                "sql_name": "incontroller",
+                "hp_observables": 64,
+                "ics_techniques": 39,
+                "year_of_trigger": "2022",
+                "recovery_duration": null,
+                "total_observables": 573,
+                "max_financial_loss": null,
+                "min_financial_loss": null,
+                "precursor_duration": null,
+                "ransomware_involved": false,
+                "precursor_techniques": 31,
+                "technique_observables": 742,
+                "total_attack_duration": 71
+            },
+            "metadata_properties": {},
+            "id": "9567",
+            "container_id": "180",
+            "metatype": {
+                "name": "",
+                "description": "",
+                "id": "53847"
+            },
+            "data_source_id": "2564",
+            "import_data_id": null,
+            "type_mapping_transformation_id": null,
+            "original_data_id": "787299bb-2922-48f5-b4cb-fa4dc7739ee0",
+            "metadata": null,
+            "created_at": "2024-08-19T18:42:05.279Z",
+            "modified_at": "2024-08-19T18:42:05.276Z",
+            "deleted_at": null,
+            "created_by": "146",
+            "modified_by": "146",
+            "data_staging_id": null,
+            "metatype_name": "PrecursorReport",
+            "metatype_uuid": "7e22ed30-14f5-4a5d-8f48-523f1fa6dd30"
+        },
+        {
+            "properties": {
+                "name": "BTC",
+                "sql_name": "btc",
+                "recovery_date": "2008-08-25T00:00:00.000Z",
+                "hp_observables": 41,
+                "ics_techniques": 18,
+                "year_of_trigger": "2008",
+                "recovery_duration": 20,
+                "total_observables": 99,
+                "max_financial_loss": 5846674686.37,
+                "min_financial_loss": 4420656470.18,
+                "precursor_duration": 547,
+                "initial_access_date": "2007-02-05T00:00:00.000Z",
+                "ransomware_involved": false,
+                "precursor_techniques": 15,
+                "technique_observables": 134,
+                "total_attack_duration": 567,
+                "triggering_event_date": "2008-08-05T00:00:00.000Z"
+            },
+            "metadata_properties": {},
+            "id": "934838",
+            "container_id": "180",
+            "metatype": {
+                "name": "",
+                "description": "",
+                "id": "53847"
+            },
+            "data_source_id": "2564",
+            "import_data_id": "9059",
+            "type_mapping_transformation_id": "1200",
+            "original_data_id": "BTC",
+            "metadata": {
+                "conversions": [
+                    {
+                        "original_value": 2008,
+                        "converted_value": "2008"
+                    },
+                    {
+                        "original_value": "5-Aug-08",
+                        "converted_value": "2008-08-05T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "25-Aug-08",
+                        "converted_value": "2008-08-25T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "5-Feb-07",
+                        "converted_value": "2007-02-05T00:00:00.000Z"
+                    }
+                ],
+                "failed_conversions": []
+            },
+            "created_at": "2024-04-26T14:32:55.880Z",
+            "modified_at": null,
+            "deleted_at": null,
+            "created_by": "2564",
+            "modified_by": "2564",
+            "data_staging_id": "6f670db5-56be-4439-819e-44b8e0583af7",
+            "metatype_name": "PrecursorReport",
+            "metatype_uuid": "7e22ed30-14f5-4a5d-8f48-523f1fa6dd30"
+        },
+        {
+            "properties": {
+                "name": "Colonial Pipeline",
+                "sql_name": "colonial",
+                "recovery_date": "2021-05-12T00:00:00.000Z",
+                "hp_observables": 24,
+                "ics_techniques": 11,
+                "year_of_trigger": "2021",
+                "recovery_duration": 5,
+                "total_observables": 45,
+                "max_financial_loss": 30705999.19,
+                "min_financial_loss": 11443933.28,
+                "precursor_duration": 8,
+                "initial_access_date": "2021-04-29T00:00:00.000Z",
+                "ransomware_involved": true,
+                "precursor_techniques": 9,
+                "technique_observables": 68,
+                "total_attack_duration": 13,
+                "triggering_event_date": "2021-05-07T00:00:00.000Z"
+            },
+            "metadata_properties": {},
+            "id": "934839",
+            "container_id": "180",
+            "metatype": {
+                "name": "",
+                "description": "",
+                "id": "53847"
+            },
+            "data_source_id": "2564",
+            "import_data_id": "9059",
+            "type_mapping_transformation_id": "1200",
+            "original_data_id": "Colonial Pipeline",
+            "metadata": {
+                "conversions": [
+                    {
+                        "original_value": 2021,
+                        "converted_value": "2021"
+                    },
+                    {
+                        "original_value": "7-May-21",
+                        "converted_value": "2021-05-07T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "12-May-21",
+                        "converted_value": "2021-05-12T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "29-Apr-21",
+                        "converted_value": "2021-04-29T00:00:00.000Z"
+                    }
+                ],
+                "failed_conversions": []
+            },
+            "created_at": "2024-04-26T14:32:55.928Z",
+            "modified_at": null,
+            "deleted_at": null,
+            "created_by": "2564",
+            "modified_by": "2564",
+            "data_staging_id": "4efb0a97-0465-495e-bf1a-7c5dde519d8f",
+            "metatype_name": "PrecursorReport",
+            "metatype_uuid": "7e22ed30-14f5-4a5d-8f48-523f1fa6dd30"
+        },
+        {
+            "properties": {
+                "name": "Conficker",
+                "sql_name": "conficker",
+                "recovery_date": "2016-04-26T00:00:00.000Z",
+                "hp_observables": 44,
+                "ics_techniques": 22,
+                "year_of_trigger": "2016",
+                "recovery_duration": 2,
+                "total_observables": 66,
+                "max_financial_loss": 11641062969,
+                "min_financial_loss": 3326017.99,
+                "precursor_duration": 0,
+                "initial_access_date": "2016-04-24T00:00:00.000Z",
+                "ransomware_involved": false,
+                "precursor_techniques": 18,
+                "technique_observables": 78,
+                "total_attack_duration": 2,
+                "triggering_event_date": "2016-04-24T00:00:00.000Z"
+            },
+            "metadata_properties": {},
+            "id": "934843",
+            "container_id": "180",
+            "metatype": {
+                "name": "",
+                "description": "",
+                "id": "53847"
+            },
+            "data_source_id": "2564",
+            "import_data_id": "9059",
+            "type_mapping_transformation_id": "1200",
+            "original_data_id": "Conficker",
+            "metadata": {
+                "conversions": [
+                    {
+                        "original_value": 2016,
+                        "converted_value": "2016"
+                    },
+                    {
+                        "original_value": "24-Apr-16",
+                        "converted_value": "2016-04-24T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "26-Apr-16",
+                        "converted_value": "2016-04-26T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "24-Apr-16",
+                        "converted_value": "2016-04-24T00:00:00.000Z"
+                    }
+                ],
+                "failed_conversions": []
+            },
+            "created_at": "2024-04-26T14:32:55.928Z",
+            "modified_at": null,
+            "deleted_at": null,
+            "created_by": "2564",
+            "modified_by": "2564",
+            "data_staging_id": "f16f0ead-1ece-42a2-a24d-0e26502bb87f",
+            "metatype_name": "PrecursorReport",
+            "metatype_uuid": "7e22ed30-14f5-4a5d-8f48-523f1fa6dd30"
+        },
+        {
+            "properties": {
+                "name": "Conti",
+                "sql_name": "conti",
+                "recovery_date": "2021-09-21T00:00:00.000Z",
+                "hp_observables": 850,
+                "ics_techniques": 23,
+                "year_of_trigger": "2021",
+                "recovery_duration": 130,
+                "total_observables": 1086,
+                "max_financial_loss": 113306270.07,
+                "min_financial_loss": 113306270.07,
+                "precursor_duration": 57,
+                "initial_access_date": "2021-03-18T00:00:00.000Z",
+                "ransomware_involved": true,
+                "precursor_techniques": 21,
+                "technique_observables": 1185,
+                "total_attack_duration": 187,
+                "triggering_event_date": "2021-05-14T00:00:00.000Z"
+            },
+            "metadata_properties": {},
+            "id": "934835",
+            "container_id": "180",
+            "metatype": {
+                "name": "",
+                "description": "",
+                "id": "53847"
+            },
+            "data_source_id": "2564",
+            "import_data_id": "9059",
+            "type_mapping_transformation_id": "1200",
+            "original_data_id": "Conti",
+            "metadata": {
+                "conversions": [
+                    {
+                        "original_value": 2021,
+                        "converted_value": "2021"
+                    },
+                    {
+                        "original_value": "14-May-21",
+                        "converted_value": "2021-05-14T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "21-Sep-21",
+                        "converted_value": "2021-09-21T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "18-Mar-21",
+                        "converted_value": "2021-03-18T00:00:00.000Z"
+                    }
+                ],
+                "failed_conversions": []
+            },
+            "created_at": "2024-04-26T14:32:55.928Z",
+            "modified_at": null,
+            "deleted_at": null,
+            "created_by": "2564",
+            "modified_by": "2564",
+            "data_staging_id": "b961ec44-da93-41f4-85e9-b3437eeb6de5",
+            "metatype_name": "PrecursorReport",
+            "metatype_uuid": "7e22ed30-14f5-4a5d-8f48-523f1fa6dd30"
+        },
+        {
+            "properties": {
+                "name": "EKANS",
+                "sql_name": "ekans",
+                "recovery_date": "2020-06-10T00:00:00.000Z",
+                "hp_observables": 11,
+                "ics_techniques": 8,
+                "year_of_trigger": "2020",
+                "recovery_duration": 2,
+                "total_observables": 20,
+                "max_financial_loss": 19132553.59,
+                "min_financial_loss": 6643.25,
+                "precursor_duration": 152,
+                "initial_access_date": "2020-01-08T00:00:00.000Z",
+                "ransomware_involved": true,
+                "precursor_techniques": 4,
+                "technique_observables": 40,
+                "total_attack_duration": 154,
+                "triggering_event_date": "2020-06-08T00:00:00.000Z"
+            },
+            "metadata_properties": {},
+            "id": "934837",
+            "container_id": "180",
+            "metatype": {
+                "name": "",
+                "description": "",
+                "id": "53847"
+            },
+            "data_source_id": "2564",
+            "import_data_id": "9059",
+            "type_mapping_transformation_id": "1200",
+            "original_data_id": "EKANS",
+            "metadata": {
+                "conversions": [
+                    {
+                        "original_value": 2020,
+                        "converted_value": "2020"
+                    },
+                    {
+                        "original_value": "8-Jun-20",
+                        "converted_value": "2020-06-08T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "10-Jun-20",
+                        "converted_value": "2020-06-10T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "8-Jan-20",
+                        "converted_value": "2020-01-08T00:00:00.000Z"
+                    }
+                ],
+                "failed_conversions": []
+            },
+            "created_at": "2024-04-26T14:32:55.928Z",
+            "modified_at": null,
+            "deleted_at": null,
+            "created_by": "2564",
+            "modified_by": "2564",
+            "data_staging_id": "469aa5fe-c618-4c7a-8b1c-41285608b04e",
+            "metatype_name": "PrecursorReport",
+            "metatype_uuid": "7e22ed30-14f5-4a5d-8f48-523f1fa6dd30"
+        },
+        {
+            "properties": {
+                "name": "Havex",
+                "sql_name": "havex",
+                "recovery_date": "2014-06-29T00:00:00.000Z",
+                "hp_observables": 42,
+                "ics_techniques": 14,
+                "year_of_trigger": "2014",
+                "recovery_duration": 30,
+                "total_observables": 44,
+                "max_financial_loss": 313749197.08,
+                "min_financial_loss": 7262.71,
+                "precursor_duration": 335,
+                "initial_access_date": "2013-06-29T00:00:00.000Z",
+                "ransomware_involved": false,
+                "precursor_techniques": 11,
+                "technique_observables": 48,
+                "total_attack_duration": 365,
+                "triggering_event_date": "2014-05-30T00:00:00.000Z"
+            },
+            "metadata_properties": {},
+            "id": "934834",
+            "container_id": "180",
+            "metatype": {
+                "name": "",
+                "description": "",
+                "id": "53847"
+            },
+            "data_source_id": "2564",
+            "import_data_id": "9059",
+            "type_mapping_transformation_id": "1200",
+            "original_data_id": "Havex",
+            "metadata": {
+                "conversions": [
+                    {
+                        "original_value": 2014,
+                        "converted_value": "2014"
+                    },
+                    {
+                        "original_value": "30-May-14",
+                        "converted_value": "2014-05-30T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "29-Jun-14",
+                        "converted_value": "2014-06-29T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "29-Jun-13",
+                        "converted_value": "2013-06-29T00:00:00.000Z"
+                    }
+                ],
+                "failed_conversions": []
+            },
+            "created_at": "2024-04-26T14:32:55.928Z",
+            "modified_at": null,
+            "deleted_at": null,
+            "created_by": "2564",
+            "modified_by": "2564",
+            "data_staging_id": "eb3e2f32-2cbc-4c29-8ede-3797221abdb7",
+            "metatype_name": "PrecursorReport",
+            "metatype_uuid": "7e22ed30-14f5-4a5d-8f48-523f1fa6dd30"
+        },
+        {
+            "properties": {
+                "name": "JBS Foods ",
+                "sql_name": "jbs",
+                "recovery_date": "2021-06-09T00:00:00.000Z",
+                "hp_observables": 185,
+                "ics_techniques": 20,
+                "year_of_trigger": "2021",
+                "recovery_duration": 10,
+                "total_observables": 338,
+                "max_financial_loss": 12463689.71,
+                "min_financial_loss": 12463689.71,
+                "precursor_duration": 104,
+                "initial_access_date": "2021-02-15T00:00:00.000Z",
+                "ransomware_involved": true,
+                "precursor_techniques": 16,
+                "technique_observables": 362,
+                "total_attack_duration": 114,
+                "triggering_event_date": "2021-05-30T00:00:00.000Z"
+            },
+            "metadata_properties": {},
+            "id": "934844",
+            "container_id": "180",
+            "metatype": {
+                "name": "",
+                "description": "",
+                "id": "53847"
+            },
+            "data_source_id": "2564",
+            "import_data_id": "9059",
+            "type_mapping_transformation_id": "1200",
+            "original_data_id": "JBS Foods ",
+            "metadata": {
+                "conversions": [
+                    {
+                        "original_value": 2021,
+                        "converted_value": "2021"
+                    },
+                    {
+                        "original_value": "30-May-21",
+                        "converted_value": "2021-05-30T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "9-Jun-21",
+                        "converted_value": "2021-06-09T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "15-Feb-21",
+                        "converted_value": "2021-02-15T00:00:00.000Z"
+                    }
+                ],
+                "failed_conversions": []
+            },
+            "created_at": "2024-04-26T14:32:55.928Z",
+            "modified_at": null,
+            "deleted_at": null,
+            "created_by": "2564",
+            "modified_by": "2564",
+            "data_staging_id": "3ebce1d9-cc95-4fd3-a39a-5073221df8a1",
+            "metatype_name": "PrecursorReport",
+            "metatype_uuid": "7e22ed30-14f5-4a5d-8f48-523f1fa6dd30"
+        },
+        {
+            "properties": {
+                "name": "Kansas Water Utility",
+                "sql_name": "kansas",
+                "recovery_date": "2019-03-28T00:00:00.000Z",
+                "hp_observables": 44,
+                "ics_techniques": 6,
+                "year_of_trigger": "2019",
+                "recovery_duration": 1,
+                "total_observables": 56,
+                "max_financial_loss": 9684294.44,
+                "min_financial_loss": 6725.2,
+                "precursor_duration": 0,
+                "initial_access_date": "2019-03-27T00:00:00.000Z",
+                "ransomware_involved": false,
+                "precursor_techniques": 4,
+                "technique_observables": 58,
+                "total_attack_duration": 1,
+                "triggering_event_date": "2019-03-27T00:00:00.000Z"
+            },
+            "metadata_properties": {},
+            "id": "934830",
+            "container_id": "180",
+            "metatype": {
+                "name": "",
+                "description": "",
+                "id": "53847"
+            },
+            "data_source_id": "2564",
+            "import_data_id": "9059",
+            "type_mapping_transformation_id": "1200",
+            "original_data_id": "Kansas Water Utility",
+            "metadata": {
+                "conversions": [
+                    {
+                        "original_value": 2019,
+                        "converted_value": "2019"
+                    },
+                    {
+                        "original_value": "27-Mar-19",
+                        "converted_value": "2019-03-27T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "28-Mar-19",
+                        "converted_value": "2019-03-28T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "27-Mar-19",
+                        "converted_value": "2019-03-27T00:00:00.000Z"
+                    }
+                ],
+                "failed_conversions": []
+            },
+            "created_at": "2024-04-26T14:32:55.928Z",
+            "modified_at": null,
+            "deleted_at": null,
+            "created_by": "2564",
+            "modified_by": "2564",
+            "data_staging_id": "1bad5289-2def-4cb7-b1eb-bdc2615130fb",
+            "metatype_name": "PrecursorReport",
+            "metatype_uuid": "7e22ed30-14f5-4a5d-8f48-523f1fa6dd30"
+        },
+        {
+            "properties": {
+                "name": "Maroochy Shire",
+                "sql_name": "maroochy",
+                "recovery_date": "2000-10-23T00:00:00.000Z",
+                "hp_observables": 3,
+                "ics_techniques": 24,
+                "year_of_trigger": "2000",
+                "recovery_duration": 258,
+                "total_observables": 16,
+                "max_financial_loss": 704897,
+                "min_financial_loss": 704897,
+                "precursor_duration": 20,
+                "initial_access_date": "2000-01-19T00:00:00.000Z",
+                "ransomware_involved": false,
+                "precursor_techniques": 4,
+                "technique_observables": 94,
+                "total_attack_duration": 278,
+                "triggering_event_date": "2000-02-08T00:00:00.000Z"
+            },
+            "metadata_properties": {},
+            "id": "934832",
+            "container_id": "180",
+            "metatype": {
+                "name": "",
+                "description": "",
+                "id": "53847"
+            },
+            "data_source_id": "2564",
+            "import_data_id": "9059",
+            "type_mapping_transformation_id": "1200",
+            "original_data_id": "Maroochy Shire",
+            "metadata": {
+                "conversions": [
+                    {
+                        "original_value": 2000,
+                        "converted_value": "2000"
+                    },
+                    {
+                        "original_value": "8-Feb-00",
+                        "converted_value": "2000-02-08T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "23-Oct-00",
+                        "converted_value": "2000-10-23T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "19-Jan-00",
+                        "converted_value": "2000-01-19T00:00:00.000Z"
+                    }
+                ],
+                "failed_conversions": []
+            },
+            "created_at": "2024-04-26T14:32:55.928Z",
+            "modified_at": null,
+            "deleted_at": null,
+            "created_by": "2564",
+            "modified_by": "2564",
+            "data_staging_id": "b7671b30-bf01-4827-a7b4-172fecb01dd1",
+            "metatype_name": "PrecursorReport",
+            "metatype_uuid": "7e22ed30-14f5-4a5d-8f48-523f1fa6dd30"
+        },
+        {
+            "properties": {
+                "name": "Mumbai",
+                "sql_name": "mumbai",
+                "recovery_date": "2021-03-01T00:00:00.000Z",
+                "hp_observables": 86,
+                "ics_techniques": 14,
+                "year_of_trigger": "2020",
+                "recovery_duration": 140,
+                "total_observables": 133,
+                "max_financial_loss": 1133062700.67,
+                "min_financial_loss": 2039512.86,
+                "precursor_duration": 155,
+                "initial_access_date": "2020-05-10T00:00:00.000Z",
+                "ransomware_involved": false,
+                "precursor_techniques": 11,
+                "technique_observables": 183,
+                "total_attack_duration": 295,
+                "triggering_event_date": "2020-10-12T00:00:00.000Z"
+            },
+            "metadata_properties": {},
+            "id": "934841",
+            "container_id": "180",
+            "metatype": {
+                "name": "",
+                "description": "",
+                "id": "53847"
+            },
+            "data_source_id": "2564",
+            "import_data_id": "9059",
+            "type_mapping_transformation_id": "1200",
+            "original_data_id": "Mumbai",
+            "metadata": {
+                "conversions": [
+                    {
+                        "original_value": 2020,
+                        "converted_value": "2020"
+                    },
+                    {
+                        "original_value": "12-Oct-20",
+                        "converted_value": "2020-10-12T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "1-Mar-21",
+                        "converted_value": "2021-03-01T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "10-May-20",
+                        "converted_value": "2020-05-10T00:00:00.000Z"
+                    }
+                ],
+                "failed_conversions": []
+            },
+            "created_at": "2024-04-26T14:32:55.928Z",
+            "modified_at": null,
+            "deleted_at": null,
+            "created_by": "2564",
+            "modified_by": "2564",
+            "data_staging_id": "b911a640-f3a2-4346-88f3-3ff6fd39cc81",
+            "metatype_name": "PrecursorReport",
+            "metatype_uuid": "7e22ed30-14f5-4a5d-8f48-523f1fa6dd30"
+        },
+        {
+            "properties": {
+                "name": "New Cooperative (Blackmatter)",
+                "sql_name": "newcooperative",
+                "recovery_date": "2021-11-13T00:00:00.000Z",
+                "hp_observables": 281,
+                "ics_techniques": 20,
+                "year_of_trigger": "2021",
+                "recovery_duration": 56,
+                "total_observables": 160,
+                "max_financial_loss": 511672986.62,
+                "min_financial_loss": 6345.15,
+                "precursor_duration": 15,
+                "initial_access_date": "2021-09-03T00:00:00.000Z",
+                "ransomware_involved": true,
+                "precursor_techniques": 17,
+                "technique_observables": 404,
+                "total_attack_duration": 71,
+                "triggering_event_date": "2021-09-18T00:00:00.000Z"
+            },
+            "metadata_properties": {},
+            "id": "934845",
+            "container_id": "180",
+            "metatype": {
+                "name": "",
+                "description": "",
+                "id": "53847"
+            },
+            "data_source_id": "2564",
+            "import_data_id": "9059",
+            "type_mapping_transformation_id": "1200",
+            "original_data_id": "New Cooperative (Blackmatter)",
+            "metadata": {
+                "conversions": [
+                    {
+                        "original_value": 2021,
+                        "converted_value": "2021"
+                    },
+                    {
+                        "original_value": "18-Sep-21",
+                        "converted_value": "2021-09-18T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "13-Nov-21",
+                        "converted_value": "2021-11-13T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "3-Sep-21",
+                        "converted_value": "2021-09-03T00:00:00.000Z"
+                    }
+                ],
+                "failed_conversions": []
+            },
+            "created_at": "2024-04-26T14:32:55.928Z",
+            "modified_at": null,
+            "deleted_at": null,
+            "created_by": "2564",
+            "modified_by": "2564",
+            "data_staging_id": "e5208c68-b249-4fc7-9045-ab545832bd03",
+            "metatype_name": "PrecursorReport",
+            "metatype_uuid": "7e22ed30-14f5-4a5d-8f48-523f1fa6dd30"
+        },
+        {
+            "properties": {
+                "name": "Night Dragon",
+                "sql_name": "nightdragon",
+                "recovery_date": "2011-02-10T00:00:00.000Z",
+                "hp_observables": 105,
+                "ics_techniques": 24,
+                "year_of_trigger": "2009",
+                "recovery_duration": 466,
+                "total_observables": 170,
+                "max_financial_loss": 5129166891.58,
+                "min_financial_loss": 7643.61,
+                "precursor_duration": 1096,
+                "initial_access_date": "2006-11-01T00:00:00.000Z",
+                "ransomware_involved": false,
+                "precursor_techniques": 23,
+                "technique_observables": 182,
+                "total_attack_duration": 1562,
+                "triggering_event_date": "2009-11-01T00:00:00.000Z"
+            },
+            "metadata_properties": {},
+            "id": "934846",
+            "container_id": "180",
+            "metatype": {
+                "name": "",
+                "description": "",
+                "id": "53847"
+            },
+            "data_source_id": "2564",
+            "import_data_id": "9059",
+            "type_mapping_transformation_id": "1200",
+            "original_data_id": "Night Dragon",
+            "metadata": {
+                "conversions": [
+                    {
+                        "original_value": 2009,
+                        "converted_value": "2009"
+                    },
+                    {
+                        "original_value": "1-Nov-09",
+                        "converted_value": "2009-11-01T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "10-Feb-11",
+                        "converted_value": "2011-02-10T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "1-Nov-06",
+                        "converted_value": "2006-11-01T00:00:00.000Z"
+                    }
+                ],
+                "failed_conversions": []
+            },
+            "created_at": "2024-04-26T14:32:55.928Z",
+            "modified_at": null,
+            "deleted_at": null,
+            "created_by": "2564",
+            "modified_by": "2564",
+            "data_staging_id": "f1b4e1e0-6f4a-42da-9aed-52045786ac92",
+            "metatype_name": "PrecursorReport",
+            "metatype_uuid": "7e22ed30-14f5-4a5d-8f48-523f1fa6dd30"
+        },
+        {
+            "properties": {
+                "name": "Norsk Hydro (Lockergoga)",
+                "sql_name": "norsk",
+                "recovery_date": "2020-03-17T00:00:00.000Z",
+                "hp_observables": 105,
+                "ics_techniques": 13,
+                "year_of_trigger": "2019",
+                "recovery_duration": 365,
+                "total_observables": 123,
+                "max_financial_loss": 84226891.44,
+                "min_financial_loss": 84226891.44,
+                "precursor_duration": 90,
+                "initial_access_date": "2018-12-18T00:00:00.000Z",
+                "ransomware_involved": true,
+                "precursor_techniques": 8,
+                "technique_observables": 157,
+                "total_attack_duration": 455,
+                "triggering_event_date": "2019-03-18T00:00:00.000Z"
+            },
+            "metadata_properties": {},
+            "id": "934826",
+            "container_id": "180",
+            "metatype": {
+                "name": "",
+                "description": "",
+                "id": "53847"
+            },
+            "data_source_id": "2564",
+            "import_data_id": "9059",
+            "type_mapping_transformation_id": "1200",
+            "original_data_id": "Norsk Hydro (Lockergoga)",
+            "metadata": {
+                "conversions": [
+                    {
+                        "original_value": 2019,
+                        "converted_value": "2019"
+                    },
+                    {
+                        "original_value": "18-Mar-19",
+                        "converted_value": "2019-03-18T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "17-Mar-20",
+                        "converted_value": "2020-03-17T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "18-Dec-18",
+                        "converted_value": "2018-12-18T00:00:00.000Z"
+                    }
+                ],
+                "failed_conversions": []
+            },
+            "created_at": "2024-04-26T14:32:55.928Z",
+            "modified_at": null,
+            "deleted_at": null,
+            "created_by": "2564",
+            "modified_by": "2564",
+            "data_staging_id": "92e26df2-1150-4479-91b3-4acc03f17957",
+            "metatype_name": "PrecursorReport",
+            "metatype_uuid": "7e22ed30-14f5-4a5d-8f48-523f1fa6dd30"
+        },
+        {
+            "properties": {
+                "name": "NotPetya",
+                "sql_name": "notpetya",
+                "recovery_date": "2017-07-10T00:00:00.000Z",
+                "hp_observables": 21,
+                "ics_techniques": 31,
+                "year_of_trigger": "2017",
+                "recovery_duration": 13,
+                "total_observables": 102,
+                "max_financial_loss": 469707694.19,
+                "min_financial_loss": 469707694.19,
+                "precursor_duration": 5,
+                "initial_access_date": "2017-06-22T00:00:00.000Z",
+                "ransomware_involved": true,
+                "precursor_techniques": 23,
+                "technique_observables": 112,
+                "total_attack_duration": 18,
+                "triggering_event_date": "2017-06-27T00:00:00.000Z"
+            },
+            "metadata_properties": {},
+            "id": "934825",
+            "container_id": "180",
+            "metatype": {
+                "name": "",
+                "description": "",
+                "id": "53847"
+            },
+            "data_source_id": "2564",
+            "import_data_id": "9059",
+            "type_mapping_transformation_id": "1200",
+            "original_data_id": "NotPetya",
+            "metadata": {
+                "conversions": [
+                    {
+                        "original_value": 2017,
+                        "converted_value": "2017"
+                    },
+                    {
+                        "original_value": "27-Jun-17",
+                        "converted_value": "2017-06-27T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "10-Jul-17",
+                        "converted_value": "2017-07-10T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "22-Jun-17",
+                        "converted_value": "2017-06-22T00:00:00.000Z"
+                    }
+                ],
+                "failed_conversions": []
+            },
+            "created_at": "2024-04-26T14:32:55.928Z",
+            "modified_at": null,
+            "deleted_at": null,
+            "created_by": "2564",
+            "modified_by": "2564",
+            "data_staging_id": "41757f65-7228-44cb-9c2b-4eb839c58289",
+            "metatype_name": "PrecursorReport",
+            "metatype_uuid": "7e22ed30-14f5-4a5d-8f48-523f1fa6dd30"
+        },
+        {
+            "properties": {
+                "name": "Oldsmar",
+                "sql_name": "oldsmar",
+                "recovery_date": "2021-02-05T00:00:00.000Z",
+                "hp_observables": 20,
+                "ics_techniques": 6,
+                "year_of_trigger": "2021",
+                "recovery_duration": 0,
+                "total_observables": 21,
+                "max_financial_loss": 31725.76,
+                "min_financial_loss": 6345.15,
+                "precursor_duration": 0,
+                "initial_access_date": "2021-02-05T00:00:00.000Z",
+                "ransomware_involved": false,
+                "precursor_techniques": 4,
+                "technique_observables": 23,
+                "total_attack_duration": 0,
+                "triggering_event_date": "2021-02-05T00:00:00.000Z"
+            },
+            "metadata_properties": {},
+            "id": "934836",
+            "container_id": "180",
+            "metatype": {
+                "name": "",
+                "description": "",
+                "id": "53847"
+            },
+            "data_source_id": "2564",
+            "import_data_id": "9059",
+            "type_mapping_transformation_id": "1200",
+            "original_data_id": "Oldsmar",
+            "metadata": {
+                "conversions": [
+                    {
+                        "original_value": 2021,
+                        "converted_value": "2021"
+                    },
+                    {
+                        "original_value": "5-Feb-21",
+                        "converted_value": "2021-02-05T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "5-Feb-21",
+                        "converted_value": "2021-02-05T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "5-Feb-21",
+                        "converted_value": "2021-02-05T00:00:00.000Z"
+                    }
+                ],
+                "failed_conversions": []
+            },
+            "created_at": "2024-04-26T14:32:55.928Z",
+            "modified_at": null,
+            "deleted_at": null,
+            "created_by": "2564",
+            "modified_by": "2564",
+            "data_staging_id": "8f32c357-46d2-4579-91b2-b3d37a724d43",
+            "metatype_name": "PrecursorReport",
+            "metatype_uuid": "7e22ed30-14f5-4a5d-8f48-523f1fa6dd30"
+        },
+        {
+            "properties": {
+                "name": "PEMEX",
+                "sql_name": "pemex",
+
+                "recovery_date": "2019-11-11T00:00:00.000Z",
+                "hp_observables": 34,
+                "ics_techniques": 18,
+                "year_of_trigger": "2019",
+                "recovery_duration": 1,
+                "total_observables": 163,
+                "max_financial_loss": 9684294.44,
+                "min_financial_loss": 6725.2,
+                "precursor_duration": 61,
+                "initial_access_date": "2019-09-10T00:00:00.000Z",
+                "ransomware_involved": true,
+                "precursor_techniques": 15,
+                "technique_observables": 190,
+                "total_attack_duration": 62,
+                "triggering_event_date": "2019-11-10T00:00:00.000Z"
+            },
+            "metadata_properties": {},
+            "id": "934827",
+            "container_id": "180",
+            "metatype": {
+                "name": "",
+                "description": "",
+                "id": "53847"
+            },
+            "data_source_id": "2564",
+            "import_data_id": "9059",
+            "type_mapping_transformation_id": "1200",
+            "original_data_id": "PEMEX",
+            "metadata": {
+                "conversions": [
+                    {
+                        "original_value": 2019,
+                        "converted_value": "2019"
+                    },
+                    {
+                        "original_value": "10-Nov-19",
+                        "converted_value": "2019-11-10T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "11-Nov-19",
+                        "converted_value": "2019-11-11T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "10-Sep-19",
+                        "converted_value": "2019-09-10T00:00:00.000Z"
+                    }
+                ],
+                "failed_conversions": []
+            },
+            "created_at": "2024-04-26T14:32:55.928Z",
+            "modified_at": null,
+            "deleted_at": null,
+            "created_by": "2564",
+            "modified_by": "2564",
+            "data_staging_id": "021d76c1-4c26-4344-a015-dc5908bc37cd",
+            "metatype_name": "PrecursorReport",
+            "metatype_uuid": "7e22ed30-14f5-4a5d-8f48-523f1fa6dd30"
+        },
+        {
+            "properties": {
+                "name": "Shamoon",
+                "sql_name": "shamoon",
+
+                "recovery_date": "2017-01-25T00:00:00.000Z",
+                "hp_observables": 221,
+                "ics_techniques": 22,
+                "year_of_trigger": "2017",
+                "recovery_duration": 2,
+                "total_observables": 296,
+                "max_financial_loss": 20201188.51,
+                "min_financial_loss": 7014.3,
+                "precursor_duration": 177,
+                "initial_access_date": "2016-07-30T00:00:00.000Z",
+                "ransomware_involved": false,
+                "precursor_techniques": 19,
+                "technique_observables": 370,
+                "total_attack_duration": 179,
+                "triggering_event_date": "2017-01-23T00:00:00.000Z"
+            },
+            "metadata_properties": {},
+            "id": "934833",
+            "container_id": "180",
+            "metatype": {
+                "name": "",
+                "description": "",
+                "id": "53847"
+            },
+            "data_source_id": "2564",
+            "import_data_id": "9059",
+            "type_mapping_transformation_id": "1200",
+            "original_data_id": "Shamoon",
+            "metadata": {
+                "conversions": [
+                    {
+                        "original_value": 2017,
+                        "converted_value": "2017"
+                    },
+                    {
+                        "original_value": "23-Jan-17",
+                        "converted_value": "2017-01-23T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "25-Jan-17",
+                        "converted_value": "2017-01-25T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "30-Jul-16",
+                        "converted_value": "2016-07-30T00:00:00.000Z"
+                    }
+                ],
+                "failed_conversions": []
+            },
+            "created_at": "2024-04-26T14:32:55.928Z",
+            "modified_at": null,
+            "deleted_at": null,
+            "created_by": "2564",
+            "modified_by": "2564",
+            "data_staging_id": "c9a80688-aa97-42c5-895b-9cbd7f465a30",
+            "metatype_name": "PrecursorReport",
+            "metatype_uuid": "7e22ed30-14f5-4a5d-8f48-523f1fa6dd30"
+        },
+        {
+            "properties": {
+                "name": "SolarWinds",
+                "sql_name": "solarwinds",
+
+                "recovery_date": "2021-01-20T00:00:00.000Z",
+                "hp_observables": 233,
+                "ics_techniques": 19,
+                "year_of_trigger": "2020",
+                "recovery_duration": 38,
+                "total_observables": 234,
+                "max_financial_loss": 347206669.49,
+                "min_financial_loss": 6345.15,
+                "precursor_duration": 466,
+                "initial_access_date": "2019-09-04T00:00:00.000Z",
+                "ransomware_involved": false,
+                "precursor_techniques": 16,
+                "technique_observables": 242,
+                "total_attack_duration": 504,
+                "triggering_event_date": "2020-12-13T00:00:00.000Z"
+            },
+            "metadata_properties": {},
+            "id": "934847",
+            "container_id": "180",
+            "metatype": {
+                "name": "",
+                "description": "",
+                "id": "53847"
+            },
+            "data_source_id": "2564",
+            "import_data_id": "9059",
+            "type_mapping_transformation_id": "1200",
+            "original_data_id": "SolarWinds",
+            "metadata": {
+                "conversions": [
+                    {
+                        "original_value": 2020,
+                        "converted_value": "2020"
+                    },
+                    {
+                        "original_value": "13-Dec-20",
+                        "converted_value": "2020-12-13T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "20-Jan-21",
+                        "converted_value": "2021-01-20T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "4-Sep-19",
+                        "converted_value": "2019-09-04T00:00:00.000Z"
+                    }
+                ],
+                "failed_conversions": []
+            },
+            "created_at": "2024-04-26T14:32:55.928Z",
+            "modified_at": null,
+            "deleted_at": null,
+            "created_by": "2564",
+            "modified_by": "2564",
+            "data_staging_id": "8d2a380b-78a7-4729-b324-3d1db33660e5",
+            "metatype_name": "PrecursorReport",
+            "metatype_uuid": "7e22ed30-14f5-4a5d-8f48-523f1fa6dd30"
+        },
+        {
+            "properties": {
+                "name": "SQL Slammer",
+                "sql_name": "sqlslammer",
+
+                "recovery_date": "2003-01-25T00:00:00.000Z",
+                "hp_observables": 428,
+                "ics_techniques": 10,
+                "year_of_trigger": "2003",
+                "recovery_duration": 0,
+                "total_observables": 596,
+                "max_financial_loss": 46721.35,
+                "min_financial_loss": 9344.27,
+                "precursor_duration": 331,
+                "initial_access_date": "2002-02-28T00:00:00.000Z",
+                "ransomware_involved": false,
+                "precursor_techniques": 8,
+                "technique_observables": 640,
+                "total_attack_duration": 331,
+                "triggering_event_date": "2003-01-25T00:00:00.000Z"
+            },
+            "metadata_properties": {},
+            "id": "934842",
+            "container_id": "180",
+            "metatype": {
+                "name": "",
+                "description": "",
+                "id": "53847"
+            },
+            "data_source_id": "2564",
+            "import_data_id": "9059",
+            "type_mapping_transformation_id": "1200",
+            "original_data_id": "SQL Slammer",
+            "metadata": {
+                "conversions": [
+                    {
+                        "original_value": 2003,
+                        "converted_value": "2003"
+                    },
+                    {
+                        "original_value": "25-Jan-03",
+                        "converted_value": "2003-01-25T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "25-Jan-03",
+                        "converted_value": "2003-01-25T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "28-Feb-02",
+                        "converted_value": "2002-02-28T00:00:00.000Z"
+                    }
+                ],
+                "failed_conversions": []
+            },
+            "created_at": "2024-04-26T14:32:55.928Z",
+            "modified_at": null,
+            "deleted_at": null,
+            "created_by": "2564",
+            "modified_by": "2564",
+            "data_staging_id": "63bd72c1-950a-4fc8-bd30-f2f80f4e755b",
+            "metatype_name": "PrecursorReport",
+            "metatype_uuid": "7e22ed30-14f5-4a5d-8f48-523f1fa6dd30"
+        },
+        {
+            "properties": {
+                "name": "Thyssenkrupp Steel Mill",
+                "sql_name": "german",
+                "recovery_date": "2014-10-20T00:00:00.000Z",
+                "hp_observables": 316,
+                "ics_techniques": 20,
+                "year_of_trigger": "2014",
+                "recovery_duration": 157,
+                "total_observables": 369,
+                "max_financial_loss": 12969130.17,
+                "min_financial_loss": 12969130.17,
+                "precursor_duration": 121,
+                "initial_access_date": "2014-01-15T00:00:00.000Z",
+                "ransomware_involved": false,
+                "precursor_techniques": 15,
+                "technique_observables": 454,
+                "total_attack_duration": 278,
+                "triggering_event_date": "2014-05-16T00:00:00.000Z"
+            },
+            "metadata_properties": {},
+            "id": "934831",
+            "container_id": "180",
+            "metatype": {
+                "name": "",
+                "description": "",
+                "id": "53847"
+            },
+            "data_source_id": "2564",
+            "import_data_id": "9059",
+            "type_mapping_transformation_id": "1200",
+            "original_data_id": "Thyssenkrupp Steel Mill",
+            "metadata": {
+                "conversions": [
+                    {
+                        "original_value": 2014,
+                        "converted_value": "2014"
+                    },
+                    {
+                        "original_value": "16-May-14",
+                        "converted_value": "2014-05-16T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "20-Oct-14",
+                        "converted_value": "2014-10-20T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "15-Jan-14",
+                        "converted_value": "2014-01-15T00:00:00.000Z"
+                    }
+                ],
+                "failed_conversions": []
+            },
+            "created_at": "2024-04-26T14:32:55.928Z",
+            "modified_at": null,
+            "deleted_at": null,
+            "created_by": "2564",
+            "modified_by": "2564",
+            "data_staging_id": "31daf9ec-0349-4f9d-8244-f50149112649",
+            "metatype_name": "PrecursorReport",
+            "metatype_uuid": "7e22ed30-14f5-4a5d-8f48-523f1fa6dd30"
+        },
+        {
+            "properties": {
+                "name": "Triton",
+                "sql_name": "trisis",
+
+                "recovery_date": "2017-08-14T00:00:00.000Z",
+                "hp_observables": 14,
+                "ics_techniques": 20,
+                "year_of_trigger": "2017",
+                "recovery_duration": 10,
+                "total_observables": 41,
+                "max_financial_loss": 1174895.51,
+                "min_financial_loss": 1174895.51,
+                "precursor_duration": 95,
+                "initial_access_date": "2017-05-01T00:00:00.000Z",
+                "ransomware_involved": false,
+                "precursor_techniques": 17,
+                "technique_observables": 46,
+                "total_attack_duration": 105,
+                "triggering_event_date": "2017-08-04T00:00:00.000Z"
+            },
+            "metadata_properties": {},
+            "id": "934828",
+            "container_id": "180",
+            "metatype": {
+                "name": "",
+                "description": "",
+                "id": "53847"
+            },
+            "data_source_id": "2564",
+            "import_data_id": "9059",
+            "type_mapping_transformation_id": "1200",
+            "original_data_id": "Triton",
+            "metadata": {
+                "conversions": [
+                    {
+                        "original_value": 2017,
+                        "converted_value": "2017"
+                    },
+                    {
+                        "original_value": "4-Aug-17",
+                        "converted_value": "2017-08-04T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "14-Aug-17",
+                        "converted_value": "2017-08-14T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "1-May-17",
+                        "converted_value": "2017-05-01T00:00:00.000Z"
+                    }
+                ],
+                "failed_conversions": []
+            },
+            "created_at": "2024-04-26T14:32:55.928Z",
+            "modified_at": null,
+            "deleted_at": null,
+            "created_by": "2564",
+            "modified_by": "2564",
+            "data_staging_id": "79da15e4-a329-4954-9f17-d62f93414a3c",
+            "metatype_name": "PrecursorReport",
+            "metatype_uuid": "7e22ed30-14f5-4a5d-8f48-523f1fa6dd30"
+        },
+        {
+            "properties": {
+                "name": "Ukraine 2015 (BlackEnergy)",
+                "sql_name": "ukraine2015",
+
+                "recovery_date": "2016-02-23T00:00:00.000Z",
+                "hp_observables": 34,
+                "ics_techniques": 21,
+                "year_of_trigger": "2015",
+                "recovery_duration": 62,
+                "total_observables": 48,
+                "max_financial_loss": 639618844.45,
+                "min_financial_loss": 7163.73,
+                "precursor_duration": 579,
+                "initial_access_date": "2014-05-23T00:00:00.000Z",
+                "ransomware_involved": false,
+                "precursor_techniques": 10,
+                "technique_observables": 86,
+                "total_attack_duration": 641,
+                "triggering_event_date": "2015-12-23T00:00:00.000Z"
+            },
+            "metadata_properties": {},
+            "id": "934840",
+            "container_id": "180",
+            "metatype": {
+                "name": "",
+                "description": "",
+                "id": "53847"
+            },
+            "data_source_id": "2564",
+            "import_data_id": "9059",
+            "type_mapping_transformation_id": "1200",
+            "original_data_id": "Ukraine 2015 (BlackEnergy)",
+            "metadata": {
+                "conversions": [
+                    {
+                        "original_value": 2015,
+                        "converted_value": "2015"
+                    },
+                    {
+                        "original_value": "23-Dec-15",
+                        "converted_value": "2015-12-23T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "23-Feb-16",
+                        "converted_value": "2016-02-23T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "23-May-14",
+                        "converted_value": "2014-05-23T00:00:00.000Z"
+                    }
+                ],
+                "failed_conversions": []
+            },
+            "created_at": "2024-04-26T14:32:55.928Z",
+            "modified_at": null,
+            "deleted_at": null,
+            "created_by": "2564",
+            "modified_by": "2564",
+            "data_staging_id": "7092261f-d9b1-45c1-bcfb-bd4cf2f28d24",
+            "metatype_name": "PrecursorReport",
+            "metatype_uuid": "7e22ed30-14f5-4a5d-8f48-523f1fa6dd30"
+        },
+        {
+            "properties": {
+                "name": "Ukraine 2016 (Industroyer 1.0)",
+                "sql_name": "industroyer",
+
+                "recovery_date": "2016-12-18T00:00:00.000Z",
+                "hp_observables": 418,
+                "ics_techniques": 33,
+                "year_of_trigger": "2016",
+                "recovery_duration": 1,
+                "total_observables": 644,
+                "max_financial_loss": 10315772.72,
+                "min_financial_loss": 7163.73,
+                "precursor_duration": 318,
+                "initial_access_date": "2016-02-03T00:00:00.000Z",
+                "ransomware_involved": false,
+                "precursor_techniques": 31,
+                "technique_observables": 743,
+                "total_attack_duration": 319,
+                "triggering_event_date": "2016-12-17T00:00:00.000Z"
+            },
+            "metadata_properties": {},
+            "id": "934848",
+            "container_id": "180",
+            "metatype": {
+                "name": "",
+                "description": "",
+                "id": "53847"
+            },
+            "data_source_id": "2564",
+            "import_data_id": "9059",
+            "type_mapping_transformation_id": "1200",
+            "original_data_id": "Ukraine 2016 (Industroyer 1.0)",
+            "metadata": {
+                "conversions": [
+                    {
+                        "original_value": 2016,
+                        "converted_value": "2016"
+                    },
+                    {
+                        "original_value": "17-Dec-16",
+                        "converted_value": "2016-12-17T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "18-Dec-16",
+                        "converted_value": "2016-12-18T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "3-Feb-16",
+                        "converted_value": "2016-02-03T00:00:00.000Z"
+                    }
+                ],
+                "failed_conversions": []
+            },
+            "created_at": "2024-04-26T14:32:55.928Z",
+            "modified_at": null,
+            "deleted_at": null,
+            "created_by": "2564",
+            "modified_by": "2564",
+            "data_staging_id": "48a6eb98-aef5-4c6e-b411-9189a9fbdefa",
+            "metatype_name": "PrecursorReport",
+            "metatype_uuid": "7e22ed30-14f5-4a5d-8f48-523f1fa6dd30"
+        },
+        {
+            "properties": {
+                "name": "Ukraine 2022 (Industroyer 2.0)",
+                "sql_name": "industroyer2",
+
+                "recovery_date": "2022-04-08T00:00:00.000Z",
+                "hp_observables": 122,
+                "ics_techniques": 31,
+                "year_of_trigger": "2022",
+                "recovery_duration": 0,
+                "total_observables": 224,
+                "max_financial_loss": 8459987.58,
+                "min_financial_loss": 5874.99,
+                "precursor_duration": 50,
+                "initial_access_date": "2022-02-17T00:00:00.000Z",
+                "ransomware_involved": false,
+                "precursor_techniques": 23,
+                "technique_observables": 297,
+                "total_attack_duration": 50,
+                "triggering_event_date": "2022-04-08T00:00:00.000Z"
+            },
+            "metadata_properties": {},
+            "id": "934823",
+            "container_id": "180",
+            "metatype": {
+                "name": "",
+                "description": "",
+                "id": "53847"
+            },
+            "data_source_id": "2564",
+            "import_data_id": "9059",
+            "type_mapping_transformation_id": "1200",
+            "original_data_id": "Ukraine 2022 (Industroyer 2.0)",
+            "metadata": {
+                "conversions": [
+                    {
+                        "original_value": 2022,
+                        "converted_value": "2022"
+                    },
+                    {
+                        "original_value": "8-Apr-22",
+                        "converted_value": "2022-04-08T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "8-Apr-22",
+                        "converted_value": "2022-04-08T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "17-Feb-22",
+                        "converted_value": "2022-02-17T00:00:00.000Z"
+                    }
+                ],
+                "failed_conversions": []
+            },
+            "created_at": "2024-04-26T14:32:55.928Z",
+            "modified_at": null,
+            "deleted_at": null,
+            "created_by": "2564",
+            "modified_by": "2564",
+            "data_staging_id": "2ba7156e-0275-4157-815e-40d1db16c350",
+            "metatype_name": "PrecursorReport",
+            "metatype_uuid": "7e22ed30-14f5-4a5d-8f48-523f1fa6dd30"
+        },
+        {
+            "properties": {
+                "name": "Universal Health Services (Ryuk)",
+                "sql_name": "ryuk",
+
+                "recovery_date": "2020-10-29T00:00:00.000Z",
+                "hp_observables": 82,
+                "ics_techniques": 19,
+                "year_of_trigger": "2020",
+                "recovery_duration": 32,
+                "total_observables": 106,
+                "max_financial_loss": 79481714.46,
+                "min_financial_loss": 79481714.46,
+                "precursor_duration": 0,
+                "initial_access_date": "2020-09-27T00:00:00.000Z",
+                "ransomware_involved": true,
+                "precursor_techniques": 14,
+                "technique_observables": 185,
+                "total_attack_duration": 32,
+                "triggering_event_date": "2020-09-27T00:00:00.000Z"
+            },
+            "metadata_properties": {},
+            "id": "934829",
+            "container_id": "180",
+            "metatype": {
+                "name": "",
+                "description": "",
+                "id": "53847"
+            },
+            "data_source_id": "2564",
+            "import_data_id": "9059",
+            "type_mapping_transformation_id": "1200",
+            "original_data_id": "Universal Health Services (Ryuk)",
+            "metadata": {
+                "conversions": [
+                    {
+                        "original_value": 2020,
+                        "converted_value": "2020"
+                    },
+                    {
+                        "original_value": "27-Sep-20",
+                        "converted_value": "2020-09-27T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "29-Oct-20",
+                        "converted_value": "2020-10-29T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "27-Sep-20",
+                        "converted_value": "2020-09-27T00:00:00.000Z"
+                    }
+                ],
+                "failed_conversions": []
+            },
+            "created_at": "2024-04-26T14:32:55.928Z",
+            "modified_at": null,
+            "deleted_at": null,
+            "created_by": "2564",
+            "modified_by": "2564",
+            "data_staging_id": "8156cad3-b39c-4f6d-8c50-6220f3be7b83",
+            "metatype_name": "PrecursorReport",
+            "metatype_uuid": "7e22ed30-14f5-4a5d-8f48-523f1fa6dd30"
+        },
+        {
+            "properties": {
+                "name": "WannaCry",
+                "sql_name": "wannacry",
+
+                "recovery_date": "2017-05-15T00:00:00.000Z",
+                "hp_observables": 53,
+                "ics_techniques": 14,
+                "year_of_trigger": "2017",
+                "recovery_duration": 3,
+                "total_observables": 78,
+                "max_financial_loss": 5010215404.7,
+                "min_financial_loss": 5010215404.7,
+                "precursor_duration": 28,
+                "initial_access_date": "2017-04-14T00:00:00.000Z",
+                "ransomware_involved": true,
+                "precursor_techniques": 10,
+                "technique_observables": 87,
+                "total_attack_duration": 31,
+                "triggering_event_date": "2017-05-12T00:00:00.000Z"
+            },
+            "metadata_properties": {},
+            "id": "934824",
+            "container_id": "180",
+            "metatype": {
+                "name": "",
+                "description": "",
+                "id": "53847"
+            },
+            "data_source_id": "2564",
+            "import_data_id": "9059",
+            "type_mapping_transformation_id": "1200",
+            "original_data_id": "WannaCry",
+            "metadata": {
+                "conversions": [
+                    {
+                        "original_value": 2017,
+                        "converted_value": "2017"
+                    },
+                    {
+                        "original_value": "12-May-17",
+                        "converted_value": "2017-05-12T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "15-May-17",
+                        "converted_value": "2017-05-15T00:00:00.000Z"
+                    },
+                    {
+                        "original_value": "14-Apr-17",
+                        "converted_value": "2017-04-14T00:00:00.000Z"
+                    }
+                ],
+                "failed_conversions": []
+            },
+            "created_at": "2024-04-26T14:32:55.928Z",
+            "modified_at": null,
+            "deleted_at": null,
+            "created_by": "2564",
+            "modified_by": "2564",
+            "data_staging_id": "4abd3e59-c737-4d6a-a34d-d65719100423",
+            "metatype_name": "PrecursorReport",
+            "metatype_uuid": "7e22ed30-14f5-4a5d-8f48-523f1fa6dd30"
+        }
+    ],
+    "isError": false
+}

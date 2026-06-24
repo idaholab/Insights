@@ -1,0 +1,21 @@
+services:
+  insights:
+    image: insights
+    build:
+      context: ./ui
+      dockerfile: ./Dockerfile-dev
+    ports:
+      - 8080:80
+  adapter:
+    build:
+      context: ./api
+      dockerfile: ./Dockerfile-dev
+    container_name: insights-api
+    expose:
+      - '8181'
+    ports:
+      - '8181:8181'
+    env_file:
+      - 'api/.env'
+    command: "node build/app.js"
+    

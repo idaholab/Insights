@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1396.55 405.97">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        stroke: #199122;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
+
+      .cls-4 {
+        stroke: red;
+      }
+
+      .cls-5 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-6 {
+        font-size: 25.7px;
+      }
+
+      .cls-6, .cls-7 {
+        fill: #fff;
+        font-family: Montserrat-SemiBold, Montserrat;
+        font-weight: 600;
+      }
+
+      .cls-8 {
+        fill: #0093ff;
+      }
+
+      .cls-9 {
+        fill: red;
+      }
+
+      .cls-10 {
+        fill: #7f7f7f;
+      }
+
+      .cls-11 {
+        fill: #199122;
+      }
+
+      .cls-12 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-13 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-7 {
+        font-size: 18px;
+      }
+
+      .cls-14 {
+        letter-spacing: 0em;
+      }
+
+      .cls-15 {
+        letter-spacing: 0em;
+      }
+
+      .cls-16 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-17 {
+        letter-spacing: 0em;
+      }
+
+      .cls-18 {
+        letter-spacing: 0em;
+      }
+
+      .cls-19 {
+        letter-spacing: .01em;
+      }
+
+      .cls-20 {
+        letter-spacing: 0em;
+      }
+
+      .cls-21 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-22 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-23 {
+        letter-spacing: 0em;
+      }
+
+      .cls-24 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-25 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-26 {
+        letter-spacing: 0em;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="329" y1="297" x2="1222" y2="297" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f8b260"/>
+      <stop offset=".32" stop-color="#f8b260"/>
+      <stop offset=".74" stop-color="#f05252"/>
+      <stop offset=".98" stop-color="#199122"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="926.92" y1="57" x2="1158.55" y2="57" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="red"/>
+      <stop offset=".98" stop-color="#199122"/>
+    </linearGradient>
+  </defs>
+  <rect class="cls-8" y="218" width="405" height="158" rx="16.17" ry="16.17"/>
+  <rect class="cls-2" x="329" y="218" width="893" height="158" rx="16.17" ry="16.17"/>
+  <rect class="cls-9" x="759" y="213" width="168" height="168" rx="23.72" ry="23.72" transform="translate(36.9 683.08) rotate(-45)"/>
+  <rect class="cls-11" x="1134.92" y="240" width="261.63" height="114" rx="57" ry="57"/>
+  <text class="cls-6" transform="translate(1159.73 304.59)"><tspan class="cls-5" x="0" y="0">C</tspan><tspan x="18.17" y="0">omp</tspan><tspan class="cls-1" x="79.43" y="0">r</tspan><tspan x="89.97" y="0">e</tspan><tspan class="cls-26" x="105.95" y="0">h</tspan><tspan x="123.58" y="0">ension</tspan></text>
+  <g>
+    <rect class="cls-16" x="926.92" y="0" width="231.63" height="114" rx="17.99" ry="17.99"/>
+    <text class="cls-6" transform="translate(969.88 64.59)"><tspan class="cls-13" x="0" y="0">P</tspan><tspan x="18.35" y="0">e</tspan><tspan class="cls-23" x="34.33" y="0">r</tspan><tspan class="cls-14" x="44.87" y="0">c</tspan><tspan x="59.59" y="0">eption</tspan></text>
+  </g>
+  <text class="cls-6" transform="translate(795.16 304.59)"><tspan class="cls-24" x="0" y="0">T</tspan><tspan class="cls-20" x="15.14" y="0">r</tspan><tspan class="cls-18" x="25.8" y="0">igger</tspan></text>
+  <text class="cls-6" transform="translate(41.16 304.59)"><tspan x="0" y="0">Obse</tspan><tspan class="cls-19" x="68.49" y="0">r</tspan><tspan class="cls-25" x="79.66" y="0">v</tspan><tspan x="94.08" y="0">able </tspan><tspan class="cls-15" x="157.81" y="0">E</tspan><tspan class="cls-21" x="174.85" y="0">v</tspan><tspan x="189.32" y="0">ents</tspan></text>
+  <text class="cls-6" transform="translate(411.16 304.59)"><tspan x="0" y="0">A</tspan><tspan class="cls-26" x="19.25" y="0">n</tspan><tspan x="36.88" y="0">omalous </tspan><tspan class="cls-17" x="157.94" y="0">E</tspan><tspan class="cls-22" x="174.98" y="0">v</tspan><tspan x="189.45" y="0">ents</tspan></text>
+  <g>
+    <path class="cls-4" d="m843,196.15v-104.78c0-18.98,15.39-34.37,34.37-34.37h25.99"/>
+    <polygon class="cls-9" points="927.5 57 893.47 70.9 901.55 57 893.47 43.1 927.5 57"/>
+  </g>
+  <g>
+    <path class="cls-3" d="m1155.68,57h31.78c18.98,0,34.37,15.39,34.37,34.37v113.42"/>
+    <polygon class="cls-11" points="1221.82 228.94 1207.92 194.91 1221.82 202.99 1235.73 194.91 1221.82 228.94"/>
+  </g>
+  <rect class="cls-10" x="812.71" y="114.04" width="60" height="39.92"/>
+  <text class="cls-7" transform="translate(827.15 139.32)"><tspan class="cls-12" x="0" y="0">Y</tspan><tspan x="10.82" y="0">es</tspan></text>
+  <rect class="cls-10" x="1191.71" y="114.04" width="60" height="39.92"/>
+  <text class="cls-7" transform="translate(1206.15 139.32)"><tspan class="cls-12" x="0" y="0">Y</tspan><tspan x="10.82" y="0">es</tspan></text>
+</svg>

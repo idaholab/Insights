@@ -1,0 +1,15 @@
+services:
+  adapter:
+    build:
+      context: .
+      dockerfile: Dockerfile-dev
+      args: 
+        - ENVIRONMENT=$ENVIRONMENT
+    container_name: ${ADAPTER_NAME}
+    expose:
+      - '${ADAPTER_PORT}'
+    ports:
+      - '${ADAPTER_PORT}:${ADAPTER_PORT}'
+    env_file:
+      - '.env'
+    command: "node app.js"

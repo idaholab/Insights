@@ -1,0 +1,4313 @@
+[
+    {
+        "CaseStudyObservableTimingId": 519,
+        "CaseStudyID": 22,
+        "UTC_Time": "2000-01-19T07:00:00.000Z",
+        "D_Notation": "D-20",
+        "MITRE_TechniqueID": 55,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 0
+    },
+    {
+        "CaseStudyObservableTimingId": 520,
+        "CaseStudyID": 22,
+        "UTC_Time": "2000-01-19T07:00:00.000Z",
+        "D_Notation": "D-20",
+        "MITRE_TechniqueID": 20,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 1
+    },
+    {
+        "CaseStudyObservableTimingId": 521,
+        "CaseStudyID": 22,
+        "UTC_Time": "2000-01-19T07:00:00.000Z",
+        "D_Notation": "D-20",
+        "MITRE_TechniqueID": 41,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 2
+    },
+    {
+        "CaseStudyObservableTimingId": 522,
+        "CaseStudyID": 22,
+        "UTC_Time": "2000-01-19T07:00:00.000Z",
+        "D_Notation": "D-20",
+        "MITRE_TechniqueID": 51,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 3
+    },
+    {
+        "CaseStudyObservableTimingId": 523,
+        "CaseStudyID": 22,
+        "UTC_Time": "2000-01-19T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 27,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 4
+    },
+    {
+        "CaseStudyObservableTimingId": 524,
+        "CaseStudyID": 22,
+        "UTC_Time": "2000-01-19T07:00:00.000Z",
+        "D_Notation": "D+37",
+        "MITRE_TechniqueID": 47,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 9
+    },
+    {
+        "CaseStudyObservableTimingId": 525,
+        "CaseStudyID": 22,
+        "UTC_Time": "2000-01-19T07:00:00.000Z",
+        "D_Notation": "D+37",
+        "MITRE_TechniqueID": 14,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 10
+    },
+    {
+        "CaseStudyObservableTimingId": 526,
+        "CaseStudyID": 22,
+        "UTC_Time": "2000-01-19T07:00:00.000Z",
+        "D_Notation": "D+37",
+        "MITRE_TechniqueID": 31,
+        "MITRE_TacticId": 7,
+        "TimingOrder": 11
+    },
+    {
+        "CaseStudyObservableTimingId": 527,
+        "CaseStudyID": 22,
+        "UTC_Time": "2000-01-19T07:00:00.000Z",
+        "D_Notation": "D+37",
+        "MITRE_TechniqueID": 13,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 12
+    },
+    {
+        "CaseStudyObservableTimingId": 528,
+        "CaseStudyID": 22,
+        "UTC_Time": "2000-01-19T07:00:00.000Z",
+        "D_Notation": "D+37",
+        "MITRE_TechniqueID": 15,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 13
+    },
+    {
+        "CaseStudyObservableTimingId": 529,
+        "CaseStudyID": 22,
+        "UTC_Time": "2000-01-19T07:00:00.000Z",
+        "D_Notation": "D+37",
+        "MITRE_TechniqueID": 25,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 14
+    },
+    {
+        "CaseStudyObservableTimingId": 530,
+        "CaseStudyID": 22,
+        "UTC_Time": "2000-01-19T07:00:00.000Z",
+        "D_Notation": "D+37",
+        "MITRE_TechniqueID": 46,
+        "MITRE_TacticId": 7,
+        "TimingOrder": 15
+    },
+    {
+        "CaseStudyObservableTimingId": 531,
+        "CaseStudyID": 22,
+        "UTC_Time": "2000-01-19T07:00:00.000Z",
+        "D_Notation": "D+47",
+        "MITRE_TechniqueID": 67,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 16
+    },
+    {
+        "CaseStudyObservableTimingId": 532,
+        "CaseStudyID": 22,
+        "UTC_Time": "2000-01-19T07:00:00.000Z",
+        "D_Notation": "D+75",
+        "MITRE_TechniqueID": 33,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 21
+    },
+    {
+        "CaseStudyObservableTimingId": 533,
+        "CaseStudyID": 22,
+        "UTC_Time": "2000-01-19T07:00:00.000Z",
+        "D_Notation": "D+75",
+        "MITRE_TechniqueID": 66,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 22
+    },
+    {
+        "CaseStudyObservableTimingId": 534,
+        "CaseStudyID": 22,
+        "UTC_Time": "2000-01-19T07:00:00.000Z",
+        "D_Notation": "D+255",
+        "MITRE_TechniqueID": 24,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 23
+    },
+    {
+        "CaseStudyObservableTimingId": 535,
+        "CaseStudyID": 28,
+        "UTC_Time": "2002-02-28T07:00:00.000Z",
+        "D_Notation": "D-0 H-7 M-50",
+        "MITRE_TechniqueID": 12,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 0
+    },
+    {
+        "CaseStudyObservableTimingId": 536,
+        "CaseStudyID": 28,
+        "UTC_Time": "2002-02-28T07:00:00.000Z",
+        "D_Notation": "D-0 H-7 M-50",
+        "MITRE_TechniqueID": 54,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 1
+    },
+    {
+        "CaseStudyObservableTimingId": 537,
+        "CaseStudyID": 28,
+        "UTC_Time": "2002-02-28T07:00:00.000Z",
+        "D_Notation": "D-0 H-7 M-50",
+        "MITRE_TechniqueID": 71,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 2
+    },
+    {
+        "CaseStudyObservableTimingId": 538,
+        "CaseStudyID": 28,
+        "UTC_Time": "2002-02-28T07:00:00.000Z",
+        "D_Notation": "D-0 H-7 M-50",
+        "MITRE_TechniqueID": 45,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 3
+    },
+    {
+        "CaseStudyObservableTimingId": 539,
+        "CaseStudyID": 28,
+        "UTC_Time": "2002-02-28T07:00:00.000Z",
+        "D_Notation": "D-0 H-7 M-50",
+        "MITRE_TechniqueID": 30,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 4
+    },
+    {
+        "CaseStudyObservableTimingId": 540,
+        "CaseStudyID": 28,
+        "UTC_Time": "2002-02-28T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M-50",
+        "MITRE_TechniqueID": 78,
+        "MITRE_TacticId": 12,
+        "TimingOrder": 5
+    },
+    {
+        "CaseStudyObservableTimingId": 541,
+        "CaseStudyID": 28,
+        "UTC_Time": "2002-02-28T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M-50",
+        "MITRE_TechniqueID": 39,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 6
+    },
+    {
+        "CaseStudyObservableTimingId": 542,
+        "CaseStudyID": 28,
+        "UTC_Time": "2002-02-28T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M-50",
+        "MITRE_TechniqueID": 57,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 7
+    },
+    {
+        "CaseStudyObservableTimingId": 543,
+        "CaseStudyID": 28,
+        "UTC_Time": "2002-02-28T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 22,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 8
+    },
+    {
+        "CaseStudyObservableTimingId": 544,
+        "CaseStudyID": 28,
+        "UTC_Time": "2002-02-28T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M+23",
+        "MITRE_TechniqueID": 25,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 9
+    },
+    {
+        "CaseStudyObservableTimingId": 545,
+        "CaseStudyID": 14,
+        "UTC_Time": "2006-11-01T07:00:00.000Z",
+        "D_Notation": "D-1096",
+        "MITRE_TechniqueID": 12,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 0
+    },
+    {
+        "CaseStudyObservableTimingId": 546,
+        "CaseStudyID": 14,
+        "UTC_Time": "2006-11-01T07:00:00.000Z",
+        "D_Notation": "D-1096",
+        "MITRE_TechniqueID": 58,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 1
+    },
+    {
+        "CaseStudyObservableTimingId": 547,
+        "CaseStudyID": 14,
+        "UTC_Time": "2006-11-01T07:00:00.000Z",
+        "D_Notation": "D-1096",
+        "MITRE_TechniqueID": 3,
+        "MITRE_TacticId": 1,
+        "TimingOrder": 2
+    },
+    {
+        "CaseStudyObservableTimingId": 548,
+        "CaseStudyID": 14,
+        "UTC_Time": "2006-11-01T07:00:00.000Z",
+        "D_Notation": "D-1096",
+        "MITRE_TechniqueID": 64,
+        "MITRE_TacticId": 12,
+        "TimingOrder": 3
+    },
+    {
+        "CaseStudyObservableTimingId": 549,
+        "CaseStudyID": 14,
+        "UTC_Time": "2006-11-01T07:00:00.000Z",
+        "D_Notation": "D-1096",
+        "MITRE_TechniqueID": 56,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 4
+    },
+    {
+        "CaseStudyObservableTimingId": 550,
+        "CaseStudyID": 14,
+        "UTC_Time": "2006-11-01T07:00:00.000Z",
+        "D_Notation": "D-1096",
+        "MITRE_TechniqueID": 53,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 5
+    },
+    {
+        "CaseStudyObservableTimingId": 551,
+        "CaseStudyID": 14,
+        "UTC_Time": "2006-11-01T07:00:00.000Z",
+        "D_Notation": "D-1096",
+        "MITRE_TechniqueID": 37,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 6
+    },
+    {
+        "CaseStudyObservableTimingId": 552,
+        "CaseStudyID": 14,
+        "UTC_Time": "2006-11-01T07:00:00.000Z",
+        "D_Notation": "D-1096",
+        "MITRE_TechniqueID": 60,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 7
+    },
+    {
+        "CaseStudyObservableTimingId": 553,
+        "CaseStudyID": 14,
+        "UTC_Time": "2006-11-01T07:00:00.000Z",
+        "D_Notation": "D-1096",
+        "MITRE_TechniqueID": 73,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 8
+    },
+    {
+        "CaseStudyObservableTimingId": 554,
+        "CaseStudyID": 14,
+        "UTC_Time": "2006-11-01T07:00:00.000Z",
+        "D_Notation": "D-1096",
+        "MITRE_TechniqueID": 50,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 9
+    },
+    {
+        "CaseStudyObservableTimingId": 555,
+        "CaseStudyID": 14,
+        "UTC_Time": "2006-11-01T07:00:00.000Z",
+        "D_Notation": "D-1096",
+        "MITRE_TechniqueID": 74,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 10
+    },
+    {
+        "CaseStudyObservableTimingId": 556,
+        "CaseStudyID": 14,
+        "UTC_Time": "2006-11-01T07:00:00.000Z",
+        "D_Notation": "D-1096",
+        "MITRE_TechniqueID": 77,
+        "MITRE_TacticId": 11,
+        "TimingOrder": 11
+    },
+    {
+        "CaseStudyObservableTimingId": 557,
+        "CaseStudyID": 14,
+        "UTC_Time": "2006-11-01T07:00:00.000Z",
+        "D_Notation": "D-1096",
+        "MITRE_TechniqueID": 45,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 12
+    },
+    {
+        "CaseStudyObservableTimingId": 558,
+        "CaseStudyID": 14,
+        "UTC_Time": "2006-11-01T07:00:00.000Z",
+        "D_Notation": "D-1096",
+        "MITRE_TechniqueID": 62,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 14
+    },
+    {
+        "CaseStudyObservableTimingId": 559,
+        "CaseStudyID": 14,
+        "UTC_Time": "2006-11-01T07:00:00.000Z",
+        "D_Notation": "D-1096",
+        "MITRE_TechniqueID": 39,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 16
+    },
+    {
+        "CaseStudyObservableTimingId": 560,
+        "CaseStudyID": 14,
+        "UTC_Time": "2006-11-01T07:00:00.000Z",
+        "D_Notation": "D-1096",
+        "MITRE_TechniqueID": 50,
+        "MITRE_TacticId": 11,
+        "TimingOrder": 19
+    },
+    {
+        "CaseStudyObservableTimingId": 561,
+        "CaseStudyID": 14,
+        "UTC_Time": "2006-11-01T07:00:00.000Z",
+        "D_Notation": "D-1096",
+        "MITRE_TechniqueID": 42,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 20
+    },
+    {
+        "CaseStudyObservableTimingId": 562,
+        "CaseStudyID": 14,
+        "UTC_Time": "2006-11-01T07:00:00.000Z",
+        "D_Notation": "D-1096",
+        "MITRE_TechniqueID": 8,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 21
+    },
+    {
+        "CaseStudyObservableTimingId": 563,
+        "CaseStudyID": 14,
+        "UTC_Time": "2006-11-01T07:00:00.000Z",
+        "D_Notation": "D-1096",
+        "MITRE_TechniqueID": 10,
+        "MITRE_TacticId": 1,
+        "TimingOrder": 22
+    },
+    {
+        "CaseStudyObservableTimingId": 564,
+        "CaseStudyID": 14,
+        "UTC_Time": "2006-11-01T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 70,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 23
+    },
+    {
+        "CaseStudyObservableTimingId": 565,
+        "CaseStudyID": 16,
+        "UTC_Time": "2007-02-05T07:00:00.000Z",
+        "D_Notation": "D-547",
+        "MITRE_TechniqueID": 71,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 0
+    },
+    {
+        "CaseStudyObservableTimingId": 566,
+        "CaseStudyID": 16,
+        "UTC_Time": "2007-02-05T07:00:00.000Z",
+        "D_Notation": "D-547",
+        "MITRE_TechniqueID": 50,
+        "MITRE_TacticId": 11,
+        "TimingOrder": 1
+    },
+    {
+        "CaseStudyObservableTimingId": 567,
+        "CaseStudyID": 16,
+        "UTC_Time": "2007-02-05T07:00:00.000Z",
+        "D_Notation": "D-112",
+        "MITRE_TechniqueID": 50,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 2
+    },
+    {
+        "CaseStudyObservableTimingId": 568,
+        "CaseStudyID": 16,
+        "UTC_Time": "2007-02-05T07:00:00.000Z",
+        "D_Notation": "D-112",
+        "MITRE_TechniqueID": 35,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 3
+    },
+    {
+        "CaseStudyObservableTimingId": 569,
+        "CaseStudyID": 16,
+        "UTC_Time": "2007-02-05T07:00:00.000Z",
+        "D_Notation": "D-50",
+        "MITRE_TechniqueID": 12,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 5
+    },
+    {
+        "CaseStudyObservableTimingId": 570,
+        "CaseStudyID": 16,
+        "UTC_Time": "2007-02-05T07:00:00.000Z",
+        "D_Notation": "D-50",
+        "MITRE_TechniqueID": 14,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 6
+    },
+    {
+        "CaseStudyObservableTimingId": 571,
+        "CaseStudyID": 16,
+        "UTC_Time": "2007-02-05T07:00:00.000Z",
+        "D_Notation": "D-50",
+        "MITRE_TechniqueID": 10,
+        "MITRE_TacticId": 1,
+        "TimingOrder": 7
+    },
+    {
+        "CaseStudyObservableTimingId": 572,
+        "CaseStudyID": 16,
+        "UTC_Time": "2007-02-05T07:00:00.000Z",
+        "D_Notation": "D-4",
+        "MITRE_TechniqueID": 33,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 9
+    },
+    {
+        "CaseStudyObservableTimingId": 573,
+        "CaseStudyID": 16,
+        "UTC_Time": "2007-02-05T07:00:00.000Z",
+        "D_Notation": "D-4",
+        "MITRE_TechniqueID": 5,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 10
+    },
+    {
+        "CaseStudyObservableTimingId": 574,
+        "CaseStudyID": 16,
+        "UTC_Time": "2007-02-05T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M-45",
+        "MITRE_TechniqueID": 46,
+        "MITRE_TacticId": 7,
+        "TimingOrder": 11
+    },
+    {
+        "CaseStudyObservableTimingId": 575,
+        "CaseStudyID": 16,
+        "UTC_Time": "2007-02-05T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M-45",
+        "MITRE_TechniqueID": 27,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 12
+    },
+    {
+        "CaseStudyObservableTimingId": 576,
+        "CaseStudyID": 16,
+        "UTC_Time": "2007-02-05T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M-45",
+        "MITRE_TechniqueID": 66,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 13
+    },
+    {
+        "CaseStudyObservableTimingId": 577,
+        "CaseStudyID": 16,
+        "UTC_Time": "2007-02-05T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 67,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 14
+    },
+    {
+        "CaseStudyObservableTimingId": 578,
+        "CaseStudyID": 16,
+        "UTC_Time": "2007-02-05T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M+45",
+        "MITRE_TechniqueID": 9,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 15
+    },
+    {
+        "CaseStudyObservableTimingId": 579,
+        "CaseStudyID": 16,
+        "UTC_Time": "2007-02-05T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M+53",
+        "MITRE_TechniqueID": 68,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 16
+    },
+    {
+        "CaseStudyObservableTimingId": 580,
+        "CaseStudyID": 16,
+        "UTC_Time": "2007-02-05T07:00:00.000Z",
+        "D_Notation": "D+20",
+        "MITRE_TechniqueID": 24,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 17
+    },
+    {
+        "CaseStudyObservableTimingId": 581,
+        "CaseStudyID": 8,
+        "UTC_Time": "2013-06-29T07:00:00.000Z",
+        "D_Notation": "D-120",
+        "MITRE_TechniqueID": 56,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 0
+    },
+    {
+        "CaseStudyObservableTimingId": 582,
+        "CaseStudyID": 8,
+        "UTC_Time": "2013-06-29T07:00:00.000Z",
+        "D_Notation": "D-120",
+        "MITRE_TechniqueID": 17,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 1
+    },
+    {
+        "CaseStudyObservableTimingId": 583,
+        "CaseStudyID": 8,
+        "UTC_Time": "2013-06-29T07:00:00.000Z",
+        "D_Notation": "D-120",
+        "MITRE_TechniqueID": 54,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 2
+    },
+    {
+        "CaseStudyObservableTimingId": 584,
+        "CaseStudyID": 8,
+        "UTC_Time": "2013-06-29T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M-10",
+        "MITRE_TechniqueID": 53,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 3
+    },
+    {
+        "CaseStudyObservableTimingId": 585,
+        "CaseStudyID": 8,
+        "UTC_Time": "2013-06-29T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M-10",
+        "MITRE_TechniqueID": 45,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 4
+    },
+    {
+        "CaseStudyObservableTimingId": 586,
+        "CaseStudyID": 8,
+        "UTC_Time": "2013-06-29T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M-10",
+        "MITRE_TechniqueID": 62,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 5
+    },
+    {
+        "CaseStudyObservableTimingId": 587,
+        "CaseStudyID": 8,
+        "UTC_Time": "2013-06-29T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M-5",
+        "MITRE_TechniqueID": 39,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 6
+    },
+    {
+        "CaseStudyObservableTimingId": 588,
+        "CaseStudyID": 8,
+        "UTC_Time": "2013-06-29T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M-5",
+        "MITRE_TechniqueID": 76,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 7
+    },
+    {
+        "CaseStudyObservableTimingId": 589,
+        "CaseStudyID": 8,
+        "UTC_Time": "2013-06-29T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M-3",
+        "MITRE_TechniqueID": 52,
+        "MITRE_TacticId": 1,
+        "TimingOrder": 8
+    },
+    {
+        "CaseStudyObservableTimingId": 590,
+        "CaseStudyID": 8,
+        "UTC_Time": "2013-06-29T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M-3",
+        "MITRE_TechniqueID": 3,
+        "MITRE_TacticId": 1,
+        "TimingOrder": 9
+    },
+    {
+        "CaseStudyObservableTimingId": 591,
+        "CaseStudyID": 8,
+        "UTC_Time": "2013-06-29T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M-3",
+        "MITRE_TechniqueID": 73,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 10
+    },
+    {
+        "CaseStudyObservableTimingId": 592,
+        "CaseStudyID": 8,
+        "UTC_Time": "2013-06-29T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M-3",
+        "MITRE_TechniqueID": 60,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 11
+    },
+    {
+        "CaseStudyObservableTimingId": 593,
+        "CaseStudyID": 8,
+        "UTC_Time": "2013-06-29T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 14,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 12
+    },
+    {
+        "CaseStudyObservableTimingId": 594,
+        "CaseStudyID": 8,
+        "UTC_Time": "2013-06-29T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M+10",
+        "MITRE_TechniqueID": 70,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 13
+    },
+    {
+        "CaseStudyObservableTimingId": 595,
+        "CaseStudyID": 8,
+        "UTC_Time": "2013-06-29T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M+10",
+        "MITRE_TechniqueID": 13,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 14
+    },
+    {
+        "CaseStudyObservableTimingId": 596,
+        "CaseStudyID": 18,
+        "UTC_Time": "2014-01-15T07:00:00.000Z",
+        "D_Notation": "D-121",
+        "MITRE_TechniqueID": 56,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 0
+    },
+    {
+        "CaseStudyObservableTimingId": 597,
+        "CaseStudyID": 18,
+        "UTC_Time": "2014-01-15T07:00:00.000Z",
+        "D_Notation": "D-91",
+        "MITRE_TechniqueID": 17,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 1
+    },
+    {
+        "CaseStudyObservableTimingId": 598,
+        "CaseStudyID": 18,
+        "UTC_Time": "2014-01-15T07:00:00.000Z",
+        "D_Notation": "D-91",
+        "MITRE_TechniqueID": 53,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 2
+    },
+    {
+        "CaseStudyObservableTimingId": 599,
+        "CaseStudyID": 18,
+        "UTC_Time": "2014-01-15T07:00:00.000Z",
+        "D_Notation": "D-16",
+        "MITRE_TechniqueID": 60,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 3
+    },
+    {
+        "CaseStudyObservableTimingId": 600,
+        "CaseStudyID": 18,
+        "UTC_Time": "2014-01-15T07:00:00.000Z",
+        "D_Notation": "D-16",
+        "MITRE_TechniqueID": 50,
+        "MITRE_TacticId": 11,
+        "TimingOrder": 4
+    },
+    {
+        "CaseStudyObservableTimingId": 601,
+        "CaseStudyID": 18,
+        "UTC_Time": "2014-01-15T07:00:00.000Z",
+        "D_Notation": "D-16",
+        "MITRE_TechniqueID": 30,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 5
+    },
+    {
+        "CaseStudyObservableTimingId": 602,
+        "CaseStudyID": 18,
+        "UTC_Time": "2014-01-15T07:00:00.000Z",
+        "D_Notation": "D-16",
+        "MITRE_TechniqueID": 39,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 6
+    },
+    {
+        "CaseStudyObservableTimingId": 603,
+        "CaseStudyID": 18,
+        "UTC_Time": "2014-01-15T07:00:00.000Z",
+        "D_Notation": "D-16",
+        "MITRE_TechniqueID": 76,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 7
+    },
+    {
+        "CaseStudyObservableTimingId": 604,
+        "CaseStudyID": 18,
+        "UTC_Time": "2014-01-15T07:00:00.000Z",
+        "D_Notation": "D-16",
+        "MITRE_TechniqueID": 50,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 8
+    },
+    {
+        "CaseStudyObservableTimingId": 605,
+        "CaseStudyID": 18,
+        "UTC_Time": "2014-01-15T07:00:00.000Z",
+        "D_Notation": "D-16",
+        "MITRE_TechniqueID": 52,
+        "MITRE_TacticId": 1,
+        "TimingOrder": 9
+    },
+    {
+        "CaseStudyObservableTimingId": 606,
+        "CaseStudyID": 18,
+        "UTC_Time": "2014-01-15T07:00:00.000Z",
+        "D_Notation": "D-16",
+        "MITRE_TechniqueID": 3,
+        "MITRE_TacticId": 1,
+        "TimingOrder": 10
+    },
+    {
+        "CaseStudyObservableTimingId": 607,
+        "CaseStudyID": 18,
+        "UTC_Time": "2014-01-15T07:00:00.000Z",
+        "D_Notation": "D-16",
+        "MITRE_TechniqueID": 14,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 11
+    },
+    {
+        "CaseStudyObservableTimingId": 608,
+        "CaseStudyID": 18,
+        "UTC_Time": "2014-01-15T07:00:00.000Z",
+        "D_Notation": "D-16",
+        "MITRE_TechniqueID": 73,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 12
+    },
+    {
+        "CaseStudyObservableTimingId": 609,
+        "CaseStudyID": 18,
+        "UTC_Time": "2014-01-15T07:00:00.000Z",
+        "D_Notation": "D-16",
+        "MITRE_TechniqueID": 70,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 13
+    },
+    {
+        "CaseStudyObservableTimingId": 610,
+        "CaseStudyID": 18,
+        "UTC_Time": "2014-01-15T07:00:00.000Z",
+        "D_Notation": "D-16",
+        "MITRE_TechniqueID": 62,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 14
+    },
+    {
+        "CaseStudyObservableTimingId": 611,
+        "CaseStudyID": 18,
+        "UTC_Time": "2014-01-15T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 13,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 15
+    },
+    {
+        "CaseStudyObservableTimingId": 612,
+        "CaseStudyID": 18,
+        "UTC_Time": "2014-01-15T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 23,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 16
+    },
+    {
+        "CaseStudyObservableTimingId": 613,
+        "CaseStudyID": 18,
+        "UTC_Time": "2014-01-15T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 68,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 17
+    },
+    {
+        "CaseStudyObservableTimingId": 614,
+        "CaseStudyID": 18,
+        "UTC_Time": "2014-01-15T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 67,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 18
+    },
+    {
+        "CaseStudyObservableTimingId": 615,
+        "CaseStudyID": 18,
+        "UTC_Time": "2014-01-15T07:00:00.000Z",
+        "D_Notation": "D-156",
+        "MITRE_TechniqueID": 24,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 19
+    },
+    {
+        "CaseStudyObservableTimingId": 616,
+        "CaseStudyID": 6,
+        "UTC_Time": "2014-05-23T07:00:00.000Z",
+        "D_Notation": "D-579",
+        "MITRE_TechniqueID": 56,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 0
+    },
+    {
+        "CaseStudyObservableTimingId": 617,
+        "CaseStudyID": 6,
+        "UTC_Time": "2014-05-23T07:00:00.000Z",
+        "D_Notation": "D-579",
+        "MITRE_TechniqueID": 53,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 1
+    },
+    {
+        "CaseStudyObservableTimingId": 618,
+        "CaseStudyID": 6,
+        "UTC_Time": "2014-05-23T07:00:00.000Z",
+        "D_Notation": "D-579",
+        "MITRE_TechniqueID": 45,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 2
+    },
+    {
+        "CaseStudyObservableTimingId": 619,
+        "CaseStudyID": 6,
+        "UTC_Time": "2014-05-23T07:00:00.000Z",
+        "D_Notation": "D-579",
+        "MITRE_TechniqueID": 60,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 3
+    },
+    {
+        "CaseStudyObservableTimingId": 620,
+        "CaseStudyID": 6,
+        "UTC_Time": "2014-05-23T07:00:00.000Z",
+        "D_Notation": "D-579",
+        "MITRE_TechniqueID": 35,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 4
+    },
+    {
+        "CaseStudyObservableTimingId": 621,
+        "CaseStudyID": 6,
+        "UTC_Time": "2014-05-23T07:00:00.000Z",
+        "D_Notation": "D-579",
+        "MITRE_TechniqueID": 42,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 5
+    },
+    {
+        "CaseStudyObservableTimingId": 622,
+        "CaseStudyID": 6,
+        "UTC_Time": "2014-05-23T07:00:00.000Z",
+        "D_Notation": "D-579",
+        "MITRE_TechniqueID": 50,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 6
+    },
+    {
+        "CaseStudyObservableTimingId": 623,
+        "CaseStudyID": 6,
+        "UTC_Time": "2014-05-23T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M-30",
+        "MITRE_TechniqueID": 20,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 7
+    },
+    {
+        "CaseStudyObservableTimingId": 624,
+        "CaseStudyID": 6,
+        "UTC_Time": "2014-05-23T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M-30",
+        "MITRE_TechniqueID": 46,
+        "MITRE_TacticId": 7,
+        "TimingOrder": 8
+    },
+    {
+        "CaseStudyObservableTimingId": 625,
+        "CaseStudyID": 6,
+        "UTC_Time": "2014-05-23T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M-30",
+        "MITRE_TechniqueID": 74,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 9
+    },
+    {
+        "CaseStudyObservableTimingId": 626,
+        "CaseStudyID": 6,
+        "UTC_Time": "2014-05-23T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M-30",
+        "MITRE_TechniqueID": 21,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 10
+    },
+    {
+        "CaseStudyObservableTimingId": 627,
+        "CaseStudyID": 6,
+        "UTC_Time": "2014-05-23T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 27,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 11
+    },
+    {
+        "CaseStudyObservableTimingId": 628,
+        "CaseStudyID": 6,
+        "UTC_Time": "2014-05-23T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M+30",
+        "MITRE_TechniqueID": 13,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 12
+    },
+    {
+        "CaseStudyObservableTimingId": 629,
+        "CaseStudyID": 6,
+        "UTC_Time": "2014-05-23T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M+30",
+        "MITRE_TechniqueID": 48,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 13
+    },
+    {
+        "CaseStudyObservableTimingId": 630,
+        "CaseStudyID": 6,
+        "UTC_Time": "2014-05-23T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M+30",
+        "MITRE_TechniqueID": 4,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 14
+    },
+    {
+        "CaseStudyObservableTimingId": 631,
+        "CaseStudyID": 6,
+        "UTC_Time": "2014-05-23T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M+30",
+        "MITRE_TechniqueID": 5,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 15
+    },
+    {
+        "CaseStudyObservableTimingId": 632,
+        "CaseStudyID": 6,
+        "UTC_Time": "2014-05-23T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M+30",
+        "MITRE_TechniqueID": 23,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 16
+    },
+    {
+        "CaseStudyObservableTimingId": 633,
+        "CaseStudyID": 6,
+        "UTC_Time": "2014-05-23T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M+30",
+        "MITRE_TechniqueID": 14,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 17
+    },
+    {
+        "CaseStudyObservableTimingId": 634,
+        "CaseStudyID": 6,
+        "UTC_Time": "2014-05-23T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M+30",
+        "MITRE_TechniqueID": 69,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 18
+    },
+    {
+        "CaseStudyObservableTimingId": 635,
+        "CaseStudyID": 6,
+        "UTC_Time": "2014-05-23T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M+30",
+        "MITRE_TechniqueID": 9,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 19
+    },
+    {
+        "CaseStudyObservableTimingId": 636,
+        "CaseStudyID": 6,
+        "UTC_Time": "2014-05-23T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M+30",
+        "MITRE_TechniqueID": 16,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 20
+    },
+    {
+        "CaseStudyObservableTimingId": 637,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-318",
+        "MITRE_TechniqueID": 56,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 0
+    },
+    {
+        "CaseStudyObservableTimingId": 638,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-318",
+        "MITRE_TechniqueID": 53,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 1
+    },
+    {
+        "CaseStudyObservableTimingId": 639,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-16",
+        "MITRE_TechniqueID": 45,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 2
+    },
+    {
+        "CaseStudyObservableTimingId": 640,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-16",
+        "MITRE_TechniqueID": 50,
+        "MITRE_TacticId": 11,
+        "TimingOrder": 3
+    },
+    {
+        "CaseStudyObservableTimingId": 641,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-16",
+        "MITRE_TechniqueID": 50,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 4
+    },
+    {
+        "CaseStudyObservableTimingId": 642,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-5",
+        "MITRE_TechniqueID": 72,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 5
+    },
+    {
+        "CaseStudyObservableTimingId": 643,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-5",
+        "MITRE_TechniqueID": 42,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 6
+    },
+    {
+        "CaseStudyObservableTimingId": 644,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-5",
+        "MITRE_TechniqueID": 8,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 7
+    },
+    {
+        "CaseStudyObservableTimingId": 645,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 30,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 10
+    },
+    {
+        "CaseStudyObservableTimingId": 646,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 69,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 11
+    },
+    {
+        "CaseStudyObservableTimingId": 647,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 6,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 12
+    },
+    {
+        "CaseStudyObservableTimingId": 648,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 13,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 13
+    },
+    {
+        "CaseStudyObservableTimingId": 649,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 15,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 14
+    },
+    {
+        "CaseStudyObservableTimingId": 650,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 4,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 15
+    },
+    {
+        "CaseStudyObservableTimingId": 651,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 5,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 16
+    },
+    {
+        "CaseStudyObservableTimingId": 652,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 35,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 17
+    },
+    {
+        "CaseStudyObservableTimingId": 653,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 46,
+        "MITRE_TacticId": 7,
+        "TimingOrder": 18
+    },
+    {
+        "CaseStudyObservableTimingId": 654,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 27,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 19
+    },
+    {
+        "CaseStudyObservableTimingId": 655,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 39,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 20
+    },
+    {
+        "CaseStudyObservableTimingId": 656,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 76,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 21
+    },
+    {
+        "CaseStudyObservableTimingId": 657,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 2,
+        "MITRE_TacticId": 1,
+        "TimingOrder": 22
+    },
+    {
+        "CaseStudyObservableTimingId": 658,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 3,
+        "MITRE_TacticId": 1,
+        "TimingOrder": 23
+    },
+    {
+        "CaseStudyObservableTimingId": 659,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 7,
+        "MITRE_TacticId": 7,
+        "TimingOrder": 24
+    },
+    {
+        "CaseStudyObservableTimingId": 660,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 28,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 25
+    },
+    {
+        "CaseStudyObservableTimingId": 661,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 1,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 26
+    },
+    {
+        "CaseStudyObservableTimingId": 662,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 14,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 27
+    },
+    {
+        "CaseStudyObservableTimingId": 663,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 16,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 28
+    },
+    {
+        "CaseStudyObservableTimingId": 664,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 32,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 29
+    },
+    {
+        "CaseStudyObservableTimingId": 665,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 9,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 30
+    },
+    {
+        "CaseStudyObservableTimingId": 666,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 23,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 31
+    },
+    {
+        "CaseStudyObservableTimingId": 667,
+        "CaseStudyID": 7,
+        "UTC_Time": "2016-02-03T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 25,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 32
+    },
+    {
+        "CaseStudyObservableTimingId": 668,
+        "CaseStudyID": 10,
+        "UTC_Time": "2016-04-24T07:00:00.000Z",
+        "D_Notation": "D-0 H-4 M-30",
+        "MITRE_TechniqueID": 40,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 0
+    },
+    {
+        "CaseStudyObservableTimingId": 669,
+        "CaseStudyID": 10,
+        "UTC_Time": "2016-04-24T07:00:00.000Z",
+        "D_Notation": "D-0 H-4 M-0",
+        "MITRE_TechniqueID": 57,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 1
+    },
+    {
+        "CaseStudyObservableTimingId": 670,
+        "CaseStudyID": 10,
+        "UTC_Time": "2016-04-24T07:00:00.000Z",
+        "D_Notation": "D-0 H-4 M-0",
+        "MITRE_TechniqueID": 74,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 2
+    },
+    {
+        "CaseStudyObservableTimingId": 671,
+        "CaseStudyID": 10,
+        "UTC_Time": "2016-04-24T07:00:00.000Z",
+        "D_Notation": "D-0 H-4 M-0",
+        "MITRE_TechniqueID": 30,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 3
+    },
+    {
+        "CaseStudyObservableTimingId": 672,
+        "CaseStudyID": 10,
+        "UTC_Time": "2016-04-24T07:00:00.000Z",
+        "D_Notation": "D-0 H-4 M-0",
+        "MITRE_TechniqueID": 45,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 4
+    },
+    {
+        "CaseStudyObservableTimingId": 673,
+        "CaseStudyID": 10,
+        "UTC_Time": "2016-04-24T07:00:00.000Z",
+        "D_Notation": "D-0 H-4 M-0",
+        "MITRE_TechniqueID": 69,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 5
+    },
+    {
+        "CaseStudyObservableTimingId": 674,
+        "CaseStudyID": 10,
+        "UTC_Time": "2016-04-24T07:00:00.000Z",
+        "D_Notation": "D-0 H-4 M-0",
+        "MITRE_TechniqueID": 43,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 6
+    },
+    {
+        "CaseStudyObservableTimingId": 675,
+        "CaseStudyID": 10,
+        "UTC_Time": "2016-04-24T07:00:00.000Z",
+        "D_Notation": "D-0 H-4 M-0",
+        "MITRE_TechniqueID": 5,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 7
+    },
+    {
+        "CaseStudyObservableTimingId": 676,
+        "CaseStudyID": 10,
+        "UTC_Time": "2016-04-24T07:00:00.000Z",
+        "D_Notation": "D-0 H-4 M-0",
+        "MITRE_TechniqueID": 66,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 8
+    },
+    {
+        "CaseStudyObservableTimingId": 677,
+        "CaseStudyID": 10,
+        "UTC_Time": "2016-04-24T07:00:00.000Z",
+        "D_Notation": "D-0 H-4 M-0",
+        "MITRE_TechniqueID": 42,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 9
+    },
+    {
+        "CaseStudyObservableTimingId": 678,
+        "CaseStudyID": 10,
+        "UTC_Time": "2016-04-24T07:00:00.000Z",
+        "D_Notation": "D-0 H-4 M-0",
+        "MITRE_TechniqueID": 77,
+        "MITRE_TacticId": 11,
+        "TimingOrder": 10
+    },
+    {
+        "CaseStudyObservableTimingId": 679,
+        "CaseStudyID": 10,
+        "UTC_Time": "2016-04-24T07:00:00.000Z",
+        "D_Notation": "D-0 H-4 M-0",
+        "MITRE_TechniqueID": 60,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 11
+    },
+    {
+        "CaseStudyObservableTimingId": 680,
+        "CaseStudyID": 10,
+        "UTC_Time": "2016-04-24T07:00:00.000Z",
+        "D_Notation": "D-0 H-4 M-0",
+        "MITRE_TechniqueID": 73,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 12
+    },
+    {
+        "CaseStudyObservableTimingId": 681,
+        "CaseStudyID": 10,
+        "UTC_Time": "2016-04-24T07:00:00.000Z",
+        "D_Notation": "D-0 H-3 M-30",
+        "MITRE_TechniqueID": 39,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 13
+    },
+    {
+        "CaseStudyObservableTimingId": 682,
+        "CaseStudyID": 10,
+        "UTC_Time": "2016-04-24T07:00:00.000Z",
+        "D_Notation": "D-0 H-2 M-0",
+        "MITRE_TechniqueID": 76,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 14
+    },
+    {
+        "CaseStudyObservableTimingId": 683,
+        "CaseStudyID": 10,
+        "UTC_Time": "2016-04-24T07:00:00.000Z",
+        "D_Notation": "D-0 H-2 M-0",
+        "MITRE_TechniqueID": 50,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 15
+    },
+    {
+        "CaseStudyObservableTimingId": 684,
+        "CaseStudyID": 10,
+        "UTC_Time": "2016-04-24T07:00:00.000Z",
+        "D_Notation": "D-0 H-1 M-30",
+        "MITRE_TechniqueID": 74,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 16
+    },
+    {
+        "CaseStudyObservableTimingId": 685,
+        "CaseStudyID": 10,
+        "UTC_Time": "2016-04-24T07:00:00.000Z",
+        "D_Notation": "D-0 H-1 M-30",
+        "MITRE_TechniqueID": 57,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 17
+    },
+    {
+        "CaseStudyObservableTimingId": 686,
+        "CaseStudyID": 10,
+        "UTC_Time": "2016-04-24T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 37,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 18
+    },
+    {
+        "CaseStudyObservableTimingId": 687,
+        "CaseStudyID": 10,
+        "UTC_Time": "2016-04-24T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 27,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 19
+    },
+    {
+        "CaseStudyObservableTimingId": 688,
+        "CaseStudyID": 10,
+        "UTC_Time": "2016-04-24T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 24,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 20
+    },
+    {
+        "CaseStudyObservableTimingId": 689,
+        "CaseStudyID": 10,
+        "UTC_Time": "2016-04-24T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 22,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 21
+    },
+    {
+        "CaseStudyObservableTimingId": 690,
+        "CaseStudyID": 12,
+        "UTC_Time": "2016-07-30T07:00:00.000Z",
+        "D_Notation": "D-180",
+        "MITRE_TechniqueID": 56,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 0
+    },
+    {
+        "CaseStudyObservableTimingId": 691,
+        "CaseStudyID": 12,
+        "UTC_Time": "2016-07-30T07:00:00.000Z",
+        "D_Notation": "D-90",
+        "MITRE_TechniqueID": 53,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 1
+    },
+    {
+        "CaseStudyObservableTimingId": 692,
+        "CaseStudyID": 12,
+        "UTC_Time": "2016-07-30T07:00:00.000Z",
+        "D_Notation": "D-90",
+        "MITRE_TechniqueID": 45,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 2
+    },
+    {
+        "CaseStudyObservableTimingId": 693,
+        "CaseStudyID": 12,
+        "UTC_Time": "2016-07-30T07:00:00.000Z",
+        "D_Notation": "D-90",
+        "MITRE_TechniqueID": 30,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 3
+    },
+    {
+        "CaseStudyObservableTimingId": 694,
+        "CaseStudyID": 12,
+        "UTC_Time": "2016-07-30T07:00:00.000Z",
+        "D_Notation": "D-90",
+        "MITRE_TechniqueID": 42,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 4
+    },
+    {
+        "CaseStudyObservableTimingId": 695,
+        "CaseStudyID": 12,
+        "UTC_Time": "2016-07-30T07:00:00.000Z",
+        "D_Notation": "D-90",
+        "MITRE_TechniqueID": 39,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 5
+    },
+    {
+        "CaseStudyObservableTimingId": 696,
+        "CaseStudyID": 12,
+        "UTC_Time": "2016-07-30T07:00:00.000Z",
+        "D_Notation": "D-90",
+        "MITRE_TechniqueID": 50,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 6
+    },
+    {
+        "CaseStudyObservableTimingId": 697,
+        "CaseStudyID": 12,
+        "UTC_Time": "2016-07-30T07:00:00.000Z",
+        "D_Notation": "D-90",
+        "MITRE_TechniqueID": 74,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 8
+    },
+    {
+        "CaseStudyObservableTimingId": 698,
+        "CaseStudyID": 12,
+        "UTC_Time": "2016-07-30T07:00:00.000Z",
+        "D_Notation": "D-90",
+        "MITRE_TechniqueID": 77,
+        "MITRE_TacticId": 11,
+        "TimingOrder": 9
+    },
+    {
+        "CaseStudyObservableTimingId": 699,
+        "CaseStudyID": 12,
+        "UTC_Time": "2016-07-30T07:00:00.000Z",
+        "D_Notation": "D-90",
+        "MITRE_TechniqueID": 72,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 11
+    },
+    {
+        "CaseStudyObservableTimingId": 700,
+        "CaseStudyID": 12,
+        "UTC_Time": "2016-07-30T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 20,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 12
+    },
+    {
+        "CaseStudyObservableTimingId": 701,
+        "CaseStudyID": 12,
+        "UTC_Time": "2016-07-30T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 8,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 13
+    },
+    {
+        "CaseStudyObservableTimingId": 702,
+        "CaseStudyID": 12,
+        "UTC_Time": "2016-07-30T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 62,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 16
+    },
+    {
+        "CaseStudyObservableTimingId": 703,
+        "CaseStudyID": 12,
+        "UTC_Time": "2016-07-30T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 60,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 17
+    },
+    {
+        "CaseStudyObservableTimingId": 704,
+        "CaseStudyID": 12,
+        "UTC_Time": "2016-07-30T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 9,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 19
+    },
+    {
+        "CaseStudyObservableTimingId": 705,
+        "CaseStudyID": 12,
+        "UTC_Time": "2016-07-30T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 16,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 20
+    },
+    {
+        "CaseStudyObservableTimingId": 706,
+        "CaseStudyID": 12,
+        "UTC_Time": "2016-07-30T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 24,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 21
+    },
+    {
+        "CaseStudyObservableTimingId": 707,
+        "CaseStudyID": 2,
+        "UTC_Time": "2017-04-14T07:00:00.000Z",
+        "D_Notation": "D-28",
+        "MITRE_TechniqueID": 57,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 0
+    },
+    {
+        "CaseStudyObservableTimingId": 708,
+        "CaseStudyID": 2,
+        "UTC_Time": "2017-04-14T07:00:00.000Z",
+        "D_Notation": "D-0 H-1 M-30",
+        "MITRE_TechniqueID": 60,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 1
+    },
+    {
+        "CaseStudyObservableTimingId": 709,
+        "CaseStudyID": 2,
+        "UTC_Time": "2017-04-14T07:00:00.000Z",
+        "D_Notation": "D-0 H-1 M-30",
+        "MITRE_TechniqueID": 61,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 2
+    },
+    {
+        "CaseStudyObservableTimingId": 710,
+        "CaseStudyID": 2,
+        "UTC_Time": "2017-04-14T07:00:00.000Z",
+        "D_Notation": "D-0 H-1 M-30",
+        "MITRE_TechniqueID": 35,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 3
+    },
+    {
+        "CaseStudyObservableTimingId": 711,
+        "CaseStudyID": 2,
+        "UTC_Time": "2017-04-14T07:00:00.000Z",
+        "D_Notation": "D-0 H-1",
+        "MITRE_TechniqueID": 57,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 4
+    },
+    {
+        "CaseStudyObservableTimingId": 712,
+        "CaseStudyID": 2,
+        "UTC_Time": "2017-04-14T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M-30",
+        "MITRE_TechniqueID": 74,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 5
+    },
+    {
+        "CaseStudyObservableTimingId": 713,
+        "CaseStudyID": 2,
+        "UTC_Time": "2017-04-14T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M-30",
+        "MITRE_TechniqueID": 58,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 6
+    },
+    {
+        "CaseStudyObservableTimingId": 714,
+        "CaseStudyID": 2,
+        "UTC_Time": "2017-04-14T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 77,
+        "MITRE_TacticId": 11,
+        "TimingOrder": 8
+    },
+    {
+        "CaseStudyObservableTimingId": 715,
+        "CaseStudyID": 2,
+        "UTC_Time": "2017-04-14T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 69,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 9
+    },
+    {
+        "CaseStudyObservableTimingId": 716,
+        "CaseStudyID": 2,
+        "UTC_Time": "2017-04-14T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 22,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 10
+    },
+    {
+        "CaseStudyObservableTimingId": 717,
+        "CaseStudyID": 2,
+        "UTC_Time": "2017-04-14T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 24,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 11
+    },
+    {
+        "CaseStudyObservableTimingId": 718,
+        "CaseStudyID": 2,
+        "UTC_Time": "2017-04-14T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 72,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 13
+    },
+    {
+        "CaseStudyObservableTimingId": 719,
+        "CaseStudyID": 2,
+        "UTC_Time": "2017-04-14T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 9,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 14
+    },
+    {
+        "CaseStudyObservableTimingId": 720,
+        "CaseStudyID": 5,
+        "UTC_Time": "2017-05-01T07:00:00.000Z",
+        "D_Notation": "D-90",
+        "MITRE_TechniqueID": 71,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 0
+    },
+    {
+        "CaseStudyObservableTimingId": 721,
+        "CaseStudyID": 5,
+        "UTC_Time": "2017-05-01T07:00:00.000Z",
+        "D_Notation": "D-73",
+        "MITRE_TechniqueID": 50,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 1
+    },
+    {
+        "CaseStudyObservableTimingId": 722,
+        "CaseStudyID": 5,
+        "UTC_Time": "2017-05-01T07:00:00.000Z",
+        "D_Notation": "D-73",
+        "MITRE_TechniqueID": 20,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 2
+    },
+    {
+        "CaseStudyObservableTimingId": 723,
+        "CaseStudyID": 5,
+        "UTC_Time": "2017-05-01T07:00:00.000Z",
+        "D_Notation": "D-73",
+        "MITRE_TechniqueID": 74,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 3
+    },
+    {
+        "CaseStudyObservableTimingId": 724,
+        "CaseStudyID": 5,
+        "UTC_Time": "2017-05-01T07:00:00.000Z",
+        "D_Notation": "D-73",
+        "MITRE_TechniqueID": 45,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 4
+    },
+    {
+        "CaseStudyObservableTimingId": 725,
+        "CaseStudyID": 5,
+        "UTC_Time": "2017-05-01T07:00:00.000Z",
+        "D_Notation": "D-73",
+        "MITRE_TechniqueID": 42,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 5
+    },
+    {
+        "CaseStudyObservableTimingId": 726,
+        "CaseStudyID": 5,
+        "UTC_Time": "2017-05-01T07:00:00.000Z",
+        "D_Notation": "D-61",
+        "MITRE_TechniqueID": 39,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 6
+    },
+    {
+        "CaseStudyObservableTimingId": 727,
+        "CaseStudyID": 5,
+        "UTC_Time": "2017-05-01T07:00:00.000Z",
+        "D_Notation": "D-61",
+        "MITRE_TechniqueID": 61,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 7
+    },
+    {
+        "CaseStudyObservableTimingId": 728,
+        "CaseStudyID": 5,
+        "UTC_Time": "2017-05-01T07:00:00.000Z",
+        "D_Notation": "D-61",
+        "MITRE_TechniqueID": 59,
+        "MITRE_TacticId": 1,
+        "TimingOrder": 8
+    },
+    {
+        "CaseStudyObservableTimingId": 729,
+        "CaseStudyID": 5,
+        "UTC_Time": "2017-05-01T07:00:00.000Z",
+        "D_Notation": "D-61",
+        "MITRE_TechniqueID": 38,
+        "MITRE_TacticId": 1,
+        "TimingOrder": 9
+    },
+    {
+        "CaseStudyObservableTimingId": 730,
+        "CaseStudyID": 5,
+        "UTC_Time": "2017-05-01T07:00:00.000Z",
+        "D_Notation": "D-61",
+        "MITRE_TechniqueID": 37,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 10
+    },
+    {
+        "CaseStudyObservableTimingId": 731,
+        "CaseStudyID": 5,
+        "UTC_Time": "2017-05-01T07:00:00.000Z",
+        "D_Notation": "D-61",
+        "MITRE_TechniqueID": 78,
+        "MITRE_TacticId": 12,
+        "TimingOrder": 11
+    },
+    {
+        "CaseStudyObservableTimingId": 732,
+        "CaseStudyID": 5,
+        "UTC_Time": "2017-05-01T07:00:00.000Z",
+        "D_Notation": "D-61",
+        "MITRE_TechniqueID": 64,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 12
+    },
+    {
+        "CaseStudyObservableTimingId": 733,
+        "CaseStudyID": 5,
+        "UTC_Time": "2017-05-01T07:00:00.000Z",
+        "D_Notation": "D-61",
+        "MITRE_TechniqueID": 18,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 13
+    },
+    {
+        "CaseStudyObservableTimingId": 734,
+        "CaseStudyID": 5,
+        "UTC_Time": "2017-05-01T07:00:00.000Z",
+        "D_Notation": "D-61",
+        "MITRE_TechniqueID": 62,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 14
+    },
+    {
+        "CaseStudyObservableTimingId": 735,
+        "CaseStudyID": 5,
+        "UTC_Time": "2017-05-01T07:00:00.000Z",
+        "D_Notation": "D-61",
+        "MITRE_TechniqueID": 60,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 15
+    },
+    {
+        "CaseStudyObservableTimingId": 736,
+        "CaseStudyID": 5,
+        "UTC_Time": "2017-05-01T07:00:00.000Z",
+        "D_Notation": "D-61",
+        "MITRE_TechniqueID": 73,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 16
+    },
+    {
+        "CaseStudyObservableTimingId": 737,
+        "CaseStudyID": 5,
+        "UTC_Time": "2017-05-01T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 69,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 17
+    },
+    {
+        "CaseStudyObservableTimingId": 738,
+        "CaseStudyID": 5,
+        "UTC_Time": "2017-05-01T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 22,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 18
+    },
+    {
+        "CaseStudyObservableTimingId": 739,
+        "CaseStudyID": 5,
+        "UTC_Time": "2017-05-01T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 24,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 19
+    },
+    {
+        "CaseStudyObservableTimingId": 740,
+        "CaseStudyID": 9,
+        "UTC_Time": "2017-06-22T07:00:00.000Z",
+        "D_Notation": "D-5",
+        "MITRE_TechniqueID": 54,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 0
+    },
+    {
+        "CaseStudyObservableTimingId": 741,
+        "CaseStudyID": 9,
+        "UTC_Time": "2017-06-22T07:00:00.000Z",
+        "D_Notation": "D-0 H-1 M-7",
+        "MITRE_TechniqueID": 8,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 1
+    },
+    {
+        "CaseStudyObservableTimingId": 742,
+        "CaseStudyID": 9,
+        "UTC_Time": "2017-06-22T07:00:00.000Z",
+        "D_Notation": "D-0 H-1 M-7",
+        "MITRE_TechniqueID": 30,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 2
+    },
+    {
+        "CaseStudyObservableTimingId": 743,
+        "CaseStudyID": 9,
+        "UTC_Time": "2017-06-22T07:00:00.000Z",
+        "D_Notation": "D-0 H-1 M-7",
+        "MITRE_TechniqueID": 58,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 3
+    },
+    {
+        "CaseStudyObservableTimingId": 744,
+        "CaseStudyID": 9,
+        "UTC_Time": "2017-06-22T07:00:00.000Z",
+        "D_Notation": "D-0 H-1 M-7",
+        "MITRE_TechniqueID": 42,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 4
+    },
+    {
+        "CaseStudyObservableTimingId": 745,
+        "CaseStudyID": 9,
+        "UTC_Time": "2017-06-22T07:00:00.000Z",
+        "D_Notation": "D-0 H-1 M-7",
+        "MITRE_TechniqueID": 62,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 5
+    },
+    {
+        "CaseStudyObservableTimingId": 746,
+        "CaseStudyID": 9,
+        "UTC_Time": "2017-06-22T07:00:00.000Z",
+        "D_Notation": "D-0 H-1 M-7",
+        "MITRE_TechniqueID": 39,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 6
+    },
+    {
+        "CaseStudyObservableTimingId": 747,
+        "CaseStudyID": 9,
+        "UTC_Time": "2017-06-22T07:00:00.000Z",
+        "D_Notation": "D-0 H-1",
+        "MITRE_TechniqueID": 3,
+        "MITRE_TacticId": 1,
+        "TimingOrder": 10
+    },
+    {
+        "CaseStudyObservableTimingId": 748,
+        "CaseStudyID": 9,
+        "UTC_Time": "2017-06-22T07:00:00.000Z",
+        "D_Notation": "D-0 H-1",
+        "MITRE_TechniqueID": 74,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 11
+    },
+    {
+        "CaseStudyObservableTimingId": 749,
+        "CaseStudyID": 9,
+        "UTC_Time": "2017-06-22T07:00:00.000Z",
+        "D_Notation": "D-0 H-1",
+        "MITRE_TechniqueID": 50,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 14
+    },
+    {
+        "CaseStudyObservableTimingId": 750,
+        "CaseStudyID": 9,
+        "UTC_Time": "2017-06-22T07:00:00.000Z",
+        "D_Notation": "D-0 H-1",
+        "MITRE_TechniqueID": 57,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 15
+    },
+    {
+        "CaseStudyObservableTimingId": 751,
+        "CaseStudyID": 9,
+        "UTC_Time": "2017-06-22T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 9,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 17
+    },
+    {
+        "CaseStudyObservableTimingId": 752,
+        "CaseStudyID": 9,
+        "UTC_Time": "2017-06-22T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 16,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 22
+    },
+    {
+        "CaseStudyObservableTimingId": 753,
+        "CaseStudyID": 9,
+        "UTC_Time": "2017-06-22T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 25,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 26
+    },
+    {
+        "CaseStudyObservableTimingId": 754,
+        "CaseStudyID": 9,
+        "UTC_Time": "2017-06-22T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 23,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 27
+    },
+    {
+        "CaseStudyObservableTimingId": 755,
+        "CaseStudyID": 9,
+        "UTC_Time": "2017-06-22T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 22,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 28
+    },
+    {
+        "CaseStudyObservableTimingId": 756,
+        "CaseStudyID": 9,
+        "UTC_Time": "2017-06-22T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 24,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 29
+    },
+    {
+        "CaseStudyObservableTimingId": 757,
+        "CaseStudyID": 9,
+        "UTC_Time": "2017-06-22T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 67,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 30
+    },
+    {
+        "CaseStudyObservableTimingId": 758,
+        "CaseStudyID": 13,
+        "UTC_Time": "2018-12-18T07:00:00.000Z",
+        "D_Notation": "D-90",
+        "MITRE_TechniqueID": 56,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 0
+    },
+    {
+        "CaseStudyObservableTimingId": 759,
+        "CaseStudyID": 13,
+        "UTC_Time": "2018-12-18T07:00:00.000Z",
+        "D_Notation": "D-90",
+        "MITRE_TechniqueID": 53,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 1
+    },
+    {
+        "CaseStudyObservableTimingId": 760,
+        "CaseStudyID": 13,
+        "UTC_Time": "2018-12-18T07:00:00.000Z",
+        "D_Notation": "D-90",
+        "MITRE_TechniqueID": 45,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 2
+    },
+    {
+        "CaseStudyObservableTimingId": 761,
+        "CaseStudyID": 13,
+        "UTC_Time": "2018-12-18T07:00:00.000Z",
+        "D_Notation": "D-90",
+        "MITRE_TechniqueID": 50,
+        "MITRE_TacticId": 11,
+        "TimingOrder": 3
+    },
+    {
+        "CaseStudyObservableTimingId": 762,
+        "CaseStudyID": 13,
+        "UTC_Time": "2018-12-18T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 37,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 4
+    },
+    {
+        "CaseStudyObservableTimingId": 763,
+        "CaseStudyID": 13,
+        "UTC_Time": "2018-12-18T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 76,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 5
+    },
+    {
+        "CaseStudyObservableTimingId": 764,
+        "CaseStudyID": 13,
+        "UTC_Time": "2018-12-18T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 10,
+        "MITRE_TacticId": 1,
+        "TimingOrder": 6
+    },
+    {
+        "CaseStudyObservableTimingId": 765,
+        "CaseStudyID": 13,
+        "UTC_Time": "2018-12-18T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 9,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 7
+    },
+    {
+        "CaseStudyObservableTimingId": 766,
+        "CaseStudyID": 13,
+        "UTC_Time": "2018-12-18T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 69,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 8
+    },
+    {
+        "CaseStudyObservableTimingId": 767,
+        "CaseStudyID": 13,
+        "UTC_Time": "2018-12-18T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 22,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 9
+    },
+    {
+        "CaseStudyObservableTimingId": 768,
+        "CaseStudyID": 13,
+        "UTC_Time": "2018-12-18T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 23,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 10
+    },
+    {
+        "CaseStudyObservableTimingId": 769,
+        "CaseStudyID": 13,
+        "UTC_Time": "2018-12-18T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 24,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 11
+    },
+    {
+        "CaseStudyObservableTimingId": 770,
+        "CaseStudyID": 13,
+        "UTC_Time": "2018-12-18T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 25,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 12
+    },
+    {
+        "CaseStudyObservableTimingId": 771,
+        "CaseStudyID": 20,
+        "UTC_Time": "2019-03-27T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 55,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 0
+    },
+    {
+        "CaseStudyObservableTimingId": 772,
+        "CaseStudyID": 20,
+        "UTC_Time": "2019-03-27T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 71,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 1
+    },
+    {
+        "CaseStudyObservableTimingId": 773,
+        "CaseStudyID": 20,
+        "UTC_Time": "2019-03-27T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 20,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 2
+    },
+    {
+        "CaseStudyObservableTimingId": 774,
+        "CaseStudyID": 20,
+        "UTC_Time": "2019-03-27T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 50,
+        "MITRE_TacticId": 11,
+        "TimingOrder": 3
+    },
+    {
+        "CaseStudyObservableTimingId": 775,
+        "CaseStudyID": 20,
+        "UTC_Time": "2019-03-27T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 69,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 4
+    },
+    {
+        "CaseStudyObservableTimingId": 776,
+        "CaseStudyID": 20,
+        "UTC_Time": "2019-03-27T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 22,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 5
+    },
+    {
+        "CaseStudyObservableTimingId": 777,
+        "CaseStudyID": 15,
+        "UTC_Time": "2019-09-04T07:00:00.000Z",
+        "D_Notation": "D-466",
+        "MITRE_TechniqueID": 20,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 0
+    },
+    {
+        "CaseStudyObservableTimingId": 778,
+        "CaseStudyID": 15,
+        "UTC_Time": "2019-09-04T07:00:00.000Z",
+        "D_Notation": "D-466",
+        "MITRE_TechniqueID": 54,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 1
+    },
+    {
+        "CaseStudyObservableTimingId": 779,
+        "CaseStudyID": 15,
+        "UTC_Time": "2019-09-04T07:00:00.000Z",
+        "D_Notation": "D-223",
+        "MITRE_TechniqueID": 53,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 2
+    },
+    {
+        "CaseStudyObservableTimingId": 780,
+        "CaseStudyID": 15,
+        "UTC_Time": "2019-09-04T07:00:00.000Z",
+        "D_Notation": "D-223",
+        "MITRE_TechniqueID": 30,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 3
+    },
+    {
+        "CaseStudyObservableTimingId": 781,
+        "CaseStudyID": 15,
+        "UTC_Time": "2019-09-04T07:00:00.000Z",
+        "D_Notation": "D-223",
+        "MITRE_TechniqueID": 61,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 4
+    },
+    {
+        "CaseStudyObservableTimingId": 782,
+        "CaseStudyID": 15,
+        "UTC_Time": "2019-09-04T07:00:00.000Z",
+        "D_Notation": "D-223",
+        "MITRE_TechniqueID": 42,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 5
+    },
+    {
+        "CaseStudyObservableTimingId": 783,
+        "CaseStudyID": 15,
+        "UTC_Time": "2019-09-04T07:00:00.000Z",
+        "D_Notation": "D-223",
+        "MITRE_TechniqueID": 76,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 6
+    },
+    {
+        "CaseStudyObservableTimingId": 784,
+        "CaseStudyID": 15,
+        "UTC_Time": "2019-09-04T07:00:00.000Z",
+        "D_Notation": "D-223",
+        "MITRE_TechniqueID": 77,
+        "MITRE_TacticId": 11,
+        "TimingOrder": 7
+    },
+    {
+        "CaseStudyObservableTimingId": 785,
+        "CaseStudyID": 15,
+        "UTC_Time": "2019-09-04T07:00:00.000Z",
+        "D_Notation": "D-223",
+        "MITRE_TechniqueID": 69,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 8
+    },
+    {
+        "CaseStudyObservableTimingId": 786,
+        "CaseStudyID": 15,
+        "UTC_Time": "2019-09-04T07:00:00.000Z",
+        "D_Notation": "D-223",
+        "MITRE_TechniqueID": 3,
+        "MITRE_TacticId": 1,
+        "TimingOrder": 9
+    },
+    {
+        "CaseStudyObservableTimingId": 787,
+        "CaseStudyID": 15,
+        "UTC_Time": "2019-09-04T07:00:00.000Z",
+        "D_Notation": "D-223",
+        "MITRE_TechniqueID": 60,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 10
+    },
+    {
+        "CaseStudyObservableTimingId": 788,
+        "CaseStudyID": 15,
+        "UTC_Time": "2019-09-04T07:00:00.000Z",
+        "D_Notation": "D-223",
+        "MITRE_TechniqueID": 73,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 11
+    },
+    {
+        "CaseStudyObservableTimingId": 789,
+        "CaseStudyID": 15,
+        "UTC_Time": "2019-09-04T07:00:00.000Z",
+        "D_Notation": "D-223",
+        "MITRE_TechniqueID": 58,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 12
+    },
+    {
+        "CaseStudyObservableTimingId": 790,
+        "CaseStudyID": 15,
+        "UTC_Time": "2019-09-04T07:00:00.000Z",
+        "D_Notation": "D-223",
+        "MITRE_TechniqueID": 8,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 13
+    },
+    {
+        "CaseStudyObservableTimingId": 791,
+        "CaseStudyID": 15,
+        "UTC_Time": "2019-09-04T07:00:00.000Z",
+        "D_Notation": "D-223",
+        "MITRE_TechniqueID": 45,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 14
+    },
+    {
+        "CaseStudyObservableTimingId": 792,
+        "CaseStudyID": 15,
+        "UTC_Time": "2019-09-04T07:00:00.000Z",
+        "D_Notation": "D-223",
+        "MITRE_TechniqueID": 62,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 15
+    },
+    {
+        "CaseStudyObservableTimingId": 793,
+        "CaseStudyID": 15,
+        "UTC_Time": "2019-09-04T07:00:00.000Z",
+        "D_Notation": "D-10",
+        "MITRE_TechniqueID": 50,
+        "MITRE_TacticId": 11,
+        "TimingOrder": 16
+    },
+    {
+        "CaseStudyObservableTimingId": 794,
+        "CaseStudyID": 15,
+        "UTC_Time": "2019-09-04T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 50,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 17
+    },
+    {
+        "CaseStudyObservableTimingId": 795,
+        "CaseStudyID": 15,
+        "UTC_Time": "2019-09-04T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 70,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 18
+    },
+    {
+        "CaseStudyObservableTimingId": 796,
+        "CaseStudyID": 15,
+        "UTC_Time": "2019-09-04T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 24,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 19
+    },
+    {
+        "CaseStudyObservableTimingId": 797,
+        "CaseStudyID": 21,
+        "UTC_Time": "2019-09-10T07:00:00.000Z",
+        "D_Notation": "D-61",
+        "MITRE_TechniqueID": 56,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 0
+    },
+    {
+        "CaseStudyObservableTimingId": 798,
+        "CaseStudyID": 21,
+        "UTC_Time": "2019-09-10T07:00:00.000Z",
+        "D_Notation": "D-61",
+        "MITRE_TechniqueID": 17,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 1
+    },
+    {
+        "CaseStudyObservableTimingId": 799,
+        "CaseStudyID": 21,
+        "UTC_Time": "2019-09-10T07:00:00.000Z",
+        "D_Notation": "D-61",
+        "MITRE_TechniqueID": 53,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 2
+    },
+    {
+        "CaseStudyObservableTimingId": 800,
+        "CaseStudyID": 21,
+        "UTC_Time": "2019-09-10T07:00:00.000Z",
+        "D_Notation": "D-61",
+        "MITRE_TechniqueID": 45,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 3
+    },
+    {
+        "CaseStudyObservableTimingId": 801,
+        "CaseStudyID": 21,
+        "UTC_Time": "2019-09-10T07:00:00.000Z",
+        "D_Notation": "D-61",
+        "MITRE_TechniqueID": 60,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 4
+    },
+    {
+        "CaseStudyObservableTimingId": 802,
+        "CaseStudyID": 21,
+        "UTC_Time": "2019-09-10T07:00:00.000Z",
+        "D_Notation": "D-61",
+        "MITRE_TechniqueID": 73,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 5
+    },
+    {
+        "CaseStudyObservableTimingId": 803,
+        "CaseStudyID": 21,
+        "UTC_Time": "2019-09-10T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 74,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 6
+    },
+    {
+        "CaseStudyObservableTimingId": 804,
+        "CaseStudyID": 21,
+        "UTC_Time": "2019-09-10T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 50,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 7
+    },
+    {
+        "CaseStudyObservableTimingId": 805,
+        "CaseStudyID": 21,
+        "UTC_Time": "2019-09-10T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 58,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 8
+    },
+    {
+        "CaseStudyObservableTimingId": 806,
+        "CaseStudyID": 21,
+        "UTC_Time": "2019-09-10T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 8,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 9
+    },
+    {
+        "CaseStudyObservableTimingId": 807,
+        "CaseStudyID": 21,
+        "UTC_Time": "2019-09-10T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 70,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 10
+    },
+    {
+        "CaseStudyObservableTimingId": 808,
+        "CaseStudyID": 21,
+        "UTC_Time": "2019-09-10T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 42,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 11
+    },
+    {
+        "CaseStudyObservableTimingId": 809,
+        "CaseStudyID": 21,
+        "UTC_Time": "2019-09-10T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 69,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 12
+    },
+    {
+        "CaseStudyObservableTimingId": 810,
+        "CaseStudyID": 21,
+        "UTC_Time": "2019-09-10T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 30,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 13
+    },
+    {
+        "CaseStudyObservableTimingId": 811,
+        "CaseStudyID": 21,
+        "UTC_Time": "2019-09-10T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 16,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 14
+    },
+    {
+        "CaseStudyObservableTimingId": 812,
+        "CaseStudyID": 21,
+        "UTC_Time": "2019-09-10T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 9,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 15
+    },
+    {
+        "CaseStudyObservableTimingId": 813,
+        "CaseStudyID": 21,
+        "UTC_Time": "2019-09-10T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 28,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 16
+    },
+    {
+        "CaseStudyObservableTimingId": 814,
+        "CaseStudyID": 21,
+        "UTC_Time": "2019-09-10T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 24,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 17
+    },
+    {
+        "CaseStudyObservableTimingId": 815,
+        "CaseStudyID": 3,
+        "UTC_Time": "2020-01-08T07:00:00.000Z",
+        "D_Notation": "D-152",
+        "MITRE_TechniqueID": 74,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 0
+    },
+    {
+        "CaseStudyObservableTimingId": 816,
+        "CaseStudyID": 3,
+        "UTC_Time": "2020-01-08T07:00:00.000Z",
+        "D_Notation": "D-152",
+        "MITRE_TechniqueID": 50,
+        "MITRE_TacticId": 11,
+        "TimingOrder": 1
+    },
+    {
+        "CaseStudyObservableTimingId": 817,
+        "CaseStudyID": 3,
+        "UTC_Time": "2020-01-08T07:00:00.000Z",
+        "D_Notation": "D-152",
+        "MITRE_TechniqueID": 42,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 2
+    },
+    {
+        "CaseStudyObservableTimingId": 818,
+        "CaseStudyID": 3,
+        "UTC_Time": "2020-01-08T07:00:00.000Z",
+        "D_Notation": "D-1",
+        "MITRE_TechniqueID": 35,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 3
+    },
+    {
+        "CaseStudyObservableTimingId": 819,
+        "CaseStudyID": 3,
+        "UTC_Time": "2020-01-08T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 69,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 4
+    },
+    {
+        "CaseStudyObservableTimingId": 820,
+        "CaseStudyID": 3,
+        "UTC_Time": "2020-01-08T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 9,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 5
+    },
+    {
+        "CaseStudyObservableTimingId": 821,
+        "CaseStudyID": 3,
+        "UTC_Time": "2020-01-08T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 22,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 6
+    },
+    {
+        "CaseStudyObservableTimingId": 822,
+        "CaseStudyID": 3,
+        "UTC_Time": "2020-01-08T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 24,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 7
+    },
+    {
+        "CaseStudyObservableTimingId": 823,
+        "CaseStudyID": 11,
+        "UTC_Time": "2020-05-10T07:00:00.000Z",
+        "D_Notation": "D-160",
+        "MITRE_TechniqueID": 54,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 0
+    },
+    {
+        "CaseStudyObservableTimingId": 824,
+        "CaseStudyID": 11,
+        "UTC_Time": "2020-05-10T07:00:00.000Z",
+        "D_Notation": "D-160",
+        "MITRE_TechniqueID": 60,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 1
+    },
+    {
+        "CaseStudyObservableTimingId": 825,
+        "CaseStudyID": 11,
+        "UTC_Time": "2020-05-10T07:00:00.000Z",
+        "D_Notation": "D-160",
+        "MITRE_TechniqueID": 73,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 2
+    },
+    {
+        "CaseStudyObservableTimingId": 826,
+        "CaseStudyID": 11,
+        "UTC_Time": "2020-05-10T07:00:00.000Z",
+        "D_Notation": "D-160",
+        "MITRE_TechniqueID": 72,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 3
+    },
+    {
+        "CaseStudyObservableTimingId": 827,
+        "CaseStudyID": 11,
+        "UTC_Time": "2020-05-10T07:00:00.000Z",
+        "D_Notation": "D-160",
+        "MITRE_TechniqueID": 37,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 4
+    },
+    {
+        "CaseStudyObservableTimingId": 828,
+        "CaseStudyID": 11,
+        "UTC_Time": "2020-05-10T07:00:00.000Z",
+        "D_Notation": "D-160",
+        "MITRE_TechniqueID": 45,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 5
+    },
+    {
+        "CaseStudyObservableTimingId": 829,
+        "CaseStudyID": 11,
+        "UTC_Time": "2020-05-10T07:00:00.000Z",
+        "D_Notation": "D-160",
+        "MITRE_TechniqueID": 64,
+        "MITRE_TacticId": 12,
+        "TimingOrder": 6
+    },
+    {
+        "CaseStudyObservableTimingId": 830,
+        "CaseStudyID": 11,
+        "UTC_Time": "2020-05-10T07:00:00.000Z",
+        "D_Notation": "D-160",
+        "MITRE_TechniqueID": 76,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 7
+    },
+    {
+        "CaseStudyObservableTimingId": 831,
+        "CaseStudyID": 11,
+        "UTC_Time": "2020-05-10T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M-5",
+        "MITRE_TechniqueID": 42,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 8
+    },
+    {
+        "CaseStudyObservableTimingId": 832,
+        "CaseStudyID": 11,
+        "UTC_Time": "2020-05-10T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M-5",
+        "MITRE_TechniqueID": 61,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 9
+    },
+    {
+        "CaseStudyObservableTimingId": 833,
+        "CaseStudyID": 11,
+        "UTC_Time": "2020-05-10T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M-5",
+        "MITRE_TechniqueID": 62,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 10
+    },
+    {
+        "CaseStudyObservableTimingId": 834,
+        "CaseStudyID": 11,
+        "UTC_Time": "2020-05-10T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 8,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 11
+    },
+    {
+        "CaseStudyObservableTimingId": 835,
+        "CaseStudyID": 11,
+        "UTC_Time": "2020-05-10T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 22,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 12
+    },
+    {
+        "CaseStudyObservableTimingId": 836,
+        "CaseStudyID": 11,
+        "UTC_Time": "2020-05-10T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 24,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 13
+    },
+    {
+        "CaseStudyObservableTimingId": 837,
+        "CaseStudyID": 23,
+        "UTC_Time": "2020-09-27T07:00:00.000Z",
+        "D_Notation": "D-0 H-2 M-0",
+        "MITRE_TechniqueID": 56,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 0
+    },
+    {
+        "CaseStudyObservableTimingId": 838,
+        "CaseStudyID": 23,
+        "UTC_Time": "2020-09-27T07:00:00.000Z",
+        "D_Notation": "D-0 H-2 M-0",
+        "MITRE_TechniqueID": 53,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 1
+    },
+    {
+        "CaseStudyObservableTimingId": 839,
+        "CaseStudyID": 23,
+        "UTC_Time": "2020-09-27T07:00:00.000Z",
+        "D_Notation": "D-0 H-2 M-0",
+        "MITRE_TechniqueID": 17,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 2
+    },
+    {
+        "CaseStudyObservableTimingId": 840,
+        "CaseStudyID": 23,
+        "UTC_Time": "2020-09-27T07:00:00.000Z",
+        "D_Notation": "D-0 H-2 M-0",
+        "MITRE_TechniqueID": 42,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 4
+    },
+    {
+        "CaseStudyObservableTimingId": 841,
+        "CaseStudyID": 23,
+        "UTC_Time": "2020-09-27T07:00:00.000Z",
+        "D_Notation": "D-0 H-2 M-0",
+        "MITRE_TechniqueID": 45,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 5
+    },
+    {
+        "CaseStudyObservableTimingId": 842,
+        "CaseStudyID": 23,
+        "UTC_Time": "2020-09-27T07:00:00.000Z",
+        "D_Notation": "D-0 H-2 M-0",
+        "MITRE_TechniqueID": 30,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 6
+    },
+    {
+        "CaseStudyObservableTimingId": 843,
+        "CaseStudyID": 23,
+        "UTC_Time": "2020-09-27T07:00:00.000Z",
+        "D_Notation": "D-0 H-2 M-0",
+        "MITRE_TechniqueID": 39,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 7
+    },
+    {
+        "CaseStudyObservableTimingId": 844,
+        "CaseStudyID": 23,
+        "UTC_Time": "2020-09-27T07:00:00.000Z",
+        "D_Notation": "D-0 H-2 M-0",
+        "MITRE_TechniqueID": 60,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 8
+    },
+    {
+        "CaseStudyObservableTimingId": 845,
+        "CaseStudyID": 23,
+        "UTC_Time": "2020-09-27T07:00:00.000Z",
+        "D_Notation": "D-0 H-2 M-0",
+        "MITRE_TechniqueID": 73,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 9
+    },
+    {
+        "CaseStudyObservableTimingId": 846,
+        "CaseStudyID": 23,
+        "UTC_Time": "2020-09-27T07:00:00.000Z",
+        "D_Notation": "D-0 H-2 M-0",
+        "MITRE_TechniqueID": 8,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 10
+    },
+    {
+        "CaseStudyObservableTimingId": 847,
+        "CaseStudyID": 23,
+        "UTC_Time": "2020-09-27T07:00:00.000Z",
+        "D_Notation": "D-0 H-2 M-0",
+        "MITRE_TechniqueID": 58,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 11
+    },
+    {
+        "CaseStudyObservableTimingId": 848,
+        "CaseStudyID": 23,
+        "UTC_Time": "2020-09-27T07:00:00.000Z",
+        "D_Notation": "D-0 H-2 M-0",
+        "MITRE_TechniqueID": 50,
+        "MITRE_TacticId": 11,
+        "TimingOrder": 12
+    },
+    {
+        "CaseStudyObservableTimingId": 849,
+        "CaseStudyID": 23,
+        "UTC_Time": "2020-09-27T07:00:00.000Z",
+        "D_Notation": "D-0 H-2 M-0",
+        "MITRE_TechniqueID": 76,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 13
+    },
+    {
+        "CaseStudyObservableTimingId": 850,
+        "CaseStudyID": 23,
+        "UTC_Time": "2020-09-27T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 69,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 14
+    },
+    {
+        "CaseStudyObservableTimingId": 851,
+        "CaseStudyID": 23,
+        "UTC_Time": "2020-09-27T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 16,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 15
+    },
+    {
+        "CaseStudyObservableTimingId": 852,
+        "CaseStudyID": 23,
+        "UTC_Time": "2020-09-27T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 9,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 16
+    },
+    {
+        "CaseStudyObservableTimingId": 853,
+        "CaseStudyID": 23,
+        "UTC_Time": "2020-09-27T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 22,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 17
+    },
+    {
+        "CaseStudyObservableTimingId": 854,
+        "CaseStudyID": 23,
+        "UTC_Time": "2020-09-27T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 24,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 18
+    },
+    {
+        "CaseStudyObservableTimingId": 855,
+        "CaseStudyID": 17,
+        "UTC_Time": "2021-02-05T07:00:00.000Z",
+        "D_Notation": "D-0 H-5 M-30",
+        "MITRE_TechniqueID": 50,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 0
+    },
+    {
+        "CaseStudyObservableTimingId": 856,
+        "CaseStudyID": 17,
+        "UTC_Time": "2021-02-05T07:00:00.000Z",
+        "D_Notation": "D-0 H-5 M-30",
+        "MITRE_TechniqueID": 71,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 1
+    },
+    {
+        "CaseStudyObservableTimingId": 857,
+        "CaseStudyID": 17,
+        "UTC_Time": "2021-02-05T07:00:00.000Z",
+        "D_Notation": "D-0 H-5 M-30",
+        "MITRE_TechniqueID": 20,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 2
+    },
+    {
+        "CaseStudyObservableTimingId": 858,
+        "CaseStudyID": 17,
+        "UTC_Time": "2021-02-05T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 21,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 3
+    },
+    {
+        "CaseStudyObservableTimingId": 859,
+        "CaseStudyID": 17,
+        "UTC_Time": "2021-02-05T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 31,
+        "MITRE_TacticId": 7,
+        "TimingOrder": 4
+    },
+    {
+        "CaseStudyObservableTimingId": 860,
+        "CaseStudyID": 17,
+        "UTC_Time": "2021-02-05T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 27,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 5
+    },
+    {
+        "CaseStudyObservableTimingId": 861,
+        "CaseStudyID": 25,
+        "UTC_Time": "2021-02-15T07:00:00.000Z",
+        "D_Notation": "D-104",
+        "MITRE_TechniqueID": 56,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 0
+    },
+    {
+        "CaseStudyObservableTimingId": 862,
+        "CaseStudyID": 25,
+        "UTC_Time": "2021-02-15T07:00:00.000Z",
+        "D_Notation": "D-104",
+        "MITRE_TechniqueID": 53,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 1
+    },
+    {
+        "CaseStudyObservableTimingId": 863,
+        "CaseStudyID": 25,
+        "UTC_Time": "2021-02-15T07:00:00.000Z",
+        "D_Notation": "D-104",
+        "MITRE_TechniqueID": 45,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 2
+    },
+    {
+        "CaseStudyObservableTimingId": 864,
+        "CaseStudyID": 25,
+        "UTC_Time": "2021-02-15T07:00:00.000Z",
+        "D_Notation": "D-104",
+        "MITRE_TechniqueID": 78,
+        "MITRE_TacticId": 12,
+        "TimingOrder": 3
+    },
+    {
+        "CaseStudyObservableTimingId": 865,
+        "CaseStudyID": 25,
+        "UTC_Time": "2021-02-15T07:00:00.000Z",
+        "D_Notation": "D-104",
+        "MITRE_TechniqueID": 57,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 4
+    },
+    {
+        "CaseStudyObservableTimingId": 866,
+        "CaseStudyID": 25,
+        "UTC_Time": "2021-02-15T07:00:00.000Z",
+        "D_Notation": "D-104",
+        "MITRE_TechniqueID": 18,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 5
+    },
+    {
+        "CaseStudyObservableTimingId": 867,
+        "CaseStudyID": 25,
+        "UTC_Time": "2021-02-15T07:00:00.000Z",
+        "D_Notation": "D-104",
+        "MITRE_TechniqueID": 30,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 6
+    },
+    {
+        "CaseStudyObservableTimingId": 868,
+        "CaseStudyID": 25,
+        "UTC_Time": "2021-02-15T07:00:00.000Z",
+        "D_Notation": "D-104",
+        "MITRE_TechniqueID": 50,
+        "MITRE_TacticId": 11,
+        "TimingOrder": 7
+    },
+    {
+        "CaseStudyObservableTimingId": 869,
+        "CaseStudyID": 25,
+        "UTC_Time": "2021-02-15T07:00:00.000Z",
+        "D_Notation": "D-104",
+        "MITRE_TechniqueID": 73,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 8
+    },
+    {
+        "CaseStudyObservableTimingId": 870,
+        "CaseStudyID": 25,
+        "UTC_Time": "2021-02-15T07:00:00.000Z",
+        "D_Notation": "D-104",
+        "MITRE_TechniqueID": 72,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 9
+    },
+    {
+        "CaseStudyObservableTimingId": 871,
+        "CaseStudyID": 25,
+        "UTC_Time": "2021-02-15T07:00:00.000Z",
+        "D_Notation": "D-104",
+        "MITRE_TechniqueID": 60,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 10
+    },
+    {
+        "CaseStudyObservableTimingId": 872,
+        "CaseStudyID": 25,
+        "UTC_Time": "2021-02-15T07:00:00.000Z",
+        "D_Notation": "D-104",
+        "MITRE_TechniqueID": 39,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 11
+    },
+    {
+        "CaseStudyObservableTimingId": 873,
+        "CaseStudyID": 25,
+        "UTC_Time": "2021-02-15T07:00:00.000Z",
+        "D_Notation": "D-104",
+        "MITRE_TechniqueID": 76,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 12
+    },
+    {
+        "CaseStudyObservableTimingId": 874,
+        "CaseStudyID": 25,
+        "UTC_Time": "2021-02-15T07:00:00.000Z",
+        "D_Notation": "D-104",
+        "MITRE_TechniqueID": 50,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 13
+    },
+    {
+        "CaseStudyObservableTimingId": 875,
+        "CaseStudyID": 25,
+        "UTC_Time": "2021-02-15T07:00:00.000Z",
+        "D_Notation": "D-91",
+        "MITRE_TechniqueID": 74,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 14
+    },
+    {
+        "CaseStudyObservableTimingId": 876,
+        "CaseStudyID": 25,
+        "UTC_Time": "2021-02-15T07:00:00.000Z",
+        "D_Notation": "D-90",
+        "MITRE_TechniqueID": 70,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 15
+    },
+    {
+        "CaseStudyObservableTimingId": 877,
+        "CaseStudyID": 25,
+        "UTC_Time": "2021-02-15T07:00:00.000Z",
+        "D_Notation": "D-90",
+        "MITRE_TechniqueID": 42,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 16
+    },
+    {
+        "CaseStudyObservableTimingId": 878,
+        "CaseStudyID": 25,
+        "UTC_Time": "2021-02-15T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 69,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 17
+    },
+    {
+        "CaseStudyObservableTimingId": 879,
+        "CaseStudyID": 25,
+        "UTC_Time": "2021-02-15T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 9,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 18
+    },
+    {
+        "CaseStudyObservableTimingId": 880,
+        "CaseStudyID": 25,
+        "UTC_Time": "2021-02-15T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 23,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 19
+    },
+    {
+        "CaseStudyObservableTimingId": 881,
+        "CaseStudyID": 25,
+        "UTC_Time": "2021-02-15T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 22,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 20
+    },
+    {
+        "CaseStudyObservableTimingId": 882,
+        "CaseStudyID": 25,
+        "UTC_Time": "2021-02-15T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 28,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 21
+    },
+    {
+        "CaseStudyObservableTimingId": 883,
+        "CaseStudyID": 25,
+        "UTC_Time": "2021-02-15T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 24,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 22
+    },
+    {
+        "CaseStudyObservableTimingId": 884,
+        "CaseStudyID": 19,
+        "UTC_Time": "2021-03-18T07:00:00.000Z",
+        "D_Notation": "D-57",
+        "MITRE_TechniqueID": 56,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 0
+    },
+    {
+        "CaseStudyObservableTimingId": 885,
+        "CaseStudyID": 19,
+        "UTC_Time": "2021-03-18T07:00:00.000Z",
+        "D_Notation": "D-57",
+        "MITRE_TechniqueID": 53,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 1
+    },
+    {
+        "CaseStudyObservableTimingId": 886,
+        "CaseStudyID": 19,
+        "UTC_Time": "2021-03-18T07:00:00.000Z",
+        "D_Notation": "D-57",
+        "MITRE_TechniqueID": 45,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 2
+    },
+    {
+        "CaseStudyObservableTimingId": 887,
+        "CaseStudyID": 19,
+        "UTC_Time": "2021-03-18T07:00:00.000Z",
+        "D_Notation": "D-57",
+        "MITRE_TechniqueID": 30,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 3
+    },
+    {
+        "CaseStudyObservableTimingId": 888,
+        "CaseStudyID": 19,
+        "UTC_Time": "2021-03-18T07:00:00.000Z",
+        "D_Notation": "D-57",
+        "MITRE_TechniqueID": 60,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 4
+    },
+    {
+        "CaseStudyObservableTimingId": 889,
+        "CaseStudyID": 19,
+        "UTC_Time": "2021-03-18T07:00:00.000Z",
+        "D_Notation": "D-57",
+        "MITRE_TechniqueID": 73,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 5
+    },
+    {
+        "CaseStudyObservableTimingId": 890,
+        "CaseStudyID": 19,
+        "UTC_Time": "2021-03-18T07:00:00.000Z",
+        "D_Notation": "D-57",
+        "MITRE_TechniqueID": 42,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 6
+    },
+    {
+        "CaseStudyObservableTimingId": 891,
+        "CaseStudyID": 19,
+        "UTC_Time": "2021-03-18T07:00:00.000Z",
+        "D_Notation": "D-52",
+        "MITRE_TechniqueID": 77,
+        "MITRE_TacticId": 11,
+        "TimingOrder": 7
+    },
+    {
+        "CaseStudyObservableTimingId": 892,
+        "CaseStudyID": 19,
+        "UTC_Time": "2021-03-18T07:00:00.000Z",
+        "D_Notation": "D-52",
+        "MITRE_TechniqueID": 8,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 8
+    },
+    {
+        "CaseStudyObservableTimingId": 893,
+        "CaseStudyID": 19,
+        "UTC_Time": "2021-03-18T07:00:00.000Z",
+        "D_Notation": "D-52",
+        "MITRE_TechniqueID": 35,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 10
+    },
+    {
+        "CaseStudyObservableTimingId": 894,
+        "CaseStudyID": 19,
+        "UTC_Time": "2021-03-18T07:00:00.000Z",
+        "D_Notation": "D-52",
+        "MITRE_TechniqueID": 39,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 11
+    },
+    {
+        "CaseStudyObservableTimingId": 895,
+        "CaseStudyID": 19,
+        "UTC_Time": "2021-03-18T07:00:00.000Z",
+        "D_Notation": "D-52",
+        "MITRE_TechniqueID": 78,
+        "MITRE_TacticId": 12,
+        "TimingOrder": 12
+    },
+    {
+        "CaseStudyObservableTimingId": 896,
+        "CaseStudyID": 19,
+        "UTC_Time": "2021-03-18T07:00:00.000Z",
+        "D_Notation": "D-44",
+        "MITRE_TechniqueID": 50,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 13
+    },
+    {
+        "CaseStudyObservableTimingId": 897,
+        "CaseStudyID": 19,
+        "UTC_Time": "2021-03-18T07:00:00.000Z",
+        "D_Notation": "D-7",
+        "MITRE_TechniqueID": 74,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 14
+    },
+    {
+        "CaseStudyObservableTimingId": 898,
+        "CaseStudyID": 19,
+        "UTC_Time": "2021-03-18T07:00:00.000Z",
+        "D_Notation": "D-7",
+        "MITRE_TechniqueID": 58,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 15
+    },
+    {
+        "CaseStudyObservableTimingId": 899,
+        "CaseStudyID": 19,
+        "UTC_Time": "2021-03-18T07:00:00.000Z",
+        "D_Notation": "D-7",
+        "MITRE_TechniqueID": 50,
+        "MITRE_TacticId": 11,
+        "TimingOrder": 16
+    },
+    {
+        "CaseStudyObservableTimingId": 900,
+        "CaseStudyID": 19,
+        "UTC_Time": "2021-03-18T07:00:00.000Z",
+        "D_Notation": "D-7",
+        "MITRE_TechniqueID": 72,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 17
+    },
+    {
+        "CaseStudyObservableTimingId": 901,
+        "CaseStudyID": 19,
+        "UTC_Time": "2021-03-18T07:00:00.000Z",
+        "D_Notation": "D-6",
+        "MITRE_TechniqueID": 70,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 18
+    },
+    {
+        "CaseStudyObservableTimingId": 902,
+        "CaseStudyID": 19,
+        "UTC_Time": "2021-03-18T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 9,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 19
+    },
+    {
+        "CaseStudyObservableTimingId": 903,
+        "CaseStudyID": 19,
+        "UTC_Time": "2021-03-18T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 69,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 20
+    },
+    {
+        "CaseStudyObservableTimingId": 904,
+        "CaseStudyID": 19,
+        "UTC_Time": "2021-03-18T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 22,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 21
+    },
+    {
+        "CaseStudyObservableTimingId": 905,
+        "CaseStudyID": 19,
+        "UTC_Time": "2021-03-18T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 24,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 22
+    },
+    {
+        "CaseStudyObservableTimingId": 906,
+        "CaseStudyID": 4,
+        "UTC_Time": "2021-04-29T07:00:00.000Z",
+        "D_Notation": "D-8",
+        "MITRE_TechniqueID": 20,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 0
+    },
+    {
+        "CaseStudyObservableTimingId": 907,
+        "CaseStudyID": 4,
+        "UTC_Time": "2021-04-29T07:00:00.000Z",
+        "D_Notation": "D-8",
+        "MITRE_TechniqueID": 50,
+        "MITRE_TacticId": 11,
+        "TimingOrder": 1
+    },
+    {
+        "CaseStudyObservableTimingId": 908,
+        "CaseStudyID": 4,
+        "UTC_Time": "2021-04-29T07:00:00.000Z",
+        "D_Notation": "D-8",
+        "MITRE_TechniqueID": 78,
+        "MITRE_TacticId": 12,
+        "TimingOrder": 2
+    },
+    {
+        "CaseStudyObservableTimingId": 909,
+        "CaseStudyID": 4,
+        "UTC_Time": "2021-04-29T07:00:00.000Z",
+        "D_Notation": "D-8",
+        "MITRE_TechniqueID": 60,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 3
+    },
+    {
+        "CaseStudyObservableTimingId": 910,
+        "CaseStudyID": 4,
+        "UTC_Time": "2021-04-29T07:00:00.000Z",
+        "D_Notation": "D-8",
+        "MITRE_TechniqueID": 72,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 4
+    },
+    {
+        "CaseStudyObservableTimingId": 911,
+        "CaseStudyID": 4,
+        "UTC_Time": "2021-04-29T07:00:00.000Z",
+        "D_Notation": "D-8",
+        "MITRE_TechniqueID": 10,
+        "MITRE_TacticId": 1,
+        "TimingOrder": 5
+    },
+    {
+        "CaseStudyObservableTimingId": 912,
+        "CaseStudyID": 4,
+        "UTC_Time": "2021-04-29T07:00:00.000Z",
+        "D_Notation": "D-8",
+        "MITRE_TechniqueID": 70,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 6
+    },
+    {
+        "CaseStudyObservableTimingId": 913,
+        "CaseStudyID": 4,
+        "UTC_Time": "2021-04-29T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 9,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 7
+    },
+    {
+        "CaseStudyObservableTimingId": 914,
+        "CaseStudyID": 4,
+        "UTC_Time": "2021-04-29T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 69,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 8
+    },
+    {
+        "CaseStudyObservableTimingId": 915,
+        "CaseStudyID": 4,
+        "UTC_Time": "2021-04-29T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 22,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 9
+    },
+    {
+        "CaseStudyObservableTimingId": 916,
+        "CaseStudyID": 4,
+        "UTC_Time": "2021-04-29T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 24,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 10
+    },
+    {
+        "CaseStudyObservableTimingId": 917,
+        "CaseStudyID": 26,
+        "UTC_Time": "2021-09-03T07:00:00.000Z",
+        "D_Notation": "D-15",
+        "MITRE_TechniqueID": 12,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 0
+    },
+    {
+        "CaseStudyObservableTimingId": 918,
+        "CaseStudyID": 26,
+        "UTC_Time": "2021-09-03T07:00:00.000Z",
+        "D_Notation": "D-15",
+        "MITRE_TechniqueID": 78,
+        "MITRE_TacticId": 12,
+        "TimingOrder": 1
+    },
+    {
+        "CaseStudyObservableTimingId": 919,
+        "CaseStudyID": 26,
+        "UTC_Time": "2021-09-03T07:00:00.000Z",
+        "D_Notation": "D-15",
+        "MITRE_TechniqueID": 18,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 2
+    },
+    {
+        "CaseStudyObservableTimingId": 920,
+        "CaseStudyID": 26,
+        "UTC_Time": "2021-09-03T07:00:00.000Z",
+        "D_Notation": "D-15",
+        "MITRE_TechniqueID": 45,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 3
+    },
+    {
+        "CaseStudyObservableTimingId": 921,
+        "CaseStudyID": 26,
+        "UTC_Time": "2021-09-03T07:00:00.000Z",
+        "D_Notation": "D-15",
+        "MITRE_TechniqueID": 60,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 4
+    },
+    {
+        "CaseStudyObservableTimingId": 922,
+        "CaseStudyID": 26,
+        "UTC_Time": "2021-09-03T07:00:00.000Z",
+        "D_Notation": "D-15",
+        "MITRE_TechniqueID": 73,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 5
+    },
+    {
+        "CaseStudyObservableTimingId": 923,
+        "CaseStudyID": 26,
+        "UTC_Time": "2021-09-03T07:00:00.000Z",
+        "D_Notation": "D-15",
+        "MITRE_TechniqueID": 72,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 6
+    },
+    {
+        "CaseStudyObservableTimingId": 924,
+        "CaseStudyID": 26,
+        "UTC_Time": "2021-09-03T07:00:00.000Z",
+        "D_Notation": "D-15",
+        "MITRE_TechniqueID": 8,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 7
+    },
+    {
+        "CaseStudyObservableTimingId": 925,
+        "CaseStudyID": 26,
+        "UTC_Time": "2021-09-03T07:00:00.000Z",
+        "D_Notation": "D-15",
+        "MITRE_TechniqueID": 74,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 8
+    },
+    {
+        "CaseStudyObservableTimingId": 926,
+        "CaseStudyID": 26,
+        "UTC_Time": "2021-09-03T07:00:00.000Z",
+        "D_Notation": "D-15",
+        "MITRE_TechniqueID": 21,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 9
+    },
+    {
+        "CaseStudyObservableTimingId": 927,
+        "CaseStudyID": 26,
+        "UTC_Time": "2021-09-03T07:00:00.000Z",
+        "D_Notation": "D-15",
+        "MITRE_TechniqueID": 30,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 10
+    },
+    {
+        "CaseStudyObservableTimingId": 928,
+        "CaseStudyID": 26,
+        "UTC_Time": "2021-09-03T07:00:00.000Z",
+        "D_Notation": "D-15",
+        "MITRE_TechniqueID": 39,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 11
+    },
+    {
+        "CaseStudyObservableTimingId": 929,
+        "CaseStudyID": 26,
+        "UTC_Time": "2021-09-03T07:00:00.000Z",
+        "D_Notation": "D-15",
+        "MITRE_TechniqueID": 3,
+        "MITRE_TacticId": 1,
+        "TimingOrder": 12
+    },
+    {
+        "CaseStudyObservableTimingId": 930,
+        "CaseStudyID": 26,
+        "UTC_Time": "2021-09-03T07:00:00.000Z",
+        "D_Notation": "D-15",
+        "MITRE_TechniqueID": 62,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 13
+    },
+    {
+        "CaseStudyObservableTimingId": 931,
+        "CaseStudyID": 26,
+        "UTC_Time": "2021-09-03T07:00:00.000Z",
+        "D_Notation": "D-15",
+        "MITRE_TechniqueID": 70,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 14
+    },
+    {
+        "CaseStudyObservableTimingId": 932,
+        "CaseStudyID": 26,
+        "UTC_Time": "2021-09-03T07:00:00.000Z",
+        "D_Notation": "D-15",
+        "MITRE_TechniqueID": 49,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 15
+    },
+    {
+        "CaseStudyObservableTimingId": 933,
+        "CaseStudyID": 26,
+        "UTC_Time": "2021-09-03T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 69,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 16
+    },
+    {
+        "CaseStudyObservableTimingId": 934,
+        "CaseStudyID": 26,
+        "UTC_Time": "2021-09-03T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 9,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 17
+    },
+    {
+        "CaseStudyObservableTimingId": 935,
+        "CaseStudyID": 26,
+        "UTC_Time": "2021-09-03T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 22,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 18
+    },
+    {
+        "CaseStudyObservableTimingId": 936,
+        "CaseStudyID": 26,
+        "UTC_Time": "2021-09-03T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 24,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 19
+    },
+    {
+        "CaseStudyObservableTimingId": 937,
+        "CaseStudyID": 24,
+        "UTC_Time": "2022-02-17T07:00:00.000Z",
+        "D_Notation": "D-51",
+        "MITRE_TechniqueID": 71,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 0
+    },
+    {
+        "CaseStudyObservableTimingId": 938,
+        "CaseStudyID": 24,
+        "UTC_Time": "2022-02-17T07:00:00.000Z",
+        "D_Notation": "D-51",
+        "MITRE_TechniqueID": 76,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 1
+    },
+    {
+        "CaseStudyObservableTimingId": 939,
+        "CaseStudyID": 24,
+        "UTC_Time": "2022-02-17T07:00:00.000Z",
+        "D_Notation": "D-51",
+        "MITRE_TechniqueID": 58,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 2
+    },
+    {
+        "CaseStudyObservableTimingId": 940,
+        "CaseStudyID": 24,
+        "UTC_Time": "2022-02-17T07:00:00.000Z",
+        "D_Notation": "D-51",
+        "MITRE_TechniqueID": 8,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 3
+    },
+    {
+        "CaseStudyObservableTimingId": 941,
+        "CaseStudyID": 24,
+        "UTC_Time": "2022-02-17T07:00:00.000Z",
+        "D_Notation": "D-51",
+        "MITRE_TechniqueID": 45,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 4
+    },
+    {
+        "CaseStudyObservableTimingId": 942,
+        "CaseStudyID": 24,
+        "UTC_Time": "2022-02-17T07:00:00.000Z",
+        "D_Notation": "D-0 H-1 M-12",
+        "MITRE_TechniqueID": 30,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 6
+    },
+    {
+        "CaseStudyObservableTimingId": 943,
+        "CaseStudyID": 24,
+        "UTC_Time": "2022-02-17T07:00:00.000Z",
+        "D_Notation": "D-0 H-1 M-12",
+        "MITRE_TechniqueID": 39,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 7
+    },
+    {
+        "CaseStudyObservableTimingId": 944,
+        "CaseStudyID": 24,
+        "UTC_Time": "2022-02-17T07:00:00.000Z",
+        "D_Notation": "D-0 H-1 M-12",
+        "MITRE_TechniqueID": 74,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 8
+    },
+    {
+        "CaseStudyObservableTimingId": 945,
+        "CaseStudyID": 24,
+        "UTC_Time": "2022-02-17T07:00:00.000Z",
+        "D_Notation": "D-0 H-1 M-12",
+        "MITRE_TechniqueID": 73,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 9
+    },
+    {
+        "CaseStudyObservableTimingId": 946,
+        "CaseStudyID": 24,
+        "UTC_Time": "2022-02-17T07:00:00.000Z",
+        "D_Notation": "D-0 H-1 M-12",
+        "MITRE_TechniqueID": 50,
+        "MITRE_TacticId": 11,
+        "TimingOrder": 10
+    },
+    {
+        "CaseStudyObservableTimingId": 947,
+        "CaseStudyID": 24,
+        "UTC_Time": "2022-02-17T07:00:00.000Z",
+        "D_Notation": "D-0 H-1 M-12",
+        "MITRE_TechniqueID": 62,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 13
+    },
+    {
+        "CaseStudyObservableTimingId": 948,
+        "CaseStudyID": 24,
+        "UTC_Time": "2022-02-17T07:00:00.000Z",
+        "D_Notation": "D-0 H-1 M-12",
+        "MITRE_TechniqueID": 42,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 14
+    },
+    {
+        "CaseStudyObservableTimingId": 949,
+        "CaseStudyID": 24,
+        "UTC_Time": "2022-02-17T07:00:00.000Z",
+        "D_Notation": "D-0 H-1 M-12",
+        "MITRE_TechniqueID": 69,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 17
+    },
+    {
+        "CaseStudyObservableTimingId": 950,
+        "CaseStudyID": 24,
+        "UTC_Time": "2022-02-17T07:00:00.000Z",
+        "D_Notation": "D-0 H-1 M-12",
+        "MITRE_TechniqueID": 60,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 18
+    },
+    {
+        "CaseStudyObservableTimingId": 951,
+        "CaseStudyID": 24,
+        "UTC_Time": "2022-02-17T07:00:00.000Z",
+        "D_Notation": "D-0 H-1 M-8",
+        "MITRE_TechniqueID": 35,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 20
+    },
+    {
+        "CaseStudyObservableTimingId": 952,
+        "CaseStudyID": 24,
+        "UTC_Time": "2022-02-17T07:00:00.000Z",
+        "D_Notation": "D-0 H-1 M-8",
+        "MITRE_TechniqueID": 7,
+        "MITRE_TacticId": 7,
+        "TimingOrder": 22
+    },
+    {
+        "CaseStudyObservableTimingId": 953,
+        "CaseStudyID": 24,
+        "UTC_Time": "2022-02-17T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 46,
+        "MITRE_TacticId": 7,
+        "TimingOrder": 23
+    },
+    {
+        "CaseStudyObservableTimingId": 954,
+        "CaseStudyID": 24,
+        "UTC_Time": "2022-02-17T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M+10 ",
+        "MITRE_TechniqueID": 27,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 24
+    },
+    {
+        "CaseStudyObservableTimingId": 955,
+        "CaseStudyID": 24,
+        "UTC_Time": "2022-02-17T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M+10 ",
+        "MITRE_TechniqueID": 9,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 26
+    },
+    {
+        "CaseStudyObservableTimingId": 956,
+        "CaseStudyID": 24,
+        "UTC_Time": "2022-02-17T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M+10 ",
+        "MITRE_TechniqueID": 16,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 27
+    },
+    {
+        "CaseStudyObservableTimingId": 957,
+        "CaseStudyID": 24,
+        "UTC_Time": "2022-02-17T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M+10 ",
+        "MITRE_TechniqueID": 22,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 28
+    },
+    {
+        "CaseStudyObservableTimingId": 958,
+        "CaseStudyID": 24,
+        "UTC_Time": "2022-02-17T07:00:00.000Z",
+        "D_Notation": "D-0 H-0 M+10 ",
+        "MITRE_TechniqueID": 23,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 29
+    },
+    {
+        "CaseStudyObservableTimingId": 959,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 74,
+        "MITRE_TacticId": 9,
+        "TimingOrder": 0
+    },
+    {
+        "CaseStudyObservableTimingId": 960,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 53,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 1
+    },
+    {
+        "CaseStudyObservableTimingId": 961,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 45,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 2
+    },
+    {
+        "CaseStudyObservableTimingId": 962,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 8,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 3
+    },
+    {
+        "CaseStudyObservableTimingId": 963,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 30,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 4
+    },
+    {
+        "CaseStudyObservableTimingId": 964,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 49,
+        "MITRE_TacticId": 5,
+        "TimingOrder": 5
+    },
+    {
+        "CaseStudyObservableTimingId": 965,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 77,
+        "MITRE_TacticId": 11,
+        "TimingOrder": 6
+    },
+    {
+        "CaseStudyObservableTimingId": 966,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 50,
+        "MITRE_TacticId": 11,
+        "TimingOrder": 7
+    },
+    {
+        "CaseStudyObservableTimingId": 967,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 78,
+        "MITRE_TacticId": 12,
+        "TimingOrder": 8
+    },
+    {
+        "CaseStudyObservableTimingId": 968,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 49,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 9
+    },
+    {
+        "CaseStudyObservableTimingId": 969,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 43,
+        "MITRE_TacticId": 4,
+        "TimingOrder": 10
+    },
+    {
+        "CaseStudyObservableTimingId": 970,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 39,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 11
+    },
+    {
+        "CaseStudyObservableTimingId": 971,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 76,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 12
+    },
+    {
+        "CaseStudyObservableTimingId": 972,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 36,
+        "MITRE_TacticId": 3,
+        "TimingOrder": 13
+    },
+    {
+        "CaseStudyObservableTimingId": 973,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 50,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 14
+    },
+    {
+        "CaseStudyObservableTimingId": 974,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 11,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 15
+    },
+    {
+        "CaseStudyObservableTimingId": 975,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 37,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 16
+    },
+    {
+        "CaseStudyObservableTimingId": 976,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 58,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 17
+    },
+    {
+        "CaseStudyObservableTimingId": 977,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 74,
+        "MITRE_TacticId": 10,
+        "TimingOrder": 18
+    },
+    {
+        "CaseStudyObservableTimingId": 978,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 52,
+        "MITRE_TacticId": 1,
+        "TimingOrder": 19
+    },
+    {
+        "CaseStudyObservableTimingId": 979,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 2,
+        "MITRE_TacticId": 1,
+        "TimingOrder": 20
+    },
+    {
+        "CaseStudyObservableTimingId": 980,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 38,
+        "MITRE_TacticId": 1,
+        "TimingOrder": 21
+    },
+    {
+        "CaseStudyObservableTimingId": 981,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 59,
+        "MITRE_TacticId": 1,
+        "TimingOrder": 22
+    },
+    {
+        "CaseStudyObservableTimingId": 982,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 60,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 23
+    },
+    {
+        "CaseStudyObservableTimingId": 983,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 73,
+        "MITRE_TacticId": 2,
+        "TimingOrder": 24
+    },
+    {
+        "CaseStudyObservableTimingId": 984,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-0",
+        "MITRE_TechniqueID": 14,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 25
+    },
+    {
+        "CaseStudyObservableTimingId": 985,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 9,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 26
+    },
+    {
+        "CaseStudyObservableTimingId": 986,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 69,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 27
+    },
+    {
+        "CaseStudyObservableTimingId": 987,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 31,
+        "MITRE_TacticId": 7,
+        "TimingOrder": 28
+    },
+    {
+        "CaseStudyObservableTimingId": 988,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 46,
+        "MITRE_TacticId": 7,
+        "TimingOrder": 29
+    },
+    {
+        "CaseStudyObservableTimingId": 989,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 16,
+        "MITRE_TacticId": 8,
+        "TimingOrder": 30
+    },
+    {
+        "CaseStudyObservableTimingId": 990,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 70,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 31
+    },
+    {
+        "CaseStudyObservableTimingId": 991,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 13,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 32
+    },
+    {
+        "CaseStudyObservableTimingId": 992,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 15,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 33
+    },
+    {
+        "CaseStudyObservableTimingId": 993,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 22,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 34
+    },
+    {
+        "CaseStudyObservableTimingId": 994,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 24,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 35
+    },
+    {
+        "CaseStudyObservableTimingId": 995,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 27,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 36
+    },
+    {
+        "CaseStudyObservableTimingId": 996,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 67,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 37
+    },
+    {
+        "CaseStudyObservableTimingId": 997,
+        "CaseStudyID": 27,
+        "UTC_Time": "2022-09-28T07:00:00.000Z",
+        "D_Notation": "D-",
+        "MITRE_TechniqueID": 68,
+        "MITRE_TacticId": 6,
+        "TimingOrder": 38
+    }
+]

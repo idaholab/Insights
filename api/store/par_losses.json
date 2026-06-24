@@ -1,0 +1,136 @@
+{
+    "data": {
+        "findManyCaseStudy": [
+            {
+                "Id": "2",
+                "LowerBoundLoss": "5010215404.7",
+                "UpperBoundLoss": "5010215404.7"
+            },
+            {
+                "Id": "3",
+                "LowerBoundLoss": "6643.25",
+                "UpperBoundLoss": "19132553.59"
+            },
+            {
+                "Id": "4",
+                "LowerBoundLoss": "11443933.28",
+                "UpperBoundLoss": "30705999.19"
+            },
+            {
+                "Id": "5",
+                "LowerBoundLoss": "1174895.51",
+                "UpperBoundLoss": "1174895.51"
+            },
+            {
+                "Id": "6",
+                "LowerBoundLoss": "639618844.45",
+                "UpperBoundLoss": "639618844.45"
+            },
+            {
+                "Id": "7",
+                "LowerBoundLoss": "7163.73",
+                "UpperBoundLoss": "10315772.72"
+            },
+            {
+                "Id": "8",
+                "LowerBoundLoss": "7262.71",
+                "UpperBoundLoss": "313749197.08"
+            },
+            {
+                "Id": "9",
+                "LowerBoundLoss": "469707694.19",
+                "UpperBoundLoss": "469707694.19"
+            },
+            {
+                "Id": "10",
+                "LowerBoundLoss": "3326017.99",
+                "UpperBoundLoss": "11641062969"
+            },
+            {
+                "Id": "11",
+                "LowerBoundLoss": "2039512.86",
+                "UpperBoundLoss": "1133062700.67"
+            },
+            {
+                "Id": "12",
+                "LowerBoundLoss": "7014.3",
+                "UpperBoundLoss": "20201188.51"
+            },
+            {
+                "Id": "13",
+                "LowerBoundLoss": "84226891.44",
+                "UpperBoundLoss": "84226891.44"
+            },
+            {
+                "Id": "14",
+                "LowerBoundLoss": "7643.61",
+                "UpperBoundLoss": "5129166891.58"
+            },
+            {
+                "Id": "15",
+                "LowerBoundLoss": "6345.15",
+                "UpperBoundLoss": "347206669.49"
+            },
+            {
+                "Id": "16",
+                "LowerBoundLoss": "4420656470.18",
+                "UpperBoundLoss": "5846674686.37"
+            },
+            {
+                "Id": "17",
+                "LowerBoundLoss": "6345.15",
+                "UpperBoundLoss": "31725.76"
+            },
+            {
+                "Id": "18",
+                "LowerBoundLoss": "12969130.17",
+                "UpperBoundLoss": "12969130.17"
+            },
+            {
+                "Id": "19",
+                "LowerBoundLoss": "113306270.07",
+                "UpperBoundLoss": "113306270.07"
+            },
+            {
+                "Id": "20",
+                "LowerBoundLoss": "6725.2",
+                "UpperBoundLoss": "9684294.44"
+            },
+            {
+                "Id": "21",
+                "LowerBoundLoss": "6725.2",
+                "UpperBoundLoss": "9684294.44"
+            },
+            {
+                "Id": "22",
+                "LowerBoundLoss": "704897",
+                "UpperBoundLoss": "704987"
+            },
+            {
+                "Id": "23",
+                "LowerBoundLoss": "79481714.46",
+                "UpperBoundLoss": "79481714.46"
+            },
+            {
+                "Id": "24",
+                "LowerBoundLoss": "5874.99",
+                "UpperBoundLoss": "8459987.58"
+            },
+            {
+                "Id": "25",
+                "LowerBoundLoss": "12463689.71",
+                "UpperBoundLoss": "12463689.71"
+            },
+            {
+                "Id": "26",
+                "LowerBoundLoss": "6345.15",
+                "UpperBoundLoss": "511672986.62"
+            },
+            {
+                "Id": "28",
+                "LowerBoundLoss": "9344.27",
+                "UpperBoundLoss": "46721.35"
+            }
+        ]
+    }
+}
